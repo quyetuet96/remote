@@ -2,4 +2,6 @@ hello world
 editted!
 add feature
 fix bug
+add feature 2
+
 
