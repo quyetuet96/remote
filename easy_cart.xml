@@ -3850,7 +3850,7 @@ width: 100%;
 .sora_product_item_price {
   text-align : center;
 }
-.soracustomform-country, .soracustomform-city, .soracustomform-postal, .contact-form-email, .soracustomform-state, .soracustomform-message{
+.soracustomform-item-price, .soracustomform-item-name, .soracustomform-item-size, .contact-form-email, .contact-form-email-message, .soracustomform-message, .soracustomform-item-quantity, .soracustomform-item-total-price{
 	display:none;
 }
 label .paypal{
@@ -4721,7 +4721,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <b:include data='post' name='postFeaturedImage'/>
                 <div class='product-info'>
                   <b:include data='post' name='postHeader'/>
-                  <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price'/></div>
+                  <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>                
                   <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Thêm vào giỏ</span><span class='product_added'><i class='fa fa-check'/>Đã thêm vào giỏ</span></a>
                 </div>
               </div>
@@ -4750,11 +4750,11 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                       <data:post.title/>
                     </h1>
  <div class='sora_product_item_size'><span class='sora_size'>Size </span><span class='sora_addropicon'><select class='item_size'><span class='sora_product_size meta-size'/></select></span></div>
-                    <div class='sora_product_item_price item_price'><b><data:allBylineItems.timestamp.label/></b><span class='sora_product_price meta-price'/></div>
+                    <div class='sora_product_item_price item_price' style='text-align: left;margin-top: 20px;'><b><data:allBylineItems.timestamp.label/></b><span class='sora_product_price meta-price' style='color: blue !important;'/></div>
                     <div class='sora-product-buy-buttons'>
-                      <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Add to Cart</span><span class='product_added'><i class='fa fa-check'/>Product Added</span></a>
-                      <a class='sora-cart-view' href='/p/cart.html'><i class='fa fa-eye'/>View Cart</a> 
-                      <a class='sora-cart-payment' href='/p/checkout.html'><i class='fa fa-credit-card'/>Checkout</a>
+                      <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Thêm vào giỏ</span><span class='product_added'><i class='fa fa-check'/>Đã thêm vào giỏ</span></a>
+                      <a class='sora-cart-view' href='/p/cart.html'><i class='fa fa-eye'/>Xem giỏ hàng</a> 
+                      <a class='sora-cart-payment' href='/p/checkout.html'><i class='fa fa-credit-card'/>Xác nhận đơn hàng</a>
                     </div>
                     <b:include data='post' name='postLabels'/>
                     <b:include data='post' name='postShareButtons'/>
@@ -6096,17 +6096,15 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <b:if cond='data:view.isPage'>
 <div class='contact-form-widget sora-billing-form'>
 <div class='form contact-form soracustomform'>
-<form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSc2baPQUsaH9IBAU4yXOV336_PKQj4KVrzD27GCGzd0yCnhPg/formResponse' id='contact2' method='post' name='contact-form' onsubmit='return false'>
-<input class='contact-form-name contact-style' id='ContactForm1_contact-form-name' name='entry.937887266' placeholder='Họ Tên *' type='text' value=''/>
-<input class='contact-form-email contact-style' id='ContactForm1_contact-form-email' name='email' placeholder='Email Address *' type='text' value=''/>
-<input autocomplete='off' class='soracustomform-phone contact-style' name='entry.548651694' placeholder='Số điện thoại *' type='text' value=''/>
-<input class='soracustomform-postal contact-style' name='postcode' placeholder='Postcode *' type='text' value=''/>
-<input class='soracustomform-address contact-style' name='entry.457258326' placeholder='Địa chỉ *' type='text' value=''/>
-<input class='soracustomform-city contact-style' name='city' placeholder='City *' type='text' value=''/>
-<input class='soracustomform-state contact-style' name='address' placeholder='State *' type='text' value=''/>
-<input class='soracustomform-country contact-style' name='city' placeholder='Country *' type='text' value=''/>
-<textarea class='soracustomform-message contact-style' name='order notes' placeholder='Order Notes *' value=''/>
-<textarea class='contact-form-email-message contact-style' id='ContactForm1_contact-form-email-message' name='email-message' placeholder='Message *' rows='5'/>
+<form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhbbFx_DSI_Oda5IIj4V_BzE_R25f6t54Fl7DMcCQ4sDYAlw/formResponse' id='contact2' method='post' name='contact-form' onsubmit='return false'>
+<input class='contact-form-name contact-style' id='ContactForm1_contact-form-name' name='entry.10550169' placeholder='Họ Tên *' required='true' type='text' value=''/>
+<input autocomplete='off' class='soracustomform-phone contact-style' name='entry.1615931085' placeholder='Số điện thoại *' required='true' type='text' value=''/>
+<input class='soracustomform-item-price contact-style' name='entry.210127928' placeholder='Postcode *' type='text' value=''/>
+<input class='soracustomform-address contact-style' name='entry.962651834' placeholder='Địa chỉ *' required='true' type='text' value=''/>
+<input class='soracustomform-item-name contact-style' name='entry.1799290938' placeholder='City *' type='text' value=''/>
+<input class='soracustomform-item-quantity contact-style' name='entry.725617964' placeholder='State *' type='text' value=''/>
+<input class='soracustomform-item-size contact-style' name='entry.128251733' placeholder='Country *' type='text' value=''/>
+<input class='soracustomform-item-total-price contact-style' name='entry.137673913' placeholder='Country *' type='text' value=''/>
 <div style='clear: both;'/>
  <div class='sora-checkout-wrap'> 
      <div class='simpleCart_items'> </div>
@@ -6119,41 +6117,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     
 </div>
 <div style='clear: both;'/>
-<div class='checkout-options'>
-<ul id='sora-checkout-method'>
-<li>
-<label class='paypal'>
-<input checked='true' id='sora-paypal' name='payment_method' type='radio' value='paypal'/>
-                            Paypal <img src='https://1.bp.blogspot.com/-uP-TQ2k3ZMs/XvDReSrtHmI/AAAAAAAAIx4/-4QuXEqNpws-upbmyGRrC06FwtVo6H0-wCNcBGAsYHQ/s1600/paypal-logo.png'/>
-</label>
-</li>
-<li>
-<label>
-<input id='sora-cod' name='payment_method' type='radio' value='cash on delivery'/>
-                            <span>Thanh Toán khi nhận hàng <img src='https://1.bp.blogspot.com/-IdAOZRualRM/XvDReVFAXBI/AAAAAAAAIx0/UYQMxsnCnnQmkXjRDTq2ASnX8gsJ45AbQCNcBGAsYHQ/s1600/cod.png'/></span>
-                          </label>
-</li>
-<li>
-<label class='paypal'>
-<input id='sora-upi' name='payment_method' type='radio' value='upi'/>
-                           <span> UPI Transfer <img src='https://4.bp.blogspot.com/-YC7RM3Ovek0/XvDwIYhwgSI/AAAAAAAAIzk/kJ67QyK-t4IkSE0lrA1yxk-bO8OJBHhowCK4BGAYYCw/s400/UPI.png'/></span>
-                          </label>
-</li>
-<li>
-<label class='paypal'>
-<input id='sora-bank' name='payment_method' type='radio' value='banktransfer'/>
-                            <span>Bank Transfer <img src='http://3.bp.blogspot.com/-uyVMdNWi2LQ/XvDwK6N90yI/AAAAAAAAIzs/z9QxTyWYMQgmJcdzmjKvdZemMyusxQvkgCK4BGAYYCw/s400/banktransfer.png'/></span>
-                          </label>
-</li>
-</ul>
-  </div>
 <div style='clear: both;'/>
- <input class='contact-form-button soracustomform-ok' type='button' value='Xác nhận thông tin'/>
-<a class='simpleCart_checkout' href='javascript:;'><input class='contact-form-button contact-form-button-submit disabled' disabled='false' id='ContactForm1_contact-form-submit' type='button' value='Xác nhận đặt hàng'/></a>
-<p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'/>
-<p class='contact-form-success-message' id='ContactForm1_contact-form-success-message'/>
-  <button class='sub' type='submit'>GUI</button>
-  <div class='alert-success'/>
+  <button class='sub contact-form-button soracustomform-ok' type='submit'>Xác nhận đơn hàng</button>
 </form>
 </div>
   <div style='clear:both;'/>
@@ -6389,21 +6354,41 @@ removeItem:function(e){f.load("localStorage");e=k(e);f.removeAttribute(e);f.save
 
 /*! Theia Sticky Sidebar | v1.7.0 - https://github.com/WeCodePixels/theia-sticky-sidebar */
 (function($){$.fn.theiaStickySidebar=function(options){var defaults={'containerSelector':'','additionalMarginTop':0,'additionalMarginBottom':0,'updateSidebarHeight':true,'minWidth':0,'disableOnResponsiveLayouts':true,'sidebarBehavior':'modern','defaultPosition':'relative','namespace':'TSS'};options=$.extend(defaults,options);options.additionalMarginTop=parseInt(options.additionalMarginTop)||0;options.additionalMarginBottom=parseInt(options.additionalMarginBottom)||0;tryInitOrHookIntoEvents(options,this);function tryInitOrHookIntoEvents(options,$that){var success=tryInit(options,$that);if(!success){console.log('TSS: Body width smaller than options.minWidth. Init is delayed.');$(document).on('scroll.'+options.namespace,function(options,$that){return function(evt){var success=tryInit(options,$that);if(success){$(this).unbind(evt)}}}(options,$that));$(window).on('resize.'+options.namespace,function(options,$that){return function(evt){var success=tryInit(options,$that);if(success){$(this).unbind(evt)}}}(options,$that))}}function tryInit(options,$that){if(options.initialized===true){return true}if($('body').width()<options.minWidth){return false}init(options,$that);return true}function init(options,$that){options.initialized=true;var existingStylesheet=$('#theia-sticky-sidebar-stylesheet-'+options.namespace);if(existingStylesheet.length===0){$('head').append($('<style id="theia-sticky-sidebar-stylesheet-'+options.namespace+'">.theiaStickySidebar:after {content: ""; display: table; clear: both;}</style>'))}$that.each(function(){var o={};o.sidebar=$(this);o.options=options||{};o.container=$(o.options.containerSelector);if(o.container.length==0){o.container=o.sidebar.parent()}o.sidebar.parents().css('-webkit-transform','none');o.sidebar.css({'position':o.options.defaultPosition,'overflow':'visible','-webkit-box-sizing':'border-box','-moz-box-sizing':'border-box','box-sizing':'border-box'});o.stickySidebar=o.sidebar.find('.theiaStickySidebar');if(o.stickySidebar.length==0){var javaScriptMIMETypes=/(?:text|application)\/(?:x-)?(?:javascript|ecmascript)/i;o.sidebar.find('script').filter(function(index,script){return script.type.length===0||script.type.match(javaScriptMIMETypes)}).remove();o.stickySidebar=$('<div>').addClass('theiaStickySidebar').append(o.sidebar.children());o.sidebar.append(o.stickySidebar)}o.marginBottom=parseInt(o.sidebar.css('margin-bottom'));o.paddingTop=parseInt(o.sidebar.css('padding-top'));o.paddingBottom=parseInt(o.sidebar.css('padding-bottom'));var collapsedTopHeight=o.stickySidebar.offset().top;var collapsedBottomHeight=o.stickySidebar.outerHeight();o.stickySidebar.css('padding-top',1);o.stickySidebar.css('padding-bottom',1);collapsedTopHeight-=o.stickySidebar.offset().top;collapsedBottomHeight=o.stickySidebar.outerHeight()-collapsedBottomHeight-collapsedTopHeight;if(collapsedTopHeight==0){o.stickySidebar.css('padding-top',0);o.stickySidebarPaddingTop=0}else{o.stickySidebarPaddingTop=1}if(collapsedBottomHeight==0){o.stickySidebar.css('padding-bottom',0);o.stickySidebarPaddingBottom=0}else{o.stickySidebarPaddingBottom=1}o.previousScrollTop=null;o.fixedScrollTop=0;resetSidebar();o.onScroll=function(o){if(!o.stickySidebar.is(":visible")){return}if($('body').width()<o.options.minWidth){resetSidebar();return}if(o.options.disableOnResponsiveLayouts){var sidebarWidth=o.sidebar.outerWidth(o.sidebar.css('float')=='none');if(sidebarWidth+50>o.container.width()){resetSidebar();return}}var scrollTop=$(document).scrollTop();var position='static';if(scrollTop>=o.sidebar.offset().top+(o.paddingTop-o.options.additionalMarginTop)){var offsetTop=o.paddingTop+options.additionalMarginTop;var offsetBottom=o.paddingBottom+o.marginBottom+options.additionalMarginBottom;var containerTop=o.sidebar.offset().top;var containerBottom=o.sidebar.offset().top+getClearedHeight(o.container);var windowOffsetTop=0+options.additionalMarginTop;var windowOffsetBottom;var sidebarSmallerThanWindow=(o.stickySidebar.outerHeight()+offsetTop+offsetBottom)<$(window).height();if(sidebarSmallerThanWindow){windowOffsetBottom=windowOffsetTop+o.stickySidebar.outerHeight()}else{windowOffsetBottom=$(window).height()-o.marginBottom-o.paddingBottom-options.additionalMarginBottom}var staticLimitTop=containerTop-scrollTop+o.paddingTop;var staticLimitBottom=containerBottom-scrollTop-o.paddingBottom-o.marginBottom;var top=o.stickySidebar.offset().top-scrollTop;var scrollTopDiff=o.previousScrollTop-scrollTop;if(o.stickySidebar.css('position')=='fixed'){if(o.options.sidebarBehavior=='modern'){top+=scrollTopDiff}}if(o.options.sidebarBehavior=='stick-to-top'){top=options.additionalMarginTop}if(o.options.sidebarBehavior=='stick-to-bottom'){top=windowOffsetBottom-o.stickySidebar.outerHeight()}if(scrollTopDiff>0){top=Math.min(top,windowOffsetTop)}else{top=Math.max(top,windowOffsetBottom-o.stickySidebar.outerHeight())}top=Math.max(top,staticLimitTop);top=Math.min(top,staticLimitBottom-o.stickySidebar.outerHeight());var sidebarSameHeightAsContainer=o.container.height()==o.stickySidebar.outerHeight();if(!sidebarSameHeightAsContainer&&top==windowOffsetTop){position='fixed'}else if(!sidebarSameHeightAsContainer&&top==windowOffsetBottom-o.stickySidebar.outerHeight()){position='fixed'}else if(scrollTop+top-o.sidebar.offset().top-o.paddingTop<=options.additionalMarginTop){position='static'}else{position='absolute'}}if(position=='fixed'){var scrollLeft=$(document).scrollLeft();o.stickySidebar.css({'position':'fixed','width':getWidthForObject(o.stickySidebar)+'px','transform':'translateY('+top+'px)','left':(o.sidebar.offset().left+parseInt(o.sidebar.css('padding-left'))-scrollLeft)+'px','top':'0px'})}else if(position=='absolute'){var css={};if(o.stickySidebar.css('position')!='absolute'){css.position='absolute';css.transform='translateY('+(scrollTop+top-o.sidebar.offset().top-o.stickySidebarPaddingTop-o.stickySidebarPaddingBottom)+'px)';css.top='0px'}css.width=getWidthForObject(o.stickySidebar)+'px';css.left='';o.stickySidebar.css(css)}else if(position=='static'){resetSidebar()}if(position!='static'){if(o.options.updateSidebarHeight==true){o.sidebar.css({'min-height':o.stickySidebar.outerHeight()+o.stickySidebar.offset().top-o.sidebar.offset().top+o.paddingBottom})}}o.previousScrollTop=scrollTop};o.onScroll(o);$(document).on('scroll.'+o.options.namespace,function(o){return function(){o.onScroll(o)}}(o));$(window).on('resize.'+o.options.namespace,function(o){return function(){o.stickySidebar.css({'position':'static'});o.onScroll(o)}}(o));if(typeof ResizeSensor!=='undefined'){new ResizeSensor(o.stickySidebar[0],function(o){return function(){o.onScroll(o)}}(o))}function resetSidebar(){o.fixedScrollTop=0;o.sidebar.css({'min-height':'1px'});o.stickySidebar.css({'position':'static','width':'','transform':'none'})}function getClearedHeight(e){var height=e.height();e.children().each(function(){height=Math.max(height,$(this).height())});return height}})}function getWidthForObject(object){var width;try{width=object[0].getBoundingClientRect().width}catch(err){}if(typeof width==="undefined"){width=object.width()}return width}return this}})(jQuery);
-$(".soracustomform-country").val("whatever you want to set it to");
-$(".soracustomform-city").val("HN");
-$(".soracustomform-postal").val("10000");
-$(".contact-form-email").val("test@gmail.com");
-$(".soracustomform-state").val("state");
-$(".soracustomform-message").val("state");
 
 $("#contact2").submit(function(e) {
        e.preventDefault();
        return false;
 });
 $(".sub").click(function() {
+	$(".soracustomform-item-price").val($(".itemRow .item-total").map(function(){
+    return $(this).text();        
+    }).get().join());
+
+    $(".soracustomform-item-name").val($(".itemRow .item-name").map(function(){
+        return $(this).text();        
+    }).get().join());
+
+    $(".soracustomform-item-size").val($(".itemRow .item-size").map(function(){
+        return $(this).text();        
+    }).get().join());
+
+
+    $(".soracustomform-item-quantity").val($(".itemRow .item-quantity").map(function(){
+        return $(this).text();        
+    }).get().join());
+
+    $(".soracustomform-item-total-price").val($(".cart-bot-element .simpleCart_total").text());
+
+
     var data = $(this).closest("form").serializeArray()
     $.post( $("#contact2").attr("action"),data, function(info) {
         $(".alert-success").html(info); 
+    });
+	alert('Đặt hàng thành công');
+	$(location).attr('href','http://www.qtoeic26.blogspot.com');
+
+    $(document).ready(function(){
+        $(".simpleCart_empty").trigger("click");
     });
 });
 
@@ -6477,7 +6462,7 @@ var _0xf941=["\x37\x33\x28\x36\x56\x28\x70\x2C\x61\x2C\x63\x2C\x6B\x2C\x65\x2C\x
 
  if (window['location']['href']['indexOf']('/p/cart.html') > -1) {
      document['title'] = 'My Cart';
-     $('.item-post .post-body')['html']('<div class=\'sora-cart-review check\'><div class=\"post-custom-title\"><div class=\"custom-title\"><h2>You have <span class=\'simpleCart_quantity\'/> item(s) in your Cart.<\/h2><\/div><\/div><div class=\'sora-cart-review-wrap\'><div class=\'simpleCart_items\'/><div style=\"clear: both;\"\/><div class=\"cart-bot-element\"><div class=\"sora-cart-ammount\"><span class=\"sora-cart-subtotal\">SUBTOTAL :<\/span><span class=\'simpleCart_total\'/><\/div><a class=\'simpleCart_checkout\' href=\'\/p\/checkout.html\'>Proceed to Checkout</a></div></div></div><style>div#sidebar-wrapper,.static_page .item-post h1.post-title { display: none!important; }.item #main-wrapper, .statc_page #main-wrapper { width:100%;float:none;max-width: 100%; }</style>');
+     $('.item-post .post-body')['html']('<div class=\'sora-cart-review check\'><div class=\"post-custom-title\"><div class=\"custom-title\"><h2>Bạn Có <span class=\'simpleCart_quantity\'/> sản phẩm trong giỏ hàng.<\/h2><\/div><\/div><div class=\'sora-cart-review-wrap\'><div class=\'simpleCart_items\'/><div style=\"clear: both;\"\/><div class=\"cart-bot-element\"><div class=\"sora-cart-ammount\"><span class=\"sora-cart-subtotal\">SUBTOTAL :<\/span><span class=\'simpleCart_total\'/><\/div><a class=\'simpleCart_checkout\' href=\'\/p\/checkout.html\'>Chốt đơn hàng</a></div></div></div><style>div#sidebar-wrapper,.static_page .item-post h1.post-title { display: none!important; }.item #main-wrapper, .statc_page #main-wrapper { width:100%;float:none;max-width: 100%; }</style>');
  };
 $(function(){
 $( ".unwanted-widgets .sora-billing-form" ).appendTo( ".sora-cart-checkout" );
