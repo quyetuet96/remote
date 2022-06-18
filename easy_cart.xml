@@ -4,6 +4,9 @@
   <head>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
     <title><data:view.title.escaped/></title>
+    
+    <style type='text/css'> .widget-actions { position: relative; } .widget-btn-list { position: fixed; bottom: 25px; left: 15px; z-index: 1001; } .widget-btn-list .widget-btn { margin-top: 15px; } @media only screen and (max-width: 767px) { #chat-widget #chat-wg-alert { display: none !important; } } </style>
+    
     <b:include data='blog' name='all-head-content'/>
 <script type='application/ld+json'>{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;WebSite&quot;,&quot;name&quot;:&quot;<data:view.title.escaped/>&quot;,&quot;url&quot;:&quot;<data:view.url.canonical/>&quot;,&quot;potentialAction&quot;:{&quot;@type&quot;:&quot;SearchAction&quot;,&quot;target&quot;:&quot;<data:view.url.canonical/>search?q={search_term_string}&quot;,&quot;query-input&quot;:&quot;required name=search_term_string&quot;}}</script>
     <!-- Google Fonts -->
@@ -5212,18 +5215,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
       <div id='sidebar-wrapper'>
   
         <b:section class='sidebar common-widget' id='sidebar2' name='Sidebar Right (B)' showaddelement='yes'>
-          <b:widget id='HTML6' locked='false' title='Facebook' type='HTML' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<center><div class="fb-page" data-href="https://www.facebook.com/soratemplates" data-width="360" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div></center>]]></b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-  <b:include name='widget-title'/>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-          </b:widget>
-          <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='2' visible='true'>
+          <b:widget id='PopularPosts1' locked='false' title='Sản phẩm phổ biến' type='PopularPosts' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='numItemsToShow'>1</b:widget-setting>
               <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -6462,7 +6454,7 @@ var _0xf941=["\x37\x33\x28\x36\x56\x28\x70\x2C\x61\x2C\x63\x2C\x6B\x2C\x65\x2C\x
 
  if (window['location']['href']['indexOf']('/p/cart.html') > -1) {
      document['title'] = 'My Cart';
-     $('.item-post .post-body')['html']('<div class=\'sora-cart-review check\'><div class=\"post-custom-title\"><div class=\"custom-title\"><h2>Bạn Có <span class=\'simpleCart_quantity\'/> sản phẩm trong giỏ hàng.<\/h2><\/div><\/div><div class=\'sora-cart-review-wrap\'><div class=\'simpleCart_items\'/><div style=\"clear: both;\"\/><div class=\"cart-bot-element\"><div class=\"sora-cart-ammount\"><span class=\"sora-cart-subtotal\">SUBTOTAL :<\/span><span class=\'simpleCart_total\'/><\/div><a class=\'simpleCart_checkout\' href=\'\/p\/checkout.html\'>Chốt đơn hàng</a></div></div></div><style>div#sidebar-wrapper,.static_page .item-post h1.post-title { display: none!important; }.item #main-wrapper, .statc_page #main-wrapper { width:100%;float:none;max-width: 100%; }</style>');
+     $('.item-post .post-body')['html']('<div class=\'sora-cart-review check\'><div class=\"post-custom-title\"><div class=\"custom-title\"><h2>Bạn có <span class=\'simpleCart_quantity\'/> sản phẩm trong giỏ hàng.<\/h2><\/div><\/div><div class=\'sora-cart-review-wrap\'><div class=\'simpleCart_items\'/><div style=\"clear: both;\"\/><div class=\"cart-bot-element\"><div class=\"sora-cart-ammount\"><span class=\"sora-cart-subtotal\">Tổng :<\/span><span class=\'simpleCart_total\'/><\/div><a class=\'simpleCart_checkout\' href=\'\/p\/checkout.html\'>Chốt đơn hàng</a></div></div></div><style>div#sidebar-wrapper,.static_page .item-post h1.post-title { display: none!important; }.item #main-wrapper, .statc_page #main-wrapper { width:100%;float:none;max-width: 100%; }</style>');
  };
 $(function(){
 $( ".unwanted-widgets .sora-billing-form" ).appendTo( ".sora-cart-checkout" );
@@ -6528,6 +6520,30 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </script>  
 <!-- Overlay and Back To Top --> 
   <div class='back-top' title='Back to Top'/>
+  
+  <!--Start of Tawk.to Script-->
+<script type='text/javascript'>
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement(&quot;script&quot;),s0=document.getElementsByTagName(&quot;script&quot;)[0];
+s1.async=true;
+s1.src=&#39;https://embed.tawk.to/62ad5f907b967b117995273e/1g5qjqjrh&#39;;
+s1.charset=&#39;UTF-8&#39;;
+s1.setAttribute(&#39;crossorigin&#39;,&#39;*&#39;);
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  
+  <div class='widget-actions'>
+<div class='widget-btn-list'>
+<div class='widget-btn widget-btn-zalo'>
+<a href='https://zalo.me/0969257414' target='_blank' title='Chat với chúng tôi qua Zalo'> <img alt='btn-zalo' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/zalo.svg'/></a> </div>
+<div class='widget-btn widget-btn-callow'>
+<a href='tel:0969257414' title='Gọi ngay'> <img alt='btn-callnow' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/call.svg'/></a> </div>
+</div>
+</div>
+  
 </body>
   
 </html>
