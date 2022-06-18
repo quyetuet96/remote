@@ -4300,7 +4300,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   </b:includable>
               <b:includable id='image'>
       <a class='header-image-wrapper' expr:href='data:blog.homepageUrl'>
-        <img expr:alt='data:blog.title.escaped' expr:data-height='data:height' expr:data-width='data:width' expr:src='data:image'/>
+        Chuyên cung cấp giày các loại giá tốt <!-- <img expr:alt='data:blog.title.escaped' expr:data-height='data:height' expr:data-width='data:width' expr:src='data:image'/> -->
       </a>
     </b:includable>
               <b:includable id='title'>
@@ -4942,7 +4942,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     &quot;height&quot;: 630,
     &quot;width&quot;: 1200
     <b:else/>
-    &quot;url&quot;: &quot;https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200&quot;,
+    &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUK2eh8fR6T1Ke3QYcZHtz-TjJ735e-ByAL3TYxZbhuomi2zB9NMs31yTSLlEdHBifTDlb14IrnOGCO7HBfOfFBNyH2YC9XL_N6Im6d_C4693mZkVHO-XMbLex46kqarjyhp2lXM-O2kLPTsbbZu0KIqXbVeLv1I5ZdD5kCu5YBFGeefiKivSIY0JXQ/s1600/shoe-icon.ico&quot;,
     &quot;height&quot;: 348,
     &quot;width&quot;: 1200
     </b:if>
@@ -4954,7 +4954,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     &quot;name&quot;: &quot;Blogger&quot;,
     &quot;logo&quot;: {
       &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60&quot;,
+      &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUK2eh8fR6T1Ke3QYcZHtz-TjJ735e-ByAL3TYxZbhuomi2zB9NMs31yTSLlEdHBifTDlb14IrnOGCO7HBfOfFBNyH2YC9XL_N6Im6d_C4693mZkVHO-XMbLex46kqarjyhp2lXM-O2kLPTsbbZu0KIqXbVeLv1I5ZdD5kCu5YBFGeefiKivSIY0JXQ/s1600/shoe-icon.ico&quot;,
       &quot;width&quot;: 206,
       &quot;height&quot;: 60
     }
