@@ -4262,7 +4262,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     <div class='header-header'>    
       <div class='container row'>
           <b:section class='header-logo' id='header-logo' maxwidgets='1' name='Header Logo' showaddelement='yes'>
-            <b:widget id='Header1' locked='true' title='qtoeic26 (Tiêu đề)' type='Header' version='2' visible='true'>
+            <b:widget id='Header1' locked='true' title='Giay9x (Tiêu đề)' type='Header' version='2' visible='true'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-5xo6R7PDZf0/W6psUYEdL-I/AAAAAAAADRQ/NXqelE8zPFwyNDnmGAj-F7Iz6j7w3WlygCK4BGAYYCw/s1600/logo.png</b:widget-setting>
                 <b:widget-setting name='displayHeight'>40</b:widget-setting>
@@ -4310,7 +4310,6 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
           </b:section>
 
         <div class='header-right'>
-
           <div class='sora-cart'>
             <div class='sora-cart-details'>
               <span class='simpleCart_quantity'>0</span>
@@ -5480,7 +5479,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   </div>
 </b:includable>
           </b:widget>
-          <b:widget id='Label4' locked='false' title='Tags' type='Label' version='2' visible='true'>
+          <b:widget id='Label4' locked='false' title='Tags' type='Label' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
               <b:widget-setting name='display'>CLOUD</b:widget-setting>
@@ -5539,7 +5538,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   <div class='container row'>
     <div class='footer-widgets-wrap'>
       <b:section class='footer common-widget' id='footer-sec1' maxwidgets='3' name='Section (Left)' showaddelement='yes'>
-        <b:widget id='Label1' locked='false' title='Categories' type='Label' version='2' visible='true'>
+        <b:widget id='Label1' locked='false' title='Categories' type='Label' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
             <b:widget-setting name='display'>LIST</b:widget-setting>
@@ -5636,7 +5635,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
       </b:section>
      
       <b:section class='footer common-widget' id='footer-sec3' maxwidgets='3' name='Section (Right)' showaddelement='yes'>
-        <b:widget id='Label5' locked='false' title='Labels' type='Label' version='2' visible='true'>
+        <b:widget id='Label5' locked='false' title='Labels' type='Label' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
             <b:widget-setting name='display'>LIST</b:widget-setting>
@@ -5894,7 +5893,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 </div>
   </b:if>
   <b:section class='hidden-widgets' id='hidden-widgets' maxwidgets='1' name='Important But Hidden Widgets' showaddelement='no'>
-    <b:widget id='ContactForm1' locked='false' title='Biểu mẫu liên hệ' type='ContactForm' version='2' visible='true'>
+    <b:widget id='ContactForm1' locked='false' title='Biểu mẫu liên hệ' type='ContactForm' visible='true'>
       <b:includable id='main'>
   <b:include name='widget-title'/>
   <b:include name='content'/>
