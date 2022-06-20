@@ -3080,7 +3080,7 @@ display:none;
     margin:0 0 10px
 }
 .sora-checkout-wrap .cart-bot-element .item-price:before {
-content: "Price:";
+content: "Giá:";
     color: #161616;
 margin-right:3px;
 }
@@ -4344,29 +4344,29 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='link-1'>#</b:widget-setting>
               <b:widget-setting name='link-2'>https://www.giay9x.com/search/label/Gi%C3%A0y%20%C4%91%C3%A1%20b%C3%B3ng</b:widget-setting>
-              <b:widget-setting name='link-12'>https://www.soratemplates.com/2018/10/easy-cart-blogger-templates.html</b:widget-setting>
+              <b:widget-setting name='link-12'>#</b:widget-setting>
               <b:widget-setting name='link-0'>/</b:widget-setting>
               <b:widget-setting name='link-11'>https://youtu.be/K-Chw8gqIUU</b:widget-setting>
-              <b:widget-setting name='link-10'>https://www.sorabloggingtips.com/2018/10/how-to-setup-easycart-blogger-template.html</b:widget-setting>
-              <b:widget-setting name='text-9'>Documentation</b:widget-setting>
+              <b:widget-setting name='link-10'>#</b:widget-setting>
+              <b:widget-setting name='text-9'/>
               <b:widget-setting name='link-9'>#</b:widget-setting>
-              <b:widget-setting name='text-8'>_Error Page</b:widget-setting>
-              <b:widget-setting name='link-7'>https://www.sorabloggingtips.com/2017/01/how-to-add-sitemap-widget-in-blogspot-blogs.html</b:widget-setting>
-              <b:widget-setting name='link-8'>https://easy-cart-soratemplates.blogspot.com/soratemplates</b:widget-setting>
+              <b:widget-setting name='text-8'/>
+              <b:widget-setting name='link-7'>https://www.giay9x.com/search?q=kamito</b:widget-setting>
+              <b:widget-setting name='link-8'>#</b:widget-setting>
               <b:widget-setting name='link-5'>https://www.giay9x.com/search?q=wika</b:widget-setting>
-              <b:widget-setting name='link-6'>https://easy-cart-soratemplates.blogspot.com/p/post-format-and-page-markup.html</b:widget-setting>
+              <b:widget-setting name='link-6'>https://www.giay9x.com/search?q=mitre</b:widget-setting>
               <b:widget-setting name='link-3'>#</b:widget-setting>
               <b:widget-setting name='link-4'>https://www.giay9x.com/search?q=CT3</b:widget-setting>
               <b:widget-setting name='text-1'>Giày</b:widget-setting>
               <b:widget-setting name='text-0'>Home</b:widget-setting>
-              <b:widget-setting name='text-3'>__DropDown 1</b:widget-setting>
+              <b:widget-setting name='text-3'>__3 Sọc</b:widget-setting>
               <b:widget-setting name='text-2'>_Giày đá bóng</b:widget-setting>
               <b:widget-setting name='text-5'>__Wika</b:widget-setting>
-              <b:widget-setting name='text-4'>__3 Sọc</b:widget-setting>
-              <b:widget-setting name='text-7'>_SiteMap</b:widget-setting>
-              <b:widget-setting name='text-6'>_ShortCodes</b:widget-setting>
-              <b:widget-setting name='text-11'>_Video Doc</b:widget-setting>
-              <b:widget-setting name='text-12'>Download This Template</b:widget-setting>
+              <b:widget-setting name='text-4'>__Kamito</b:widget-setting>
+              <b:widget-setting name='text-7'/>
+              <b:widget-setting name='text-6'>__Mitre</b:widget-setting>
+              <b:widget-setting name='text-11'/>
+              <b:widget-setting name='text-12'/>
             </b:widget-settings>
             <b:includable id='main'>
               <b:include name='content'/>
@@ -4417,13 +4417,13 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
               <b:widget-setting name='style.linkcolor'>#000000</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='timestampLabel'>Price:</b:widget-setting>
+              <b:widget-setting name='timestampLabel'>Giá:</b:widget-setting>
               <b:widget-setting name='reactionsLabel'/>
               <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
               <b:widget-setting name='showLabels'>true</b:widget-setting>
               <b:widget-setting name='showLocation'>false</b:widget-setting>
-              <b:widget-setting name='postLabelsLabel'>Product Tags:</b:widget-setting>
+              <b:widget-setting name='postLabelsLabel'>Danh mục :</b:widget-setting>
               <b:widget-setting name='showTimestamp'>true</b:widget-setting>
               <b:widget-setting name='postsPerAd'>1</b:widget-setting>
               <b:widget-setting name='showBacklinks'>false</b:widget-setting>
@@ -4707,7 +4707,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <b:include data='post' name='postFeaturedImage'/>
                 <div class='product-info'>
                   <b:include data='post' name='postHeader'/>
-                  <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>                
+                  <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>  
                   <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Thêm vào giỏ</span><span class='product_added'><i class='fa fa-check'/>Đã thêm vào giỏ</span></a>
                 </div>
               </div>
@@ -5725,8 +5725,15 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         </b:includable>
       </b:widget>
     </b:section>
-    <div class='copyright-area'>Created By <a href='http://soratemplates.com/' id='mycontent' rel='nofollow' title='SoraTemplates'>Blogger Developer</a> | Distributed By <a href='https://gooyaabitemplates.com/' rel='nofollow' style='color:#ff00ba;' target='_blank' title='Blogger Templates'>Blogger Templates</a>
-    </div>
+<style>.removelink{text-indent:-99999px;}</style>
+<style>.removelink{text-indent:-99999px;}</style>
+<div class='removelink'>
+      <div class='copyright-area'>Created By <a href='http://soratemplates.com/' id='mycontent' rel='nofollow' title='SoraTemplates'>Blogger Developer</a> | Distributed By <a href='https://gooyaabitemplates.com/' rel='nofollow' style='color:#ff00ba;' target='_blank' title='Blogger Templates'>Blogger Templates</a>
+      </div>
+</div>
+    
+    <div class='copyright-area'>&#169; Copyright 2022 Giay9x.com</div>
+    
   </div>
 </div>
 </div>
@@ -5941,7 +5948,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 (function(p,f){var s="string",k=function(e,f){return typeof e===f},e=function(e){return k(e,"undefined")},h=function(e){return k(e,"function")},y=function(e){return"object"===typeof HTMLElement?e instanceof HTMLElement:"object"===typeof e&&1===e.nodeType&&"string"===typeof e.nodeName},C=function(q){function E(a){return b.extend({attr:"",label:"",view:"attr",text:"",className:"",hide:!1},a||{})}function F(){if(!b.isReady){try{f.documentElement.doScroll("left")}catch(a){setTimeout(F,1);return}b.init()}}
 var t={MooTools:"$$",Prototype:"$$",jQuery:"*"},n=0,r={},x=q||"simpleCart",z={};q={};q={};var v=p.localStorage,l=p.console||{msgs:[],log:function(a){l.msgs.push(a)}},D={USD:{code:"USD",symbol:"đ",name:"US Dollar"},INR:{code:"INR",symbol:"&#8377;",name:"Indian Rupee"},AUD:{code:"AUD",symbol:"&#36;",name:"Australian Dollar"},BRL:{code:"BRL",symbol:"R&#36;",name:"Brazilian Real"},CAD:{code:"CAD",symbol:"&#36;",name:"Canadian Dollar"},CZK:{code:"CZK",symbol:"&nbsp;&#75;&#269;",name:"Czech Koruna",after:!0},DKK:{code:"DKK",symbol:"DKK&nbsp;",name:"Danish Krone"},
 EUR:{code:"EUR",symbol:"&euro;",name:"Euro"},HKD:{code:"HKD",symbol:"&#36;",name:"Hong Kong Dollar"},HUF:{code:"HUF",symbol:"&#70;&#116;",name:"Hungarian Forint"},ILS:{code:"ILS",symbol:"&#8362;",name:"Israeli New Sheqel"},JPY:{code:"JPY",symbol:"&yen;",name:"Japanese Yen",accuracy:0},MXN:{code:"MXN",symbol:"&#36;",name:"Mexican Peso"},NOK:{code:"NOK",symbol:"NOK&nbsp;",name:"Norwegian Krone"},NZD:{code:"NZD",symbol:"&#36;",name:"New Zealand Dollar"},PLN:{code:"PLN",symbol:"PLN&nbsp;",name:"Polish Zloty"},
-GBP:{code:"GBP",symbol:"&pound;",name:"Pound Sterling"},SGD:{code:"SGD",symbol:"&#36;",name:"Singapore Dollar"},SEK:{code:"SEK",symbol:"SEK&nbsp;",name:"Swedish Krona"},CHF:{code:"CHF",symbol:"CHF&nbsp;",name:"Swiss Franc"},THB:{code:"THB",symbol:"&#3647;",name:"Thai Baht"},BTC:{code:"BTC",symbol:" BTC",name:"Bitcoin",accuracy:4,after:!0}},m={checkout:{type:"PayPal",email:"you@yours.com"},currency:"USD",language:"english-us",cartStyle:"div",cartColumns:[{attr:"name",label:"Name"},{attr:"price",label:"Price",
+GBP:{code:"GBP",symbol:"&pound;",name:"Pound Sterling"},SGD:{code:"SGD",symbol:"&#36;",name:"Singapore Dollar"},SEK:{code:"SEK",symbol:"SEK&nbsp;",name:"Swedish Krona"},CHF:{code:"CHF",symbol:"CHF&nbsp;",name:"Swiss Franc"},THB:{code:"THB",symbol:"&#3647;",name:"Thai Baht"},BTC:{code:"BTC",symbol:" BTC",name:"Bitcoin",accuracy:4,after:!0}},m={checkout:{type:"PayPal",email:"you@yours.com"},currency:"USD",language:"english-us",cartStyle:"div",cartColumns:[{attr:"name",label:"Name"},{attr:"price",label:"Giá",
 view:"currency"},{view:"decrement",label:!1},{attr:"quantity",label:"Qty"},{view:"increment",label:!1},{attr:"total",label:"SubTotal",view:"currency"},{view:"remove",text:"Remove",label:!1}],excludeFromCheckout:["thumb"],shippingFlatRate:0,shippingQuantityRate:0,shippingTotalRate:0,shippingCustom:null,taxRate:0,taxShipping:!1,data:{}},b=function(a){if(h(a))return b.ready(a);if(k(a,"object"))return b.extend(m,a)},A,B;b.extend=function(a,d){var c;e(d)&&(d=a,a=b);for(c in d)Object.prototype.hasOwnProperty.call(d,
 c)&&(a[c]=d[c]);return a};b.extend({copy:function(a){a=C(a);a.init();return a}});b.extend({isReady:!1,add:function(a,d){var c=new b.Item(a||{}),g=!0,u=!0===d?d:!1;if(!u&&(g=b.trigger("beforeAdd",[c]),!1===g))return!1;(g=b.has(c))?(g.increment(c.quantity()),c=g):r[c.id()]=c;b.update();u||b.trigger("afterAdd",[c,e(g)]);return c},each:function(a,d){var c,g=0,u,e,w;if(h(a))e=a,w=r;else if(h(d))e=d,w=a;else return;for(c in w)if(Object.prototype.hasOwnProperty.call(w,c)){u=e.call(b,w[c],g,c);if(!1===u)break;
 g+=1}},find:function(a){var d=[];if(k(r[a],"object"))return r[a];if(k(a,"object"))return b.each(function(c){var g=!0;b.each(a,function(a,b,d){k(a,s)?a.match(/<=.*/)?(a=parseFloat(a.replace("<=","")),c.get(d)&&parseFloat(c.get(d))<=a||(g=!1)):a.match(/</)?(a=parseFloat(a.replace("<","")),c.get(d)&&parseFloat(c.get(d))<a||(g=!1)):a.match(/>=/)?(a=parseFloat(a.replace(">=","")),c.get(d)&&parseFloat(c.get(d))>=a||(g=!1)):a.match(/>/)?(a=parseFloat(a.replace(">","")),c.get(d)&&parseFloat(c.get(d))>a||
@@ -6169,7 +6176,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
   <!-- <div class='back-top' title='Back to Top'/> -->
   
 <!--Start of Tawk.to Script-->
-<script type='text/javascript'>
+<!--<script type='text/javascript'>
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement(&quot;script&quot;),s0=document.getElementsByTagName(&quot;script&quot;)[0];
@@ -6179,17 +6186,44 @@ s1.charset=&#39;UTF-8&#39;;
 s1.setAttribute(&#39;crossorigin&#39;,&#39;*&#39;);
 s0.parentNode.insertBefore(s1,s0);
 })();
-</script>
+</script> -->
 <!--End of Tawk.to Script-->
   
-  <div class='widget-actions'>
-<div class='widget-btn-list'>
-<div class='widget-btn widget-btn-zalo'>
-<a href='https://zalo.me/0969257414' target='_blank' title='Chat với chúng tôi qua Zalo'> <img alt='btn-zalo' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/zalo.svg'/></a> </div>
-<div class='widget-btn widget-btn-callow'>
-<a href='tel:0969257414' title='Gọi ngay'> <img alt='btn-callnow' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/call.svg'/></a> </div>
+
+<div class='widget-actions'>
+  <div class='widget-btn-list'>
+  <div class='widget-btn widget-btn-zalo'>
+  <a href='https://zalo.me/0969257414' target='_blank' title='Chat với chúng tôi qua Zalo'> <img alt='btn-zalo' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/zalo.svg'/></a> </div>
+  <div class='widget-btn widget-btn-callow'>
+  <a href='tel:0969257414' title='Gọi ngay'> <img alt='btn-callnow' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/call.svg'/></a> </div>
+  </div>
 </div>
-</div>
+
+  
+<!-- FACEBOOK CHAT API  -->
+<!--<div id='fb-root'/>
+<div attribution='setup_tool' class='fb-customerchat' logged_in_greeting='Xin chào! tôi có thể giúp gì được cho bạn?' logged_out_greeting='Xin chào! Tôi có thể giúp gì được cho bạn?' page_id='104783592280721' theme_color='#0084ff'/>
+<script>//<![CDATA[
+  function appendChildBody(name,type){
+    if(type=='js')var src=document.createElement('script');src.setAttribute('async','');src.setAttribute('src',name)
+    if(typeof src!='undefined')document.getElementsByTagName('body')[0].appendChild(src)
+  }
+  window.addEventListener('load',function(){
+    var load_sdk=0
+    function sdk(){
+      if(load_sdk==0){
+        load_sdk=1
+        window.fbAsyncInit=function(){FB.init({xfbml:true,version:'v7.0'})}
+        appendChildBody('https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js','js')
+      }
+    }
+    window.addEventListener('scroll',function(){sdk()})
+    window.addEventListener('mousemove',function(){sdk()})
+    if(document.documentElement.scrollTop>0)sdk()
+    setTimeout(function(){sdk()},3000)
+  })
+//]]></script>  --> 
+<!--END FACEBOOK CHAT API  --> 
   
 </body>
   
