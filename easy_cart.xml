@@ -3885,6 +3885,9 @@ label .paypal{
 .itemRow .item-size:before{
    content : &quot;Size: &quot;;
 }
+#contact2{
+  display : grid; 
+}  
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
