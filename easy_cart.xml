@@ -3866,7 +3866,7 @@ label .paypal{
 .header-widget a{
   color: cornsilk !important;
 }
-.sora-product-buy-buttons .item_add:active, . simpleCart_empty{
+.sora-product-buy-buttons .item_add:active, .soracustomform-ok{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -3878,6 +3878,7 @@ label .paypal{
 #main-menu .sub-menu2 li a:hover{
   background-color: #909090;
 }
+
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -6042,12 +6043,14 @@ $(".sub").click(function() {
     $.post( $("#contact2").attr("action"),data, function(info) {
         $(".alert-success").html(info); 
     });
+
 	alert('Đặt hàng thành công');
 	$(location).attr('href','http://www.giay9x.com');
 
     $(document).ready(function(){
         $(".simpleCart_empty").trigger("click");
     });
+
 });
 $(document).ready(function(){
   $('.simpleCart_empty').on('click', function(){
@@ -6216,29 +6219,36 @@ s0.parentNode.insertBefore(s1,s0);
 </div>
 
   
-<!-- FACEBOOK CHAT API  -->
-<!--<div id='fb-root'/>
-<div attribution='setup_tool' class='fb-customerchat' logged_in_greeting='Xin chào! tôi có thể giúp gì được cho bạn?' logged_out_greeting='Xin chào! Tôi có thể giúp gì được cho bạn?' page_id='104783592280721' theme_color='#0084ff'/>
-<script>//<![CDATA[
-  function appendChildBody(name,type){
-    if(type=='js')var src=document.createElement('script');src.setAttribute('async','');src.setAttribute('src',name)
-    if(typeof src!='undefined')document.getElementsByTagName('body')[0].appendChild(src)
-  }
-  window.addEventListener('load',function(){
-    var load_sdk=0
-    function sdk(){
-      if(load_sdk==0){
-        load_sdk=1
-        window.fbAsyncInit=function(){FB.init({xfbml:true,version:'v7.0'})}
-        appendChildBody('https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js','js')
-      }
-    }
-    window.addEventListener('scroll',function(){sdk()})
-    window.addEventListener('mousemove',function(){sdk()})
-    if(document.documentElement.scrollTop>0)sdk()
-    setTimeout(function(){sdk()},3000)
-  })
-//]]></script>  --> 
+<!-- Messenger Plugin chat Code -->
+    <div id='fb-root'/>
+
+    <!-- Your Plugin chat code -->
+    <div class='fb-customerchat' id='fb-customer-chat'>
+    </div>
+
+    <script>
+      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
+      chatbox.setAttribute(&quot;page_id&quot;, &quot;104783592280721&quot;);
+      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : &#39;v14.0&#39;
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = &#39;https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js&#39;;
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
+    </script>
 <!--END FACEBOOK CHAT API  --> 
   
 </body>
