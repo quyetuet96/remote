@@ -3866,7 +3866,7 @@ label .paypal{
 .header-widget a{
   color: cornsilk !important;
 }
-.sora-product-buy-buttons .item_add:active, .soracustomform-ok{
+.sora-product-buy-buttons .item_add:active, .soracustomform-ok:active{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -5622,10 +5622,11 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <input class='contact-form-name contact-style' id='ContactForm1_contact-form-name' name='entry.349494267' placeholder='Họ Tên *' required='true' type='text' value=''/>
 <input autocomplete='off' class='soracustomform-phone contact-style' name='entry.1751179096' placeholder='Số điện thoại *' required='true' type='text' value=''/>
 <input class='soracustomform-item-price contact-style' name='entry.1566376928' placeholder='Postcode *' type='text' value=''/>
-<input class='soracustomform-address contact-style' name='entry.1044321312' placeholder='Địa chỉ *' required='true' type='text' value=''/>
+
+<input class='soracustomform-item-size contact-style' name='entry.478964681' placeholder='Country *' type='text' value=''/>
 <input class='soracustomform-item-name contact-style' name='entry.658104484' placeholder='City *' type='text' value=''/>
 <input class='soracustomform-item-quantity contact-style' name='entry.846336646' placeholder='State *' type='text' value=''/>
-<input class='soracustomform-item-size contact-style' name='entry.478964681' placeholder='Country *' type='text' value=''/>
+<input class='soracustomform-address contact-style' name='entry.1044321312' placeholder='Địa chỉ *' required='true' type='text' value=''/>
 <input class='soracustomform-item-total-price contact-style' name='entry.2004401167' placeholder='Country *' type='text' value=''/>
 <div style='clear: both;'/>
  <div class='sora-checkout-wrap'> 
