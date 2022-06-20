@@ -2657,7 +2657,7 @@ abbr{
 }
  .sora-cart-details:after{
     float:left;
-    content:'\f290';
+    content:'\f217';
     font-family:FontAwesome;
     width:34px;
     height:34px;
@@ -3866,6 +3866,16 @@ label .paypal{
 .header-widget a{
   color: cornsilk !important;
 }
+.sora-product-buy-buttons .item_add:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.productad{
+  background-color: #3e8e41!important;
+  pointer-events:none;
+}
+  
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -4708,7 +4718,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <div class='product-info'>
                   <b:include data='post' name='postHeader'/>
                   <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>  
-                  <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Thêm vào giỏ</span><span class='product_added'><i class='fa fa-check'/>Đã thêm vào giỏ</span></a>
+                  
                 </div>
               </div>
             </b:includable>
@@ -6037,7 +6047,11 @@ $(".sub").click(function() {
         $(".simpleCart_empty").trigger("click");
     });
 });
-
+$(document).ready(function(){
+  $('.simpleCart_empty').on('click', function(){
+      $('.item_add').removeClass('productad');
+  });
+});
 $(document).ready(function() {
 	simpleCart({
 		checkout: {
