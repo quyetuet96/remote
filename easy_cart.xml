@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
-    
     <link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUK2eh8fR6T1Ke3QYcZHtz-TjJ735e-ByAL3TYxZbhuomi2zB9NMs31yTSLlEdHBifTDlb14IrnOGCO7HBfOfFBNyH2YC9XL_N6Im6d_C4693mZkVHO-XMbLex46kqarjyhp2lXM-O2kLPTsbbZu0KIqXbVeLv1I5ZdD5kCu5YBFGeefiKivSIY0JXQ/s1600/shoe-icon.ico' rel='icon' type='image/x-icon'/>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
     <title><data:view.title.escaped/></title>
@@ -3012,7 +3011,7 @@ abbr{
  .sora-cart-checkout{
     position:relative;
     float:left;
-    width:90%;
+    width:100%;
     background-color: #fbfbfb;
     border: 1px solid #f7eeee;
     border-radius: 4px;
@@ -3855,8 +3854,8 @@ width: 100%;
 .sora_product_item_price {
   text-align : center;
 }
-.soracustomform-item-price, .soracustomform-item-name, .soracustomform-item-size, .contact-form-email, .contact-form-email-message, .soracustomform-message, .soracustomform-item-quantity, .soracustomform-item-total-price, .soracustomform-empty{
- visibility : hidden;
+.soracustomform-item-price, .soracustomform-item-name, .soracustomform-item-size, .contact-form-email, .contact-form-email-message, .soracustomform-message, .soracustomform-item-quantity, .soracustomform-item-total-price{
+	display:none;
 }
 label .paypal{
  display:none; 
@@ -3879,7 +3878,13 @@ label .paypal{
 #main-menu .sub-menu2 li a:hover{
   background-color: #909090;
 }
+.itemRow .item-price:before{
+   content : &quot;Giá: &quot;;
+}
 
+.itemRow .item-size:before{
+   content : &quot;Size: &quot;;
+}
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -4354,23 +4359,23 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         <b:section class='main-menu' id='main-menu' maxwidgets='1' name='Main Menu' showaddelement='yes'>
           <b:widget id='LinkList74' locked='true' title='Link List' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='text-10'>_Web Doc</b:widget-setting>
+              <b:widget-setting name='text-10'/>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='link-1'>#</b:widget-setting>
               <b:widget-setting name='link-2'>https://www.giay9x.com/search/label/Gi%C3%A0y%20%C4%91%C3%A1%20b%C3%B3ng</b:widget-setting>
               <b:widget-setting name='link-12'>#</b:widget-setting>
               <b:widget-setting name='link-0'>/</b:widget-setting>
-              <b:widget-setting name='link-11'>https://youtu.be/K-Chw8gqIUU</b:widget-setting>
+              <b:widget-setting name='link-11'>#</b:widget-setting>
               <b:widget-setting name='link-10'>#</b:widget-setting>
               <b:widget-setting name='text-9'/>
               <b:widget-setting name='link-9'>#</b:widget-setting>
               <b:widget-setting name='text-8'/>
-              <b:widget-setting name='link-7'>https://www.giay9x.com/search?q=kamito</b:widget-setting>
+              <b:widget-setting name='link-7'>#</b:widget-setting>
               <b:widget-setting name='link-8'>#</b:widget-setting>
               <b:widget-setting name='link-5'>https://www.giay9x.com/search?q=wika</b:widget-setting>
               <b:widget-setting name='link-6'>https://www.giay9x.com/search?q=mitre</b:widget-setting>
-              <b:widget-setting name='link-3'>#</b:widget-setting>
-              <b:widget-setting name='link-4'>https://www.giay9x.com/search?q=CT3</b:widget-setting>
+              <b:widget-setting name='link-3'>https://www.giay9x.com/search?q=CT3</b:widget-setting>
+              <b:widget-setting name='link-4'>https://www.giay9x.com/search?q=kamito</b:widget-setting>
               <b:widget-setting name='text-1'>Giày</b:widget-setting>
               <b:widget-setting name='text-0'>Home</b:widget-setting>
               <b:widget-setting name='text-3'>__3 Sọc</b:widget-setting>
@@ -5555,152 +5560,9 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <div id='footer-wrapper'> 
   <div class='container row'>
     <div class='footer-widgets-wrap'>
-      <b:section class='footer common-widget' id='footer-sec1' maxwidgets='3' name='Section (Left)' showaddelement='yes'>
-        <b:widget id='Label1' locked='false' title='Categories' type='Label' visible='true'>
-          <b:widget-settings>
-            <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-            <b:widget-setting name='display'>LIST</b:widget-setting>
-            <b:widget-setting name='selectedLabelsList'>kids,laptop,mens,mobile,smartwatch,women</b:widget-setting>
-            <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
-            <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
-          </b:widget-settings>
-          <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-          <b:includable id='cloud'>
-  <b:loop values='data:labels' var='label'>
-    <span class='label-size'>
-      <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
-      <a class='label-name' expr:href='data:label.url'>
-        <data:label.name/>
-        <b:if cond='data:this.showFreqNumbers'>
-          <span class='label-count'><data:label.count/></span>
-        </b:if>
-      </a>
-    </span>
-  </b:loop>
-</b:includable>
-          <b:includable id='content'>
-      <div class='widget-content'>
-        <b:class expr:name='data:this.display + &quot;-label&quot;'/>
-        <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
-        <b:include cond='data:this.display == &quot;cloud&quot;' name='list'/>
-      </div>
-    </b:includable>
-          <b:includable id='list'>
-      <ul>
-        <b:loop values='data:labels' var='label'>
-          <li>
-            <a class='label-name' expr:href='data:label.url'>
-              <data:label.name/>
-              <b:if cond='data:this.showFreqNumbers'>
-                <span class='label-count'><data:label.count/></span>
-              </b:if>
-            </a>
-          </li>
-        </b:loop>
-      </ul>
-    </b:includable>
-        </b:widget>
-        <b:widget id='Label2' locked='false' title='Tags' type='Label' visible='true'>
-          <b:widget-settings>
-            <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-            <b:widget-setting name='display'>CLOUD</b:widget-setting>
-            <b:widget-setting name='selectedLabelsList'/>
-            <b:widget-setting name='showType'>ALL</b:widget-setting>
-            <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
-          </b:widget-settings>
-          <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-          <b:includable id='cloud'>
-  <b:loop values='data:labels' var='label'>
-    <span class='label-size'>
-      <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
-      <a class='label-name' expr:href='data:label.url'>
-        <data:label.name/>
-        <b:if cond='data:this.showFreqNumbers'>
-          <span class='label-count'><data:label.count/></span>
-        </b:if>
-      </a>
-    </span>
-  </b:loop>
-</b:includable>
-          <b:includable id='content'>
-      <div class='widget-content'>
-        <b:class expr:name='data:this.display + &quot;-label&quot;'/>
-        <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
-        <b:include cond='data:this.display == &quot;cloud&quot;' name='list'/>
-      </div>
-    </b:includable>
-          <b:includable id='list'>
-      <ul>
-        <b:loop values='data:labels' var='label'>
-          <li>
-            <a class='label-name' expr:href='data:label.url'>
-              <data:label.name/>
-              <b:if cond='data:this.showFreqNumbers'>
-                <span class='label-count'><data:label.count/></span>
-              </b:if>
-            </a>
-          </li>
-        </b:loop>
-      </ul>
-    </b:includable>
-        </b:widget>
-      </b:section>
+      <b:section class='footer common-widget' id='footer-sec1' maxwidgets='3' name='Section (Left)' showaddelement='yes'/>
      
-      <b:section class='footer common-widget' id='footer-sec3' maxwidgets='3' name='Section (Right)' showaddelement='yes'>
-        <b:widget id='Label5' locked='false' title='Labels' type='Label' visible='true'>
-          <b:widget-settings>
-            <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-            <b:widget-setting name='display'>LIST</b:widget-setting>
-            <b:widget-setting name='selectedLabelsList'/>
-            <b:widget-setting name='showType'>ALL</b:widget-setting>
-            <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
-          </b:widget-settings>
-          <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-          <b:includable id='cloud'>
-  <b:loop values='data:labels' var='label'>
-    <span class='label-size'>
-      <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
-      <a class='label-name' expr:href='data:label.url'>
-        <data:label.name/>
-        <b:if cond='data:this.showFreqNumbers'>
-          <span class='label-count'><data:label.count/></span>
-        </b:if>
-      </a>
-    </span>
-  </b:loop>
-</b:includable>
-          <b:includable id='content'>
-      <div class='widget-content'>
-        <b:class expr:name='data:this.display + &quot;-label&quot;'/>
-        <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
-        <b:include cond='data:this.display == &quot;cloud&quot;' name='list'/>
-      </div>
-    </b:includable>
-          <b:includable id='list'>
-      <ul>
-        <b:loop values='data:labels' var='label'>
-          <li>
-            <a class='label-name' expr:href='data:label.url'>
-              <data:label.name/>
-              <b:if cond='data:this.showFreqNumbers'>
-                <span class='label-count'><data:label.count/></span>
-              </b:if>
-            </a>
-          </li>
-        </b:loop>
-      </ul>
-    </b:includable>
-        </b:widget>
-      </b:section>
+      <b:section class='footer common-widget' id='footer-sec3' maxwidgets='3' name='Section (Right)' showaddelement='yes'/>
     </div>
   </div>
 
@@ -5778,8 +5640,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 </div>
 <div style='clear: both;'/>
 <div style='clear: both;'/>
-  <div hidden='hidden' id='dialog' title='Thành Công'>Đặt hàng thành công! Cảm ơn bạn ^^</div>
-  	<button class='sub contact-form-button soracustomform-ok' id='orderDone' type='submit'>Xác nhận đơn hàng</button>
+  <button class='sub contact-form-button soracustomform-ok' type='submit'>Xác nhận đơn hàng</button>
 </form>
 </div>
   <div style='clear:both;'/>
@@ -5957,9 +5818,6 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   </div>
 <!-- Main Scripts -->
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' type='text/javascript'/>
-<script src='https://code.jquery.com/ui/1.11.1/jquery-ui.min.js'/>
-<link href='https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css' rel='stylesheet'/>
-<script src='http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js' type='text/javascript'/>
 <script type='text/javascript'>
 //<![CDATA[
 /*! jquery-simplecart | License MIT */
@@ -6019,41 +5877,10 @@ removeItem:function(e){f.load("localStorage");e=k(e);f.removeAttribute(e);f.save
 /*! Theia Sticky Sidebar | v1.7.0 - https://github.com/WeCodePixels/theia-sticky-sidebar */
 (function($){$.fn.theiaStickySidebar=function(options){var defaults={'containerSelector':'','additionalMarginTop':0,'additionalMarginBottom':0,'updateSidebarHeight':true,'minWidth':0,'disableOnResponsiveLayouts':true,'sidebarBehavior':'modern','defaultPosition':'relative','namespace':'TSS'};options=$.extend(defaults,options);options.additionalMarginTop=parseInt(options.additionalMarginTop)||0;options.additionalMarginBottom=parseInt(options.additionalMarginBottom)||0;tryInitOrHookIntoEvents(options,this);function tryInitOrHookIntoEvents(options,$that){var success=tryInit(options,$that);if(!success){console.log('TSS: Body width smaller than options.minWidth. Init is delayed.');$(document).on('scroll.'+options.namespace,function(options,$that){return function(evt){var success=tryInit(options,$that);if(success){$(this).unbind(evt)}}}(options,$that));$(window).on('resize.'+options.namespace,function(options,$that){return function(evt){var success=tryInit(options,$that);if(success){$(this).unbind(evt)}}}(options,$that))}}function tryInit(options,$that){if(options.initialized===true){return true}if($('body').width()<options.minWidth){return false}init(options,$that);return true}function init(options,$that){options.initialized=true;var existingStylesheet=$('#theia-sticky-sidebar-stylesheet-'+options.namespace);if(existingStylesheet.length===0){$('head').append($('<style id="theia-sticky-sidebar-stylesheet-'+options.namespace+'">.theiaStickySidebar:after {content: ""; display: table; clear: both;}</style>'))}$that.each(function(){var o={};o.sidebar=$(this);o.options=options||{};o.container=$(o.options.containerSelector);if(o.container.length==0){o.container=o.sidebar.parent()}o.sidebar.parents().css('-webkit-transform','none');o.sidebar.css({'position':o.options.defaultPosition,'overflow':'visible','-webkit-box-sizing':'border-box','-moz-box-sizing':'border-box','box-sizing':'border-box'});o.stickySidebar=o.sidebar.find('.theiaStickySidebar');if(o.stickySidebar.length==0){var javaScriptMIMETypes=/(?:text|application)\/(?:x-)?(?:javascript|ecmascript)/i;o.sidebar.find('script').filter(function(index,script){return script.type.length===0||script.type.match(javaScriptMIMETypes)}).remove();o.stickySidebar=$('<div>').addClass('theiaStickySidebar').append(o.sidebar.children());o.sidebar.append(o.stickySidebar)}o.marginBottom=parseInt(o.sidebar.css('margin-bottom'));o.paddingTop=parseInt(o.sidebar.css('padding-top'));o.paddingBottom=parseInt(o.sidebar.css('padding-bottom'));var collapsedTopHeight=o.stickySidebar.offset().top;var collapsedBottomHeight=o.stickySidebar.outerHeight();o.stickySidebar.css('padding-top',1);o.stickySidebar.css('padding-bottom',1);collapsedTopHeight-=o.stickySidebar.offset().top;collapsedBottomHeight=o.stickySidebar.outerHeight()-collapsedBottomHeight-collapsedTopHeight;if(collapsedTopHeight==0){o.stickySidebar.css('padding-top',0);o.stickySidebarPaddingTop=0}else{o.stickySidebarPaddingTop=1}if(collapsedBottomHeight==0){o.stickySidebar.css('padding-bottom',0);o.stickySidebarPaddingBottom=0}else{o.stickySidebarPaddingBottom=1}o.previousScrollTop=null;o.fixedScrollTop=0;resetSidebar();o.onScroll=function(o){if(!o.stickySidebar.is(":visible")){return}if($('body').width()<o.options.minWidth){resetSidebar();return}if(o.options.disableOnResponsiveLayouts){var sidebarWidth=o.sidebar.outerWidth(o.sidebar.css('float')=='none');if(sidebarWidth+50>o.container.width()){resetSidebar();return}}var scrollTop=$(document).scrollTop();var position='static';if(scrollTop>=o.sidebar.offset().top+(o.paddingTop-o.options.additionalMarginTop)){var offsetTop=o.paddingTop+options.additionalMarginTop;var offsetBottom=o.paddingBottom+o.marginBottom+options.additionalMarginBottom;var containerTop=o.sidebar.offset().top;var containerBottom=o.sidebar.offset().top+getClearedHeight(o.container);var windowOffsetTop=0+options.additionalMarginTop;var windowOffsetBottom;var sidebarSmallerThanWindow=(o.stickySidebar.outerHeight()+offsetTop+offsetBottom)<$(window).height();if(sidebarSmallerThanWindow){windowOffsetBottom=windowOffsetTop+o.stickySidebar.outerHeight()}else{windowOffsetBottom=$(window).height()-o.marginBottom-o.paddingBottom-options.additionalMarginBottom}var staticLimitTop=containerTop-scrollTop+o.paddingTop;var staticLimitBottom=containerBottom-scrollTop-o.paddingBottom-o.marginBottom;var top=o.stickySidebar.offset().top-scrollTop;var scrollTopDiff=o.previousScrollTop-scrollTop;if(o.stickySidebar.css('position')=='fixed'){if(o.options.sidebarBehavior=='modern'){top+=scrollTopDiff}}if(o.options.sidebarBehavior=='stick-to-top'){top=options.additionalMarginTop}if(o.options.sidebarBehavior=='stick-to-bottom'){top=windowOffsetBottom-o.stickySidebar.outerHeight()}if(scrollTopDiff>0){top=Math.min(top,windowOffsetTop)}else{top=Math.max(top,windowOffsetBottom-o.stickySidebar.outerHeight())}top=Math.max(top,staticLimitTop);top=Math.min(top,staticLimitBottom-o.stickySidebar.outerHeight());var sidebarSameHeightAsContainer=o.container.height()==o.stickySidebar.outerHeight();if(!sidebarSameHeightAsContainer&&top==windowOffsetTop){position='fixed'}else if(!sidebarSameHeightAsContainer&&top==windowOffsetBottom-o.stickySidebar.outerHeight()){position='fixed'}else if(scrollTop+top-o.sidebar.offset().top-o.paddingTop<=options.additionalMarginTop){position='static'}else{position='absolute'}}if(position=='fixed'){var scrollLeft=$(document).scrollLeft();o.stickySidebar.css({'position':'fixed','width':getWidthForObject(o.stickySidebar)+'px','transform':'translateY('+top+'px)','left':(o.sidebar.offset().left+parseInt(o.sidebar.css('padding-left'))-scrollLeft)+'px','top':'0px'})}else if(position=='absolute'){var css={};if(o.stickySidebar.css('position')!='absolute'){css.position='absolute';css.transform='translateY('+(scrollTop+top-o.sidebar.offset().top-o.stickySidebarPaddingTop-o.stickySidebarPaddingBottom)+'px)';css.top='0px'}css.width=getWidthForObject(o.stickySidebar)+'px';css.left='';o.stickySidebar.css(css)}else if(position=='static'){resetSidebar()}if(position!='static'){if(o.options.updateSidebarHeight==true){o.sidebar.css({'min-height':o.stickySidebar.outerHeight()+o.stickySidebar.offset().top-o.sidebar.offset().top+o.paddingBottom})}}o.previousScrollTop=scrollTop};o.onScroll(o);$(document).on('scroll.'+o.options.namespace,function(o){return function(){o.onScroll(o)}}(o));$(window).on('resize.'+o.options.namespace,function(o){return function(){o.stickySidebar.css({'position':'static'});o.onScroll(o)}}(o));if(typeof ResizeSensor!=='undefined'){new ResizeSensor(o.stickySidebar[0],function(o){return function(){o.onScroll(o)}}(o))}function resetSidebar(){o.fixedScrollTop=0;o.sidebar.css({'min-height':'1px'});o.stickySidebar.css({'position':'static','width':'','transform':'none'})}function getClearedHeight(e){var height=e.height();e.children().each(function(){height=Math.max(height,$(this).height())});return height}})}function getWidthForObject(object){var width;try{width=object[0].getBoundingClientRect().width}catch(err){}if(typeof width==="undefined"){width=object.width()}return width}return this}})(jQuery);
 
-
-$.validator.addMethod('customphone', function (value, element) {
-        return this.optional(element) || /^(\+91-|\+91|0)?\d{10}$/.test(value);
-    }, "Vui lòng nhập đúng số điện thoại");
-
-
-$("#contact2").validate({
-          rules: {
-              "entry.349494267": {
-                  required: true
-              },
-              "entry.1751179096": {
-                  required: true,
-                  customphone: true
-
-              },
-              "entry.1044321312": {
-                  required: true
-              }
-          }, messages :{
-              "entry.349494267": {
-                  required: "Vui lòng nhập họ tên"
-              },
-              "entry.1044321312": {
-                  required: "Vui lòng nhập địa chỉ"
-              }
-			}
-});
-
-
 $("#contact2").submit(function(e) {
        e.preventDefault();
        return false;
 });
-
 $(".sub").click(function() {
 	$(".soracustomform-item-price").val($(".itemRow .item-total").map(function(){
     return $(this).text();        
@@ -6079,37 +5906,20 @@ $(".sub").click(function() {
     $.post( $("#contact2").attr("action"),data, function(info) {
         $(".alert-success").html(info); 
     });
-	
- 	$("#dialog").dialog({
-          modal: true,
-          buttons: {
-            OK: function() {
-              $(this).dialog("close");
-            }
-          }
-    });
 
+	alert('Đặt hàng thành công');
 	$(location).attr('href','http://www.giay9x.com');
-
-    $("#dialog").dialog({
-          modal: true,
-          buttons: {
-            OK: function() {
-              $(this).dialog("close");
-            }
-          }
-    });
 
     $(document).ready(function(){
         $(".simpleCart_empty").trigger("click");
     });
 
-	});
-  $(document).ready(function(){
-    $('.simpleCart_empty').on('click', function(){
-        $('.item_add').removeClass('productad');
-    });
+});
+$(document).ready(function(){
+  $('.simpleCart_empty').on('click', function(){
+      $('.item_add').removeClass('productad');
   });
+});
 $(document).ready(function() {
 	simpleCart({
 		checkout: {
