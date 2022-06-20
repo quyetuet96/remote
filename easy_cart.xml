@@ -3866,7 +3866,7 @@ label .paypal{
 .header-widget a{
   color: cornsilk !important;
 }
-.sora-product-buy-buttons .item_add:active{
+.sora-product-buy-buttons .item_add:active, . simpleCart_empty{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -3875,7 +3875,9 @@ label .paypal{
   background-color: #3e8e41!important;
   pointer-events:none;
 }
-  
+#main-menu .sub-menu2 li a:hover{
+  background-color: #909090;
+}
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
