@@ -3896,6 +3896,18 @@ label .paypal{
 .post-image-wrap:hover {
 	opacity: .5;
 }
+.post-body .separator{
+  display: inline-block;
+}
+
+.post-body img{
+  height: 50px;
+  width: 50px;
+  margin-right: 3px;
+}
+.post-body div.separator + br{
+  display : none; 
+}
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
