@@ -3010,13 +3010,13 @@ abbr{
 }
  .sora-cart-checkout{
     position:relative;
-    float:left;
     width:100%;
     background-color: #fbfbfb;
     border: 1px solid #f7eeee;
     border-radius: 4px;
     box-sizing:border-box;
-    padding:15px
+    padding:15px;
+    margin: 0 auto;
 }
  .sora-cart-checkout-wrap{
     box-sizing:border-box;
