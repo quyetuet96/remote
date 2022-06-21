@@ -5925,6 +5925,10 @@ $(".sub").click(function() {
 
     $(".soracustomform-item-total-price").val($(".cart-bot-element .simpleCart_total").text());
 
+	if($(".contact-form-name").val().length==0||$(".soracustomform-phone").val().length==0||$(".soracustomform-address").val().length==0){
+		alert('Vui lòng nhập đầy đủ thông tin trước khi xác nhận đơn hàng');
+		return false;
+    }
 
     var data = $(this).closest("form").serializeArray()
     $.post( $("#contact2").attr("action"),data, function(info) {
