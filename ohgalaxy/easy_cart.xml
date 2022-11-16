@@ -3916,6 +3916,16 @@ label .paypal{
   display : none; 
 }
  
+  
+.post-title{
+  display: none;
+}
+.post-image-link {
+  display: none!important;
+}
+.post-thumb {
+  display: none;
+}
 
 /*********************************************/
 /*COLORS*/
