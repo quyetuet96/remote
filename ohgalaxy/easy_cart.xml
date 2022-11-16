@@ -4192,10 +4192,18 @@ label .paypal{
 	 padding: 0;
 	 font-size: 24px;
 }
- .block_product {
-	 position: relative;
-	 width: 100%;
+@media (min-width:1025px){  
+   .block_product {
+      position: relative;
+      width: 35%;
+      top: -39rem;
+      left: 27rem;
+  }
 }
+  .block_product {
+      position: relative;
+      width: 100%;
+  }
  .block_product__advantagesProduct {
 	 width: 271px;
 	 height: 41px;
@@ -4488,6 +4496,18 @@ label .paypal{
 .index-post .meta-price{
   display : none;
 }  
+@media (min-width:1025px){  
+  .sliderBlock_items{
+    z-index : 0;
+  }
+  .sliderBlock_controls{
+    position: relative;
+    left: -18rem;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+  }
+}
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
