@@ -5069,7 +5069,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   </b:includable>
               <b:includable id='image'>
       <a class='header-image-wrapper' expr:href='data:blog.homepageUrl'>
-        Chuyên cung cấp giày các loại giá tốt <!-- <img expr:alt='data:blog.title.escaped' expr:data-height='data:height' expr:data-width='data:width' expr:src='data:image'/> -->
+        OH GALAXY <!-- <img expr:alt='data:blog.title.escaped' expr:data-height='data:height' expr:data-width='data:width' expr:src='data:image'/> -->
       </a>
     </b:includable>
               <b:includable id='title'>
@@ -5188,19 +5188,26 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                     <div class='sliderBlock'>
                                         <ul class='sliderBlock_items'>
                                             <li class='sliderBlock_items__itemPhoto sliderBlock_items__showing'>
-                                                <img alt='astro1' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro2.png?raw=true'/>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro2.png?raw=true'/>
                                             </li>
                                             <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='headphones' src='https://github.com/BlackStar1991/CardProduct/blob/master/app/img/goods/item1/phones2.png?raw=true'/>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro3.png?raw=true'/>
                                             </li>
                                             <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='headphones' src='https://github.com/BlackStar1991/CardProduct/blob/master/app/img/goods/item1/phones3.png?raw=true'/>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro4.png?raw=true'/>
                                             </li>
-                                            <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='headphones' src='https://github.com/BlackStar1991/CardProduct/blob/master/app/img/goods/item1/phones4.png?raw=true'/>
+                                    
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro6.png?raw=true'/>
                                             </li>
-                                            <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='headphones' src='https://github.com/BlackStar1991/CardProduct/blob/master/app/img/goods/item1/phones5.png?raw=true'/>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro7.png?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro8.png?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro9.png?raw=true'/>
                                             </li>
                                         </ul>
 
@@ -5223,6 +5230,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>                     
                                             </ul>
                                         </div>
                                     </div>
