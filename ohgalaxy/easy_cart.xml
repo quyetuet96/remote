@@ -3998,7 +3998,7 @@ label .paypal{
  .productCard_leftSide {
 	 position: relative;
 	 width: 100%;
-	 min-height: 475px;
+	 min-height: 600px;
 }
  .productCard_brendBlock {
 	 width: 100%;
@@ -4039,7 +4039,7 @@ label .paypal{
 	 position: relative;
 	 display: block;
 	 width: 100%;
-	 height: 295px;
+	 height: 350px;
 }
  .sliderBlock_items__itemPhoto {
 	 position: absolute;
@@ -4485,6 +4485,9 @@ label .paypal{
 .star5{
    color : black!important;
 } 
+.index-post .meta-price{
+  display : none;
+}  
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -5207,20 +5210,10 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                             </div>
                             <div class='small-12 large-6 columns'>
                                 <div class='productCard_rightSide'>
-                                    <div class='block_specification'>
-                                        <div class='block_specification__specificationShow'>
-                                            <i aria-hidden='true' class='fa fa-cog block_specification__button block_specification__button__rotate'/>
-                                            <span class='block_specification__text'>spec</span>
-                                        </div>
-                                        <div class='block_specification__informationShow hide'>
-                                            <i aria-hidden='true' class='fa fa-info-circle block_specification__button block_specification__button__jump'/>
-                                            <span class='block_specification__text'>inform</span>
-                                        </div>
-                                    </div>
-
+                                   
                                     <p class='block_model'>
                                         <span class='block_model__text'>Model: </span>
-                                        <span class='block_model__number'>505795</span>
+                                        <span class='block_model__number'>Nhà du hành vũ trụ</span>
                                     </p>
 
                                     <div class='block_product'>
@@ -5228,7 +5221,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                         <h2 class='block_name block_name__addName'>Wireless Black</h2>
 
                                         <p class='block_product__advantagesProduct'>
-                                            Wireless headphones with integrated microphone
+                                            Chiếu lên trần nhà, phòng khách, bổ sung thêm màu sắc cho phòng khách
                                         </p>
 
                                         <div class='block_informationAboutDevice'>
