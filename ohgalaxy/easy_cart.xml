@@ -1143,7 +1143,7 @@ abbr{
 }
  .index-post .item_add{
     display:block;
-    background-color:$(main.dark.color);
+    background-color: #536dfe;
     height:30px;
     font-size:14px;
     color:#fff;
@@ -3997,7 +3997,7 @@ label .paypal{
  .productCard_leftSide {
 	 position: relative;
 	 width: 100%;
-	 min-height: 600px;
+	 min-height: 475px;
 }
  .productCard_brendBlock {
 	 width: 100%;
@@ -5304,17 +5304,10 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                             <div class='row '>
                                                 <div class='large-6 small-12 column left-align'>
                                                     <div class='block_price'>
-                                                        <p class='block_price__currency'>$499.95</p>
-                                                        <p class='block_price__shipping'>Shipping and taxes extra</p>
+                                                        <p class='block_price__currency'>789.000đ</p>
+                                                        <p class='block_price__shipping'>Free Shipping</p>
                                                     </div>
-                                                    <div class='block_quantity clearfix'>
-                                                        <span class='text_specification'>Quantity</span>
-                                                        <div class='block_quantity__chooseBlock'>
-                                                            <input class='block_quantity__number' min='1' name='quantityNumber' type='text' value='1'/>
-                                                            <button class='block_quantity__button block_quantity__up'/>
-                                                            <button class='block_quantity__button block_quantity__down'/>
-                                                        </div>
-                                                    </div>
+                                                   
                                                 </div>
          <div class='large-6 small-12 column end'>
                                                 </div>
