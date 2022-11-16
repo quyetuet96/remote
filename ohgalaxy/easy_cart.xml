@@ -5237,61 +5237,14 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                     </p>
 
                                     <div class='block_product'>
-                                        <h2 class='block_name block_name__mainName'>MOMENTUM<sup/></h2>
-                                        <h2 class='block_name block_name__addName'>Wireless Black</h2>
+                                       
+                                        <h2 class='block_name block_name__addName'>Đèn chiếu du hành vũ trụ</h2>
 
                                         <p class='block_product__advantagesProduct'>
-                                            Chiếu lên trần nhà, phòng khách, bổ sung thêm màu sắc cho phòng khách
+                                            Chiếu lên trần nhà, phòng khách, bổ sung thêm màu sắc cho phòng khách của bạn
                                         </p>
 
                                         <div class='block_informationAboutDevice'>
-
-                                            <div class='block_descriptionCharacteristic block_descriptionCharacteristic__disActive'>
-                                                <table class='block_specificationInformation_table'>
-                                                    <tr>
-                                                        <th>Characteristic</th>
-                                                        <th>Value</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Ear Coupling</td>
-                                                        <td>Around Ear</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Transducer Principle</td>
-                                                        <td>Dynamic, Closed-back</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Frequency Response</td>
-                                                        <td>16Hz &#8211; 22kHz</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Sound Pressure Level (SPL)</td>
-                                                        <td>113 dB (Passive: 1 kHz/1 Vrms)</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Total Harmonic Distortion (THD)</td>
-                                                        <td>&lt;0.5% (1 kHz, 100 dB SPL)</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Volume Control</td>
-                                                        <td>Earcup control when Bluetooth connected</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Microphone Type</td>
-                                                        <td>Dual omni-directional microphone <br/>(2 mic beam forming
-                                                            array)
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Cable / Connector</td>
-                                                        <td>1.4m (Detachable) / 3.5mm Angled</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Weight</td>
-                                                        <td>260g (9.17 oz)</td>
-                                                    </tr>
-                                                </table>
-                                            </div>
 
 
                                             <div class='block_descriptionInformation'>
@@ -5689,7 +5642,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <div class='product-info'>
                   <b:include data='post' name='postHeader'/>
                   <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>  
-                  <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Mua Ngay</span><span class='product_added'><i class='fa fa-check'/>Product Added</span></a>
+                  <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Mua Ngay</span><span class='product_added'><i class='fa fa-check'/>Thêm thành công</span></a>
                 </div>
               </div>
             </b:includable>
