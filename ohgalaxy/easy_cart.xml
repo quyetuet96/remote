@@ -7026,7 +7026,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
       </div>
 </div>
     
-    <div class='copyright-area'>&#169; Copyright 2022 Giay9x.com</div>
+    <div class='copyright-area'>&#169; Copyright 2022 OhGalaxy.com</div>
     
   </div>
 </div>
@@ -7036,15 +7036,15 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <b:if cond='data:view.isPage'>
 <div class='contact-form-widget sora-billing-form'>
 <div class='form contact-form soracustomform'>
-<form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSe5-SSuAdUT9cO3Of-86hXbACrC2Fc0G_etGPPzfJrXecAsgg/formResponse' id='contact2' method='post' name='contact-form' onsubmit='return false'>
-<input class='contact-form-name contact-style' id='ContactForm1_contact-form-name' name='entry.349494267' placeholder='Họ Tên *' required='true' type='text' value=''/>
-<input autocomplete='off' class='soracustomform-phone contact-style' name='entry.1751179096' placeholder='Số điện thoại *' required='true' type='text' value=''/>
+<form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSd5Wg8ANJHvLYEMquJfCDnGv95s-xXjvxIKJ4bqiXDsb2V66w/formResponse' id='contact2' method='post' name='contact-form' onsubmit='return false'>
+<input class='contact-form-name contact-style' id='ContactForm1_contact-form-name' name='entry.2013355491' placeholder='Họ Tên *' required='true' type='text' value=''/>
+<input autocomplete='off' class='soracustomform-phone contact-style' name='entry.94926642' placeholder='Số điện thoại *' required='true' type='text' value=''/>
 <input class='soracustomform-item-price contact-style' name='entry.1566376928' placeholder='Postcode *' type='text' value=''/>
 
 <input class='soracustomform-item-size contact-style' name='entry.478964681' placeholder='Country *' type='text' value=''/>
 <input class='soracustomform-item-name contact-style' name='entry.658104484' placeholder='City *' type='text' value=''/>
 <input class='soracustomform-item-quantity contact-style' name='entry.846336646' placeholder='State *' type='text' value=''/>
-<input class='soracustomform-address contact-style' name='entry.1044321312' placeholder='Địa chỉ *' required='true' type='text' value=''/>
+<input class='soracustomform-address contact-style' name='entry.106388282' placeholder='Địa chỉ *' required='true' type='text' value=''/>
 <input class='soracustomform-item-total-price contact-style' name='entry.2004401167' placeholder='Country *' type='text' value=''/>
 <div style='clear: both;'/>
  <div class='sora-checkout-wrap'> 
@@ -7301,7 +7301,7 @@ $(".sub").click(function() {
     });
 
 	alert('Đặt hàng thành công');
-	$(location).attr('href','http://www.giay9x.com');
+	$(location).attr('href','http://www.ohgalaxy.com');
 
     $(document).ready(function(){
         $(".simpleCart_empty").trigger("click");
