@@ -3853,6 +3853,7 @@ width: 100%;
 }
 .sora_product_item_price {
   text-align : center;
+  display :none;
 }
 .soracustomform-item-price, .soracustomform-item-name, .soracustomform-item-size, .contact-form-email, .contact-form-email-message, .soracustomform-message, .soracustomform-item-quantity, .soracustomform-item-total-price{
 	display:none;
@@ -4038,7 +4039,7 @@ label .paypal{
 	 position: relative;
 	 display: block;
 	 width: 100%;
-	 height: 403px;
+	 height: 295px;
 }
  .sliderBlock_items__itemPhoto {
 	 position: absolute;
@@ -4292,9 +4293,10 @@ label .paypal{
 	 position: absolute;
 }
  .block_rating__stars &gt; label {
-	 color: #c9c9c9;
+	 color: darkorange;
 	 float: right;
 }
+
 /***** CSS Magic to Highlight Stars on Hover *****/
  .block_rating__stars &gt; input:checked ~ label, .block_rating__stars:not(:checked) &gt; label:hover, .block_rating__stars:not(:checked) &gt; label:hover ~ label {
 	/* show gold star when clicked */
@@ -4480,7 +4482,9 @@ label .paypal{
 #blog-pager{
   display :none;
 }
- 
+.star5{
+   color : black!important;
+} 
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -5161,7 +5165,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                     <div class='sliderBlock'>
                                         <ul class='sliderBlock_items'>
                                             <li class='sliderBlock_items__itemPhoto sliderBlock_items__showing'>
-                                                <img alt='headphones' src='https://github.com/BlackStar1991/CardProduct/blob/master/app/img/goods/item1/phones1.png?raw=true'/>
+                                                <img alt='astro1' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro2.png?raw=true'/>
                                             </li>
                                             <li class='sliderBlock_items__itemPhoto'>
                                                 <img alt='headphones' src='https://github.com/BlackStar1991/CardProduct/blob/master/app/img/goods/item1/phones2.png?raw=true'/>
@@ -5285,7 +5289,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 
                                             <div class='block_rating clearfix'>
                                                 <fieldset class='block_rating__stars'>
-                                                    <input id='star5' name='rating' type='radio' value='5'/><label class='full' for='star5' title='Awesome - 5 stars'/>
+                                                    <input id='star5' name='rating' type='radio' value='5'/><label class='full star5' for='star5' title='Awesome - 5 stars'/>
                                                     <input id='star4half' name='rating' type='radio' value='4 and a half'/><label class='half' for='star4half' title='Pretty good - 4.5 stars'/>
                                                     <input id='star4' name='rating' type='radio' value='4'/><label class='full' for='star4' title='Good - 4 stars'/>
                                                     <input id='star3half' name='rating' type='radio' value='3 and a half'/><label class='half' for='star3half' title='Above average - 3.5 stars'/>
@@ -5297,7 +5301,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                                     <input id='starhalf' name='rating' type='radio' value='half'/><label class='half' for='starhalf' title='Sucks big time - 0.5 stars'/>
                                                 </fieldset>
 
-                                                <span class='block_rating__avarage'>4.25</span>
+                                                <span class='block_rating__avarage'>4.5</span>
                                                 <span class='block_rating__reviews'>(153 reviews)</span>
 
                                             </div>
