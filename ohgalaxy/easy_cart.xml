@@ -4531,10 +4531,18 @@ label .paypal{
   .sliderBlock_items__itemPhoto img{
  	 border-radius: 1rem;
   }
+   
 }
-  
-.productCard_rightSide video{
-   border-radius: 2rem;
+video {
+  	position: relative;
+    display: block;
+    margin : 0 auto;
+    border-radius : 2rem;
+    width: 100%;
+}  
+.video-center {
+  margin : 0 auto;
+  width : 100%;
 }
 
 </style>
@@ -5207,6 +5215,10 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
             <div class='row'>
                 <div class='column small-centered'>
                     <div class='productCard_block'>
+                      	<div class='video-center'>                                   
+                              <video autoplay='true' controlslist='nodownload' height='350' loop='true' muted='' playsinline='true' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/video/astro_hd.mp4' width='350'>
+									</video>
+                        </div>
                         <div class='row'>
                             <div class='small-12 large-6 columns'>
                                 <div class='productCard_leftSide clearfix'>
@@ -5267,9 +5279,9 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                 </div>
                             </div>
                             <div class='small-12 large-6 columns'>
+                              
                                 <div class='productCard_rightSide'>
-                                                                         <video autoplay='true' controlslist='nodownload' height='350' loop='true' muted='' playsinline='true' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/video/astro_hd.mp4' width='350'>
-									</video>
+                                                                         
                                     <p class='block_model'>
                                         <span class='block_model__text'>Model: </span>
                                         <span class='block_model__number'>Nhà du hành vũ trụ</span>
@@ -5683,7 +5695,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <b:include data='post' name='postFeaturedImage'/>
                 <div class='product-info'>
                   <b:include data='post' name='postHeader'/>
-              
+                  <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>  
                   <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Mua Ngay</span><span class='product_added'><i class='fa fa-check'/>Thêm thành công</span></a>
                 </div>
               </div>
