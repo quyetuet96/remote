@@ -4491,24 +4491,27 @@ label .paypal{
   }
   .sliderBlock_controls{
     position: relative;
-    left: -18rem;
     margin: 0 auto;
     width: 100%;
     z-index: 1;
   }
   .sliderBlock_positionControls{
-  		 left: 4rem;
    		position: relative;
 	}
 	.sliderBlock_controls__wrapper{
-           position: relative;
-		left: -59px;
+       position: relative;
 	}
   .sliderBlock{
    width: 50%;
   }
   .block_product{
    width: 50%;
+  }
+  .sliderBlock_controls{
+    width: 50%;
+  }
+  .sliderBlock_controls2{
+    width: 50%;
   }
 }
 @media only screen and (max-width: 960px) {
@@ -4525,20 +4528,19 @@ label .paypal{
 	.sliderBlock_positionControls__paginatorItem{
 		margin-left: 2px;
 	}
-  .sliderBlock_items__itemPhoto img{
- 	 border-radius: 1rem;
-  }
   .slider-flex{
    flex-direction : column;
-  }  
-  
-   
+  }    
 }
+@media (min-width:900px){  
+  .sliderBlock_controls{
+     display: none;
+  }  
+}  
 video {
   	position: relative;
     display: block;
     margin : 0 auto;
-    border-radius : 2rem;
     width: 100%;
 }  
 .video-center {
@@ -5218,8 +5220,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
             <div class='row'>
                 <div class='column small-centered'>
                     <div class='productCard_block'>
-                      	<div class='video-center'>                                   
-                              <video autoplay='true' controlslist='nodownload' height='350' loop='true' muted='' playsinline='true' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/video/astro_hd.mp4' width='350'>
+                      	<div class='video-center'>                                                            
+                          <video autoplay='true' controlslist='nodownload' loop='true' muted='' playsinline='true' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/video/astro2_hd.mp4'>
 									</video>
                           
                           <div class='slider-flex'>
@@ -5247,35 +5249,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                           <li class='sliderBlock_items__itemPhoto'>
                                                 <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro9.png?raw=true'/>
                                             </li>
-                                        </ul>
-
-                                        
-                                        <div class='sliderBlock_controls'>
-                                            <div class='sliderBlock_controls__navigatin'>
-                                                <div class='sliderBlock_controls__wrapper'>
-                                                    <div class='sliderBlock_controls__arrow sliderBlock_controls__arrowBackward'>
-                                                        <i aria-hidden='true' class='fa fa-angle-left'/>
-                                                    </div>
-                                                    <div class='sliderBlock_controls__arrow sliderBlock_controls__arrowForward'>
-                                                        <i aria-hidden='true' class='fa fa-angle-right'/>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <ul class='sliderBlock_positionControls'>
-                                                <li class='sliderBlock_positionControls__paginatorItem sliderBlock_positionControls__active'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>                     
-                                            </ul>
-                                        </div>
-                                    </div>
-                          
-                      
-                      
+                                        </ul>   
+                                    </div>                         
               
                         <div class='block_product'>
                                        
@@ -5330,7 +5305,31 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                           
                       </div>
                           </div>
-                      
+                      <div class='slider-flex'>
+                        <div class='sliderBlock_controls'>
+                                            <div class='sliderBlock_controls__navigatin'>
+                                                <div class='sliderBlock_controls__wrapper'>
+                                                    <div class='sliderBlock_controls__arrow sliderBlock_controls__arrowBackward'>
+                                                        <i aria-hidden='true' class='fa fa-angle-left'/>
+                                                    </div>
+                                                    <div class='sliderBlock_controls__arrow sliderBlock_controls__arrowForward'>
+                                                        <i aria-hidden='true' class='fa fa-angle-right'/>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <ul class='sliderBlock_positionControls'>
+                                                <li class='sliderBlock_positionControls__paginatorItem sliderBlock_positionControls__active'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>                     
+                                            </ul>
+                                        </div>
+                        <div class='sliderBlock_controls2'/>
+                      </div>
                         <div class='row'>
                             <div class='small-12 large-6 columns'>
                                 <div class='productCard_leftSide clearfix'>
