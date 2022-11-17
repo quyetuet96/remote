@@ -4024,7 +4024,6 @@ label .paypal{
  .sliderBlock {
 	 position: relative;
 	 height: 100%;	
-	 margin-top: 89px;
 	 margin-bottom: 46px;
 	 overflow: hidden;
 }
