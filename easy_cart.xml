@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
+    
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
     <title><data:view.title.escaped/></title>
     
@@ -156,7 +157,7 @@ abbr{
     width:1058px
 }
  #content-wrapper{
-    margin:30px auto 0;
+    margin: 0px auto 0;
     overflow:hidden
 }
  #main-wrapper{
@@ -1142,7 +1143,7 @@ abbr{
 }
  .index-post .item_add{
     display:block;
-    background-color:$(main.dark.color);
+    background-color: #536dfe;
     height:30px;
     font-size:14px;
     color:#fff;
@@ -3852,6 +3853,7 @@ width: 100%;
 }
 .sora_product_item_price {
   text-align : center;
+  display :none;
 }
 .soracustomform-item-price, .soracustomform-item-name, .soracustomform-item-size, .contact-form-email, .contact-form-email-message, .soracustomform-message, .soracustomform-item-quantity, .soracustomform-item-total-price{
 	display:none;
@@ -3907,6 +3909,645 @@ label .paypal{
 .post-body div.separator + br{
   display : none; 
 }
+.post-footer{
+  display: none;
+}
+
+#sidebar2{
+  display : none; 
+}
+ 
+  
+.post-title{
+  display: none;
+}
+.post-image-link {
+  display: none!important;
+}
+.post-thumb {
+  display: none;
+}
+
+/*********************************************/
+/*COLORS*/
+/*********************************************/
+ body {
+	 font-family: &quot;Titillium Web&quot;, sans-serif;
+	 font-weight: 400;
+	 font-size: 14px;
+	 min-width: 320px;
+	 position: relative;
+}
+ img {
+	 max-width: 100%;
+	 height: auto;
+}
+ ul {
+	 margin: 0;
+	 padding: 0;
+	 list-style-type: none !important;
+}
+ a {
+	 text-decoration: none;
+	 color: black;
+}
+ a:hover, a:focus, a:active {
+	 text-decoration: none;
+	 color: black;
+}
+ input, input:focus, input:active {
+	 outline: none;
+}
+ button, button:active, button:focus, button:hover {
+	 outline: none;
+}
+ button {
+	 padding: 0;
+	 margin: 0;
+	 background-color: transparent;
+	 color: #000;
+}
+ .mainWrapper {
+	 position: relative;
+	 width: 100%;
+	 min-width: 320px;
+	 min-height: 1000px;
+	 padding: 0;
+	 margin: 0 !important;
+	 background: radial-gradient(#303d55, #2f3352);
+}
+ .wrappen_block {
+	 position: relative;
+	 width: 100%;
+	 height: 100%;
+}
+ .mainBackground {
+	 width: 100%;
+	 min-height: 1000px;
+	 background: url(&#39;https://github.com/BlackStar1991/CardProduct/blob/master/app/img/bgRectangl.png?raw=true&#39;) left center no-repeat, url(&#39;https://github.com/BlackStar1991/CardProduct/blob/master/app/img/bgPhons.png?raw=true&#39;) center center no-repeat, url(&#39;https://github.com/BlackStar1991/CardProduct/blob/master/app/img/layer-3-copy-2.png?raw=true&#39;) center center no-repeat, url(&#39;https://github.com/BlackStar1991/CardProduct/blob/master/app/img/mainBg.png?raw=true&#39;) center center no-repeat;
+}
+ .productCard_block {
+	 position: relative;
+	 margin: 190px auto 0;
+	 max-width: 800px;
+	 min-height: 600px;
+	 box-shadow: 0 5px 21px rgba(0, 0, 0, 0.08);
+	 background-color: #fff;
+}
+/* LEFT SIDE */
+ .productCard_leftSide {
+	 position: relative;
+	 width: 100%;
+	 min-height: 445px;
+}
+ .productCard_brendBlock {
+	 width: 100%;
+	 height: 75px;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 max-width: 184px;
+	 max-height: 75px;
+	 z-index: 2;
+}
+ .productCard_brendBlock__imageBlock {
+	 display: block;
+	 height: 100%;
+}
+ .productCard_brendBlock__imageBlock img {
+	 position: absolute;
+	 display: block;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+}
+ .sliderBlock {
+	 position: relative;
+	 height: 100%;
+	 margin-bottom: 46px;
+	 overflow: hidden;
+}
+.main{
+ margin-top: -12rem; 
+}
+.post-image-link{
+  display:none;
+}
+ .sliderBlock_items {
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: 350px;
+}
+ .sliderBlock_items__itemPhoto {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 opacity: 0;
+	 z-index: 2;
+	 transition: opacity 1s;
+}
+ .sliderBlock_items__showing {
+	 opacity: 1;
+	 z-index: 3;
+}
+ .sliderBlock_items:after {
+	 content: &#39;&#39;;
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 top: 0;
+	 left: 0;
+	 background: url(&quot;../img/decorElements/DecorRectangle.png&quot;) 50% 50% no-repeat;
+	 opacity: 0.2;
+	 z-index: 4;
+}
+ .sliderBlock_controls {
+	 width: 100%;
+}
+ .sliderBlock_controls__navigatin {
+	 margin-top: 8px;
+	 width: 100%;
+}
+ .sliderBlock_controls__wrapper {
+	 margin: 1% auto;
+	 width: 110px;
+	 height: 20px;
+}
+ .sliderBlock_controls__arrow {
+	 position: relative;
+	 width: 24px;
+	 height: 24px;
+	 cursor: pointer;
+	 border: 1px solid #536dfe;
+	 transition: 300ms all;
+	 background-color: #0d2660;
+	 border-radius: 50%;
+}
+ .sliderBlock_controls__arrow:hover {
+	 background-color: #536dfe;
+}
+ .sliderBlock_controls__arrow i {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 top: 50%;
+	 left: 50%;
+	 margin-left: -50%;
+	 margin-top: -50%;
+	 color: #fff;
+	 transition: 300ms all;
+	 font-weight: bold;
+	 text-align: center;
+	 font-size: 20px;
+}
+ .sliderBlock_controls__arrowBackward {
+	 float: left;
+}
+ .sliderBlock_controls__arrowForward {
+	 float: right;
+}
+ .sliderBlock_positionControls {
+	 display: block;
+	 width: 100%;
+	 height: 3px;
+	 margin: 30px auto 0;
+}
+ .sliderBlock_positionControls__paginatorItem {
+	 float: left;
+	 width: 18px;
+	 height: 10px;
+	 margin-left: 5px;
+	 background-color: #d7d7d7;
+	 cursor: pointer;
+}
+ .sliderBlock_positionControls__paginatorItem:first-child {
+	 margin-left: 31%;
+}
+ .sliderBlock_positionControls__active {
+	 background-color: #536dfe;
+}
+/* RIGHT SIDE */
+ .productCard_rightSide {
+	 position: relative;
+	 padding-left: 27px;
+	 padding-right: 40px;
+	 width: 100%;
+	 min-height: 600px;
+}
+ .block_specification {
+	 float: right;
+	 margin-top: 8px;
+	 cursor: pointer;
+	 color: #536dfe;
+	 transition: all 0.5s;
+}
+ .block_specification__button {
+	 display: inline-block;
+	 margin-right: 7px;
+	 height: 100%;
+	 font-size: 17px;
+	 text-transform: uppercase;
+	 transform: rotate(0);
+	 transition: transform 0.5s;
+	 transform-origin: center center;
+}
+ .block_specification:hover .block_specification__button__rotate {
+	 transition: transform 0.5s;
+	 transform: rotate(1turn);
+}
+ .block_specification:hover {
+	 color: #f1425d;
+}
+ .block_specification__text {
+	 width: 30px;
+	 height: 11px;
+	 font-family: &#39;Titillium Web&#39;, sans-serif;
+	 font-size: 14px;
+	 font-weight: 600;
+	 text-transform: uppercase;
+}
+ .block_model {
+	 display: inline-block;
+	 color: #263238;
+	 font-size: 12px;
+	 opacity: 0.9;
+}
+ .block_name {
+	 width: 100%;
+	 color: #263238;
+	 font-weight: 400;
+	 line-height: 35px;
+}
+ .block_name__mainName {
+	 margin: 0;
+	 padding: 0;
+	 font-size: 29px;
+}
+ .block_name__addName {
+	 margin: 0;
+	 padding: 0;
+	 font-size: 24px;
+}
+  .block_product {
+      position: relative;
+      width: 100%;
+  }
+ .block_product__advantagesProduct {
+	 width: 271px;
+	 height: 41px;
+	 margin-top: 14px;
+	 color: #646b6f;
+	 font-size: 17px;
+	 line-height: 24px;
+}
+ .block_product__link {
+	 line-height: 23px;
+	 color: #536dfe;
+}
+ .block_informationAboutDevice {
+	 position: relative;
+	 width: 100%;
+	 overflow: hidden;
+}
+ .block_descriptionInformation {
+	 width: 304px;
+	 height: 104px;
+	 margin-top: 10px;
+	 font-size: 14px;
+	 font-weight: 400;
+	 line-height: 23px;
+	 color: #263238;
+}
+ .block_descriptionCharacteristic {
+	 position: absolute;
+	 top: 0;
+	 left: 100%;
+	 width: 100%;
+	 height: 100%;
+	 z-index: 30;
+	 transition: left, ease-out, 0.5s;
+}
+ .block_descriptionCharacteristic__active {
+	 left: 0;
+}
+ @keyframes moveCharackeristic {
+	 0% {
+		 left: 100%;
+	}
+	 100% {
+		 left: 0;
+	}
+}
+ .block_specificationInformation_table {
+	 position: relative;
+	 height: 90%;
+	 background-color: #fff;
+}
+ .block_specificationInformation_table tr {
+	 border-collapse: collapse;
+	 border: 1px solid #000;
+}
+ .block_specificationInformation_table th {
+	 border: 1px solid #000;
+	 font-weight: bold;
+}
+ .block_specificationInformation_table td {
+	 border-collapse: collapse;
+	 text-align: center;
+	 border: 1px solid #000;
+}
+ .block_rating {
+	 width: 100%;
+	 margin-top: 33px;
+}
+ fieldset, label {
+	 margin: 0;
+	 padding: 0;
+}
+ .block_rating__stars {
+	 border: none;
+	 float: left;
+	 width: auto;
+	 margin: 0;
+	 padding: 0;
+}
+ input[type=&quot;checkbox&quot;] + label, input[type=&quot;radio&quot;] + label {
+	 margin: 0;
+}
+ .block_rating__stars &gt; input {
+	 display: none;
+}
+ .block_rating__stars &gt; label:before {
+	 margin: 5px;
+	 font-size: 15px;
+	 font-family: FontAwesome;
+	 display: inline-block;
+	 content: &quot;\f005&quot;;
+}
+ .block_rating__stars &gt; .half:before {
+	 content: &quot;\f089&quot;;
+	 position: absolute;
+}
+ .block_rating__stars &gt; label {
+	 color: darkorange;
+	 float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+ .block_rating__stars &gt; input:checked ~ label, .block_rating__stars:not(:checked) &gt; label:hover, .block_rating__stars:not(:checked) &gt; label:hover ~ label {
+	/* show gold star when clicked */
+	/* hover current star */
+	 color: #fccf47;
+}
+/* hover previous stars in list */
+ .block_rating__stars &gt; input:checked + label:hover, .block_rating__stars &gt; input:checked ~ label:hover, .block_rating__stars &gt; label:hover ~ input:checked ~ label, .block_rating__stars &gt; input:checked ~ label:hover ~ label {
+	/* hover current star when changing rating */
+	/* lighten current selection */
+	 color: #ffed85;
+}
+ .block_rating__avarage {
+	 margin-left: 31px;
+	 color: #f1425d;
+	 font-size: 15px;
+	 line-height: 35px;
+}
+ .block_rating__reviews {
+	 margin-left: 6px;
+	 color: #656c6f;
+	 font-size: 13px;
+}
+ .block_price {
+	 margin-top: 29px;
+	 width: 100%;
+}
+ .block_price__currency {
+	 padding: 0;
+	 margin: 0;
+	 vertical-align: top;
+	 color: #f1425d;
+	 font-size: 26px;
+	 font-weight: 600;
+}
+ .block_price__shipping {
+	 padding: 0;
+	 margin: 0;
+	 color: #a2a9ad;
+	 font-size: 12px;
+}
+ .radio_button {
+	 position: absolute;
+	 opacity: 0;
+}
+ .block_goodColor {
+	 margin-top: 29px;
+	 width: 100%;
+}
+ .block_goodColor__allColors {
+	 width: 100%;
+	 margin-top: 14px;
+}
+ .block_goodColor__radio {
+	 display: inline-block;
+	 width: 21px;
+	 height: 21px;
+	 border-radius: 50%;
+	 margin-left: 10% !important;
+	 background-color: #e8e6e3;
+	 cursor: pointer;
+}
+ .radio_button:checked + .block_goodColor__radio {
+	 width: 25px;
+	 height: 25px;
+	 box-shadow: 0 0 5px 3px rgba(83, 109, 254, 0.5);
+	 border: 2px solid #fff;
+}
+ .block_goodColor__black {
+	 background-color: #3c383a;
+}
+ .block_goodColor__silver {
+	 background-color: silver;
+}
+ .text_specification {
+	 padding: 0;
+	 color: #37474f;
+	 font-size: 13px;
+}
+ .block_quantity {
+	 position: relative;
+	 height: 46px;
+	 margin-top: 45px;
+}
+ .block_quantity span {
+	 display: inline-block;
+	 float: left;
+	 margin-top: 15px;
+	 margin-right: 10px;
+}
+ .block_quantity__chooseBlock {
+	 vertical-align: top;
+	 height: 100%;
+	 margin: 0;
+	 padding: 0;
+}
+ .block_quantity__number {
+	 display: inline-block;
+	 float: left;
+	 width: 52px;
+	 height: 46px;
+	 border: 1px solid #ddd;
+	 font-size: 18px;
+}
+ .block_quantity__number::placeholder {
+	 color: #403f40;
+	 font-size: 18px;
+	 line-height: 35px;
+}
+ .block_quantity__button {
+	 display: inline-block;
+	 position: relative;
+	 float: left;
+	 width: 20px;
+	 height: 50%;
+	 margin: 0;
+	 padding: 0;
+	 margin-left: 11px;
+	 font-size: 0;
+	 cursor: pointer;
+}
+ .block_quantity__button:hover, .block_quantity__button:focus {
+	 background-color: transparent;
+}
+ .block_quantity__button:hover:before, .block_quantity__button:focus:before {
+	 color: #536dfe;
+}
+ .block_quantity__up:before {
+	 content: &quot;\f106&quot;;
+	 width: 11px;
+	 height: 6px;
+	 font-family: &quot;FontAwesome&quot;;
+	 color: #37474f;
+	 font-size: 18px;
+}
+ .block_quantity__down:before {
+	 content: &quot;\f107&quot;;
+	 width: 11px;
+	 height: 6px;
+	 font-family: &quot;FontAwesome&quot;;
+	 color: #37474f;
+	 font-size: 18px;
+}
+ .button.button_addToCard {
+	 width: 147px;
+	 height: 46px;
+	 margin-top: 43px;
+	 margin-bottom: 0;
+	 padding: 0;
+	 color: #fff;
+	 background-color: #536dfe;
+	 font-size: 17px;
+	 transition: all 0.3s;
+}
+ .button.button_addToCard:hover {
+	 background-color: #0d2660;
+}
+ .aboutMe a {
+	 display: block;
+	 width: 30%;
+	 position: fixed;
+	 bottom: 0.1%;
+	 left: 20px;
+	 color: rgba(255, 255, 255, 0.6);
+	 font-size: 1.5em;
+	 font-family: &quot;Roboto&quot;, sans-serif;
+	 text-decoration: none;
+}
+.item_add {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  width: 147px;
+  height: 40px;
+  margin-top: -15px;
+  margin-bottom: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 8px;  
+}
+
+#blog-pager{
+  display :none;
+}
+.star5{
+   color : black!important;
+} 
+.index-post .meta-price{
+  display : none;
+}  
+@media (min-width:960px){  
+  .sliderBlock_items{
+    z-index : 0;
+  }
+  .sliderBlock_controls{
+    position: relative;
+    left: -18rem;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+  }
+  .sliderBlock_positionControls{
+  		 left: 4rem;
+   		position: relative;
+	}
+	.sliderBlock_controls__wrapper{
+           position: relative;
+		left: -59px;
+	}
+  .sliderBlock{
+   width: 50%;
+  }
+  .block_product{
+   width: 50%;
+  }
+}
+@media only screen and (max-width: 960px) {
+   .sliderBlock_items{
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 279px;
+    }
+    .sliderBlock_controls__navigatin{
+      margin-top: 70px;
+      width: 100%;
+	}
+	.sliderBlock_positionControls__paginatorItem{
+		margin-left: 2px;
+	}
+  .sliderBlock_items__itemPhoto img{
+ 	 border-radius: 1rem;
+  }
+  .slider-flex{
+   flex-direction :  flex-direction: column;
+  }  
+  
+   
+}
+video {
+  	position: relative;
+    display: block;
+    margin : 0 auto;
+    border-radius : 2rem;
+    width: 100%;
+}  
+.video-center {
+  margin : 0 auto;
+  width : 100%;
+}
+.slider-flex{
+   display :flex; 
+}  
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -4142,6 +4783,133 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 
 </head>
 <body expr:class='data:blog.pageType'>
+
+  <!-- Messenger Plugin chat Code -->
+    <div id='fb-root'/>
+
+    <!-- Your Plugin chat code -->
+    <div class='fb-customerchat' id='fb-customer-chat'>
+    </div>
+
+    <script>
+      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
+      chatbox.setAttribute(&quot;page_id&quot;, &quot;360487520790301&quot;);
+      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
+      
+      window.onload = function () {
+
+    //// SLIDER
+    var slider = document.getElementsByClassName(&quot;sliderBlock_items&quot;);
+    var slides = document.getElementsByClassName(&quot;sliderBlock_items__itemPhoto&quot;);
+    var next = document.getElementsByClassName(&quot;sliderBlock_controls__arrowForward&quot;)[0];
+    var previous = document.getElementsByClassName(&quot;sliderBlock_controls__arrowBackward&quot;)[0];
+    var items = document.getElementsByClassName(&quot;sliderBlock_positionControls&quot;)[0];
+    var currentSlideItem = document.getElementsByClassName(&quot;sliderBlock_positionControls__paginatorItem&quot;);
+
+    var currentSlide = 0;
+    var slideInterval = setInterval(nextSlide, 5000);  /// Delay time of slides
+
+    function nextSlide() {
+        goToSlide(currentSlide + 1);
+    }
+
+    function previousSlide() {
+        goToSlide(currentSlide - 1);
+    }
+
+
+    function goToSlide(n) {
+        slides[currentSlide].className = &#39;sliderBlock_items__itemPhoto&#39;;
+        items.children[currentSlide].className = &#39;sliderBlock_positionControls__paginatorItem&#39;;
+        currentSlide = (n + slides.length) % slides.length;
+        slides[currentSlide].className = &#39;sliderBlock_items__itemPhoto sliderBlock_items__showing&#39;;
+        items.children[currentSlide].className = &#39;sliderBlock_positionControls__paginatorItem sliderBlock_positionControls__active&#39;;
+    }
+
+
+    next.onclick = function () {
+        nextSlide();
+    };
+    previous.onclick = function () {
+        previousSlide();
+    };
+
+
+    function goToSlideAfterPushTheMiniBlock() {
+        for (var i = 0; i &lt; currentSlideItem.length; i++) {
+            currentSlideItem[i].onclick = function (i) {
+                var index = Array.prototype.indexOf.call(currentSlideItem, this);
+                goToSlide(index);
+            }
+        }
+    }
+
+    goToSlideAfterPushTheMiniBlock();
+
+
+/////////////////////////////////////////////////////////
+
+///// Specification Field
+
+
+    var buttonFullSpecification = document.getElementsByClassName(&quot;block_specification&quot;)[0];
+    var buttonSpecification = document.getElementsByClassName(&quot;block_specification__specificationShow&quot;)[0];
+    var buttonInformation = document.getElementsByClassName(&quot;block_specification__informationShow&quot;)[0];
+
+    var blockCharacteristiic = document.querySelector(&quot;.block_descriptionCharacteristic&quot;);
+    var activeCharacteristic = document.querySelector(&quot;.block_descriptionCharacteristic__active&quot;);
+
+
+    buttonFullSpecification.onclick = function () {
+
+        console.log(&quot;OK&quot;);
+
+
+        buttonSpecification.classList.toggle(&quot;hide&quot;);
+        buttonInformation.classList.toggle(&quot;hide&quot;);
+
+
+        blockCharacteristiic.classList.toggle(&quot;block_descriptionCharacteristic__active&quot;);
+
+
+    };
+
+
+/////  QUANTITY ITEMS
+
+    var up = document.getElementsByClassName(&#39;block_quantity__up&#39;)[0],
+        down = document.getElementsByClassName(&#39;block_quantity__down&#39;)[0],
+        input = document.getElementsByClassName(&#39;block_quantity__number&#39;)[0];
+
+    function getValue() {
+        return parseInt(input.value);
+    }
+
+    up.onclick = function (event) {
+        input.value = getValue() + 1;
+    };
+  
+};
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : &#39;v14.0&#39;
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = &#39;https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js&#39;;
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
+    </script>
+  
   <b:class cond='data:view.isHomepage' name='home'/>
   <b:class cond='data:view.isPage' name='item'/>
   <b:class cond='data:view.isArchive' name='index'/>
@@ -4307,7 +5075,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     <div class='header-header'>    
       <div class='container row'>
           <b:section class='header-logo' id='header-logo' maxwidgets='1' name='Header Logo' showaddelement='yes'>
-            <b:widget id='Header1' locked='true' title='Chuyên cung cấp giày các loại giá tốt (Tiêu đề)' type='Header' version='2' visible='true'>
+            <b:widget id='Header1' locked='true' title='Oh Galaxy (Tiêu đề)' type='Header' version='2' visible='true'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'>giay9x.com</b:widget-setting>
                 <b:widget-setting name='displayHeight'>40</b:widget-setting>
@@ -4341,7 +5109,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   </b:includable>
               <b:includable id='image'>
       <a class='header-image-wrapper' expr:href='data:blog.homepageUrl'>
-        Chuyên cung cấp giày các loại giá tốt <!-- <img expr:alt='data:blog.title.escaped' expr:data-height='data:height' expr:data-width='data:width' expr:src='data:image'/> -->
+        OH GALAXY <!-- <img expr:alt='data:blog.title.escaped' expr:data-height='data:height' expr:data-width='data:width' expr:src='data:image'/> -->
       </a>
     </b:includable>
               <b:includable id='title'>
@@ -4423,7 +5191,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         </b:section>
         <div id='nav-search'>
           <form class='search-form' expr:action='data:blog.searchUrl' role='search'>
-            <input autocomplete='off' class='search-input' expr:placeholder='data:messages.searchThisBlog' name='q' type='search' value=''/>
+            <input autocomplete='off' class='search-input' name='q' type='search' value=''/>
             <span class='hide-search'/>
           </form>
         </div>
@@ -4443,6 +5211,157 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 
       <!-- Main Wrapper -->
       <div id='main-wrapper'>
+        
+        <main class='main'>
+    <div class='mainWrapper'>
+        <div class='mainBackground clearfix'>
+            <div class='row'>
+                <div class='column small-centered'>
+                    <div class='productCard_block'>
+                      	<div class='video-center'>                                   
+                              <video autoplay='true' controlslist='nodownload' height='350' loop='true' muted='' playsinline='true' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/video/astro_hd.mp4' width='350'>
+									</video>
+                          
+                          <div class='slider-flex'>
+                          <div class='sliderBlock'>
+                                        <ul class='sliderBlock_items'>
+                                            <li class='sliderBlock_items__itemPhoto sliderBlock_items__showing'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro2.png?raw=true'/>
+                                            </li>
+                                            <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro3.png?raw=true'/>
+                                            </li>
+                                            <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro4.png?raw=true'/>
+                                            </li>
+                                    
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro6.png?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro7.png?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro8.png?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='astro' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/img/astro9.png?raw=true'/>
+                                            </li>
+                                        </ul>
+
+                                        
+                                        <div class='sliderBlock_controls'>
+                                            <div class='sliderBlock_controls__navigatin'>
+                                                <div class='sliderBlock_controls__wrapper'>
+                                                    <div class='sliderBlock_controls__arrow sliderBlock_controls__arrowBackward'>
+                                                        <i aria-hidden='true' class='fa fa-angle-left'/>
+                                                    </div>
+                                                    <div class='sliderBlock_controls__arrow sliderBlock_controls__arrowForward'>
+                                                        <i aria-hidden='true' class='fa fa-angle-right'/>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <ul class='sliderBlock_positionControls'>
+                                                <li class='sliderBlock_positionControls__paginatorItem sliderBlock_positionControls__active'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>                     
+                                            </ul>
+                                        </div>
+                                    </div>
+                          
+                      
+                      
+              
+                        <div class='block_product'>
+                                       
+                                        <h2 class='block_name block_name__addName'>Đèn chiếu du hành vũ trụ</h2>
+
+                                        <p class='block_product__advantagesProduct'>
+                                            Chiếu lên trần nhà, phòng khách, bổ sung thêm màu sắc cho phòng khách của bạn
+                                        </p>
+
+                                        <div class='block_informationAboutDevice'>
+
+
+                                            <div class='block_descriptionInformation'>
+                                                <span>Peak performance with active noise cancelation. Sennheiser&#39;s new MOMENTUM Wireless
+                                                - Closed circumauralheadphone featuring <a class='block_product__link' href='#'>Bluetooth<sup/></a>  wireless technology and NoiseGard Hybrid active noise cancelation
+                                                </span>
+                                            </div>
+
+                                            <div class='block_rating clearfix'>
+                                                <fieldset class='block_rating__stars'>
+                                                    <input id='star5' name='rating' type='radio' value='5'/><label class='full star5' for='star5' title='Awesome - 5 stars'/>
+                                                    <input id='star4half' name='rating' type='radio' value='4 and a half'/><label class='half' for='star4half' title='Pretty good - 4.5 stars'/>
+                                                    <input id='star4' name='rating' type='radio' value='4'/><label class='full' for='star4' title='Good - 4 stars'/>
+                                                    <input id='star3half' name='rating' type='radio' value='3 and a half'/><label class='half' for='star3half' title='Above average - 3.5 stars'/>
+                                                    <input id='star3' name='rating' type='radio' value='3'/><label class='full' for='star3' title='Average - 3 stars'/>
+                                                    <input id='star2half' name='rating' type='radio' value='2 and a half'/><label class='half' for='star2half' title='Kinda bad - 2.5 stars'/>
+                                                    <input id='star2' name='rating' type='radio' value='2'/><label class='full' for='star2' title='Kinda bad - 2 stars'/>
+                                                    <input id='star1half' name='rating' type='radio' value='1 and a half'/><label class='half' for='star1half' title='Meh - 1.5 stars'/>
+                                                    <input id='star1' name='rating' type='radio' value='1'/><label class='full' for='star1' title='Sucks big time - 1 star'/>
+                                                    <input id='starhalf' name='rating' type='radio' value='half'/><label class='half' for='starhalf' title='Sucks big time - 0.5 stars'/>
+                                                </fieldset>
+
+                                                <span class='block_rating__avarage'>4.5</span>
+                                                <span class='block_rating__reviews'>(153 reviews)</span>
+
+                                            </div>
+                                            <div class='row '>
+                                                <div class='large-6 small-12 column left-align'>
+                                                    <div class='block_price'>
+                                                        <p class='block_price__currency'>789.000đ</p>
+                                                        <p class='block_price__shipping'>Free shipping toàn quốc</p>
+                                                    </div>
+                                                   
+                                                </div>
+         <div class='large-6 small-12 column end'>
+                                                </div>
+                                  
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                          
+                      </div>
+                          </div>
+                      
+                        <div class='row'>
+                            <div class='small-12 large-6 columns'>
+                                <div class='productCard_leftSide clearfix'>
+                                    <div class='productCard_brendBlock'>
+                                       
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                            <div class='small-12 large-6 columns'>
+                              
+                                <div class='productCard_rightSide'>
+                                                                         
+                                    <p class='block_model'>
+                                        <span class='block_model__text'>Model: </span>
+                                        <span class='block_model__number'>Nhà du hành vũ trụ</span>
+
+                                    </p>
+  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+          
 
         <b:section class='main' id='main' maxwidgets='1' name='Main Posts' showaddelement='yes'>
           <b:widget id='Blog1' locked='true' title='Bài đăng trên Blog' type='Blog' version='2' visible='true'>
@@ -4481,7 +5400,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                   <b:loop index='i' values='data:posts' var='post'>
                     <b:include data='post' name='postCommentsAndAd'/>
                   </b:loop>
-                </b:tag>
+                </b:tag>          
               </div>
               <b:include cond='data:view.isMultipleItems' name='indexBlogPager'/>
               <b:include name='feedLinks'/>
@@ -4497,6 +5416,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
             <b:includable id='backLinks' var='post'>
               <b:comment>Disabled</b:comment>         
             </b:includable>
+            <b:includable id='backlinkDeleteIcon' var='backlink'/>
+            <b:includable id='backlinks' var='post'/>
             <b:includable id='blogThisShare'>
   <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' var='onclick'>
     <b:include name='platformShare'/>
@@ -4524,6 +5445,29 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   <b:loop values='data:regionItems' var='byline'>
     <b:include data='byline' name='bylineByName'/>
   </b:loop>
+</b:includable>
+            <b:includable id='comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
 </b:includable>
             <b:includable id='commentAuthorAvatar'>
               <div class='avatar-image-container'>
@@ -4607,6 +5551,18 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <b:include data='post' name='comments'/>
               </b:if>
             </b:includable>
+            <b:includable id='comment_count_picker' var='post'>
+  <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+    <data:post.commentLabelFull/>:
+  </a>
+</b:includable>
+            <b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.showThreadedComments'>
+    <b:include data='post' name='threaded_comments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
             <b:includable id='comments' var='post'>
               <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
                 <a name='comments'/>
@@ -4734,6 +5690,9 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 </b:if>
               </b:if>
             </b:includable>
+            <b:includable id='iframe_comments' var='post'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
             <b:includable id='indexBlogPager'>
               <!-- Post Pagination Index -->
               <div class='blog-pager container' id='blog-pager'>
@@ -4749,7 +5708,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <div class='product-info'>
                   <b:include data='post' name='postHeader'/>
                   <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>  
-                  
+                  <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Mua Ngay</span><span class='product_added'><i class='fa fa-check'/>Thêm thành công</span></a>
                 </div>
               </div>
             </b:includable>
@@ -4806,11 +5765,206 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     <b:message name='messages.manageComments'/>
   </a>
 </b:includable>
+            <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+            <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+            <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+            <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:elseif cond='data:post.url and data:blog.url != data:post.url'/>
+                <a expr:href='data:post.url'><data:post.title/></a>
+              <b:else/>
+                <data:post.title/>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <span itemprop='name'><data:post.author/></span>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <span itemprop='name'><data:post.author/></span>
+                    </span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <meta expr:content='data:post.url.canonical' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                                  and data:post.allowComments' data='post' name='comment_count_picker'/>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
             <b:includable id='nextPageLink'>
               <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
                 <data:messages.olderPosts/>
               </a>
             </b:includable>
+            <b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <span id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+      </span>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      </span>
+    </b:if>
+
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
             <b:includable id='otherSharingButton'>
   <span class='sharing-platform-button sharing-element-other' expr:aria-label='data:messages.shareToOtherApps.escaped' expr:data-url='data:originalUrl' expr:title='data:messages.shareToOtherApps.escaped' role='menuitem' tabindex='-1'>
     <b:with value='{key: &quot;sharingOther&quot;}' var='platform'>
@@ -4906,12 +6060,13 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <b:include data='post' name='post'/>
               </div>
               <!-- Comments -->
-              <b:if cond='data:view.isSingleItem'>
+             <!-- <b:if cond='data:view.isSingleItem'>
                 <div class='blog-post-comments'>
                   <b:include data='post' name='threadedCommentsDisqus'/>
                   <b:include data='post' name='commentPicker'/>
                 </div>
               </b:if>
+-->
             </b:includable>
             <b:includable id='postCommentsLink'>
               <b:if cond='data:view.isMultipleItems'>
@@ -4983,7 +6138,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     &quot;height&quot;: 630,
     &quot;width&quot;: 1200
     <b:else/>
-    &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUK2eh8fR6T1Ke3QYcZHtz-TjJ735e-ByAL3TYxZbhuomi2zB9NMs31yTSLlEdHBifTDlb14IrnOGCO7HBfOfFBNyH2YC9XL_N6Im6d_C4693mZkVHO-XMbLex46kqarjyhp2lXM-O2kLPTsbbZu0KIqXbVeLv1I5ZdD5kCu5YBFGeefiKivSIY0JXQ/s1600/shoe-icon.ico&quot;,
+    &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBoEMH-DNVgfB2urHwQmAkBJU5n5HY0B0NfC6y7OY22cH4OruIRKDRJCrZHyozypGpkNs9i_5_9ImDGeB5ZiPq18SFY56C0fWS4R6zaUYiZcA545eVyjv9mZlW4aaKLknGdq-4Gt6POmkEkbv7HV6LRfwqz76JNDNFpPd06yiV_K8rtctdce2zYvTt/s256/astronaut.ico&quot;,
     &quot;height&quot;: 348,
     &quot;width&quot;: 1200
     </b:if>
@@ -5031,6 +6186,15 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
   </div>
 </b:includable>
+            <b:includable id='postQuickEdit' var='post'>
+  <b:if cond='data:post.editUrl'>
+    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+        <img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+      </a>
+    </span>
+  </b:if>
+</b:includable>
             <b:includable id='postReactions' var='post'>
               <b:comment>Disabled</b:comment>
             </b:includable>
@@ -5040,13 +6204,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                   <div class='title-wrap'>
                     <h3><data:allBylineItems.backlinks.label/></h3>
                   </div>
-                  <div class='related-ready'>
-                    <b:if cond='data:post.labels'>
-                      <div class='related-tag' expr:data-label='data:post.labels.first.name'/>
-                      <b:else/>
-                      <div class='related-tag' data-label='random'/>
-                    </b:if>
-                  </div> 
+                
                 </div>  
             </b:includable>
             <b:includable id='postShareButtons' var='post'>
@@ -5130,6 +6288,9 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
               </b:if>
               <b:if cond='data:view.isMultipleItems and data:posts.empty'><div class='queryEmpty'><data:messages.noResultsFound/></div></b:if>
             </b:includable>
+            <b:includable id='shareButtons' var='post'>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if>
+</b:includable>
             <b:includable id='sharingButton'>
   <span expr:aria-label='data:platform.shareMessage' expr:class='&quot;sharing-platform-button sharing-element-&quot; + data:platform.key' expr:data-href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:data-url='data:originalUrl' expr:title='data:platform.shareMessage' role='menuitem' tabindex='-1'>
     <b:include name='sharingPlatformIcon'/>
@@ -5165,6 +6326,41 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 </b:includable>
             <b:includable id='sharingPlatformIcon'>
   <b:include data='{ iconClass: (&quot;touch-icon sharing-&quot; + data:platform.key) }' expr:name='data:platform.key + &quot;Icon&quot;'/>
+</b:includable>
+            <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+    <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div>
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
+            <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
 </b:includable>
             <b:includable id='threadedCommentForm' var='post'>
               <div class='comment-form'>
@@ -5231,6 +6427,225 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
               </script>
             </b:includable>
+            <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        var text = (entry &&
+                    ((entry.content && entry.content.$t) ||
+                     (entry.summary && entry.summary.$t))) ||
+            '';
+        if (entry && entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + text + '</span>';
+            }
+          }
+        }
+        return text;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          replybox.src = '';
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+            <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+    </div>
+    </div>
+  </div>
+</b:includable>
           </b:widget>
         </b:section> 
       </div>
@@ -5630,7 +7045,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
       </div>
 </div>
     
-    <div class='copyright-area'>&#169; Copyright 2022 Giay9x.com</div>
+    <div class='copyright-area'>&#169; Copyright 2022 OhGalaxy.com</div>
     
   </div>
 </div>
@@ -5640,15 +7055,15 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <b:if cond='data:view.isPage'>
 <div class='contact-form-widget sora-billing-form'>
 <div class='form contact-form soracustomform'>
-<form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSe5-SSuAdUT9cO3Of-86hXbACrC2Fc0G_etGPPzfJrXecAsgg/formResponse' id='contact2' method='post' name='contact-form' onsubmit='return false'>
-<input class='contact-form-name contact-style' id='ContactForm1_contact-form-name' name='entry.349494267' placeholder='Họ Tên *' required='true' type='text' value=''/>
-<input autocomplete='off' class='soracustomform-phone contact-style' name='entry.1751179096' placeholder='Số điện thoại *' required='true' type='text' value=''/>
+<form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSd5Wg8ANJHvLYEMquJfCDnGv95s-xXjvxIKJ4bqiXDsb2V66w/formResponse' id='contact2' method='post' name='contact-form' onsubmit='return false'>
+<input class='contact-form-name contact-style' id='ContactForm1_contact-form-name' name='entry.2013355491' placeholder='Họ Tên *' required='true' type='text' value=''/>
+<input autocomplete='off' class='soracustomform-phone contact-style' name='entry.94926642' placeholder='Số điện thoại *' required='true' type='text' value=''/>
 <input class='soracustomform-item-price contact-style' name='entry.1566376928' placeholder='Postcode *' type='text' value=''/>
 
 <input class='soracustomform-item-size contact-style' name='entry.478964681' placeholder='Country *' type='text' value=''/>
 <input class='soracustomform-item-name contact-style' name='entry.658104484' placeholder='City *' type='text' value=''/>
 <input class='soracustomform-item-quantity contact-style' name='entry.846336646' placeholder='State *' type='text' value=''/>
-<input class='soracustomform-address contact-style' name='entry.1044321312' placeholder='Địa chỉ *' required='true' type='text' value=''/>
+<input class='soracustomform-address contact-style' name='entry.106388282' placeholder='Địa chỉ *' required='true' type='text' value=''/>
 <input class='soracustomform-item-total-price contact-style' name='entry.2004401167' placeholder='Country *' type='text' value=''/>
 <div style='clear: both;'/>
  <div class='sora-checkout-wrap'> 
@@ -5802,41 +7217,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 </div>
 </div>
   </b:if>
-  <b:section class='hidden-widgets' id='hidden-widgets' maxwidgets='1' name='Important But Hidden Widgets' showaddelement='no'>
-    <b:widget id='ContactForm1' locked='false' title='Biểu mẫu liên hệ' type='ContactForm' visible='true'>
-      <b:includable id='main'>
-  <b:include name='widget-title'/>
-  <b:include name='content'/>
-</b:includable>
-      <b:includable id='content'>
-  <div class='contact-form-widget'>
-    <div class='form'>
-      <form name='contact-form'>
-        <p/>
-        <data:contactFormNameMsg/>
-        <br/>
-        <input class='contact-form-name' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' name='name' size='30' type='text' value=''/>
-        <p/>
-        <data:contactFormEmailMsg/> <span style='font-weight: bolder;'>*</span>
-        <br/>
-        <input class='contact-form-email' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' name='email' size='30' type='text' value=''/>
-        <p/>
-        <data:contactFormMessageMsg/> <span style='font-weight: bolder;'>*</span>
-        <br/>
-        <textarea class='contact-form-email-message' cols='25' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' name='email-message' rows='5'/>
-        <p/>
-        <input class='contact-form-button contact-form-button-submit' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg' type='button'/>
-        <p/>
-        <div style='text-align: center; max-width: 222px; width: 100%'>
-          <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
-          <p class='contact-form-success-message' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
-        </div>
-      </form>
-    </div>
-  </div>
-</b:includable>
-    </b:widget>
-  </b:section>
+  <b:section class='hidden-widgets' id='hidden-widgets' maxwidgets='1' name='Important But Hidden Widgets' showaddelement='no'/>
   </div>
   </div>
 <!-- Main Scripts -->
@@ -5939,7 +7320,7 @@ $(".sub").click(function() {
     });
 
 	alert('Đặt hàng thành công');
-	$(location).attr('href','http://www.giay9x.com');
+	$(location).attr('href','http://www.ohgalaxy.com');
 
     $(document).ready(function(){
         $(".simpleCart_empty").trigger("click");
@@ -6014,13 +7395,13 @@ var _0xf941=["\x37\x33\x28\x36\x56\x28\x70\x2C\x61\x2C\x63\x2C\x6B\x2C\x65\x2C\x
 <script type='text/javascript'>
 //<![CDATA[
  if (window['location']['href']['indexOf']('/p/checkout.html') > -1) {
-     document['title'] = 'Checkout';
+     document['title'] = 'Xác nhận đơn hàng';
      $('.item-post .post-body')['html']('<div class=\'sora-cart-checkout\'></div><style>.sora-cart a {display: block;position: relative;}.sora-cart .sora-cart-description,div#sidebar-wrapper,.static_page .item-post h1.post-title, .blog-post-comments { display: none!important; }.item #main-wrapper, .statc_page #main-wrapper { width:100%;float:none;max-width: 100%; }</style>'); 
      $(".sora-cart .sora-cart-details").wrap("<a href='/p/cart.html'></a>");
  };
 
  if (window['location']['href']['indexOf']('/p/cart.html') > -1) {
-     document['title'] = 'My Cart';
+     document['title'] = 'Giỏ hàng';
      $('.item-post .post-body')['html']('<div class=\'sora-cart-review check\'><div class=\"post-custom-title\"><div class=\"custom-title\"><h2>Bạn có <span class=\'simpleCart_quantity\'/> sản phẩm trong giỏ hàng.<\/h2><\/div><\/div><div class=\'sora-cart-review-wrap\'><div class=\'simpleCart_items\'/><div style=\"clear: both;\"\/><div class=\"cart-bot-element\"><div class=\"sora-cart-ammount\"><span class=\"sora-cart-subtotal\">Tổng :<\/span><span class=\'simpleCart_total\'/><\/div><a class=\'simpleCart_checkout\' href=\'\/p\/checkout.html\'>Chốt đơn hàng</a></div></div></div><style>div#sidebar-wrapper,.static_page .item-post h1.post-title { display: none!important; }.item #main-wrapper, .statc_page #main-wrapper { width:100%;float:none;max-width: 100%; }</style>');
  };
 $(function(){
@@ -6054,6 +7435,8 @@ $('#LinkList2 ul li:nth-child(4) span.details-second').contents().appendTo('.sor
 $('#LinkList2 ul li:nth-child(5) span.details-second').contents().appendTo('.sora-bank-details .sorainfoorder td.account-number-value');
 });
 //]]>
+  
+ 
 </script>
 <style>
 @media print{
@@ -6073,34 +7456,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </script>
 </b:if>
 
-<!-- Facebook SDK -->
-<script type='text/javascript'>
-//<![CDATA[
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-//]]>
-</script>  
-<!-- Overlay and Back To Top --> 
-  <!-- <div class='back-top' title='Back to Top'/> -->
-  
-<!--Start of Tawk.to Script-->
-<!--<script type='text/javascript'>
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement(&quot;script&quot;),s0=document.getElementsByTagName(&quot;script&quot;)[0];
-s1.async=true;
-s1.src=&#39;https://embed.tawk.to/62ad92487b967b1179952d73/1g5r06rdc&#39;;
-s1.charset=&#39;UTF-8&#39;;
-s1.setAttribute(&#39;crossorigin&#39;,&#39;*&#39;);
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script> -->
-<!--End of Tawk.to Script-->
+
   
 
 <div class='widget-actions'>
@@ -6111,39 +7467,6 @@ s0.parentNode.insertBefore(s1,s0);
   <a href='tel:0969257414' title='Gọi ngay'> <img alt='btn-callnow' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/call.svg'/></a> </div>
   </div>
 </div>
-
-  
-<!-- Messenger Plugin chat Code -->
-    <div id='fb-root'/>
-
-    <!-- Your Plugin chat code -->
-    <div class='fb-customerchat' id='fb-customer-chat'>
-    </div>
-
-    <script>
-      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
-      chatbox.setAttribute(&quot;page_id&quot;, &quot;104783592280721&quot;);
-      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : &#39;v14.0&#39;
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = &#39;https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js&#39;;
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
-    </script>
-<!--END FACEBOOK CHAT API  --> 
   
 </body>
   
