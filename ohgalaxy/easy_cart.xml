@@ -4505,6 +4505,14 @@ label .paypal{
     width: 100%;
     z-index: 1;
   }
+  .sliderBlock_positionControls{
+  		 left: 4rem;
+   		position: relative;
+	}
+	.sliderBlock_controls__wrapper{
+           position: relative;
+		left: -59px;
+	}
 }
 @media only screen and (max-width: 960px) {
    .sliderBlock_items{
@@ -4523,7 +4531,12 @@ label .paypal{
   .sliderBlock_items__itemPhoto img{
  	 border-radius: 1rem;
   }
-}  
+}
+  
+.productCard_rightSide video{
+   border-radius: 2rem;
+}
+
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -5255,11 +5268,15 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                             </div>
                             <div class='small-12 large-6 columns'>
                                 <div class='productCard_rightSide'>
-                                   
+                                                                         <video autoplay='true' controlslist='nodownload' height='350' loop='true' muted='' playsinline='true' src='https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/video/astro_hd.mp4' width='350'>
+									</video>
                                     <p class='block_model'>
                                         <span class='block_model__text'>Model: </span>
                                         <span class='block_model__number'>Nhà du hành vũ trụ</span>
+
                                     </p>
+                                  
+                                     
 
                                     <div class='block_product'>
                                        
@@ -5666,7 +5683,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <b:include data='post' name='postFeaturedImage'/>
                 <div class='product-info'>
                   <b:include data='post' name='postHeader'/>
-                  <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>  
+              
                   <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Mua Ngay</span><span class='product_added'><i class='fa fa-check'/>Thêm thành công</span></a>
                 </div>
               </div>
