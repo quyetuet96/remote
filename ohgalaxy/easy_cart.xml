@@ -3458,8 +3458,6 @@ background:#EA4335;
      #content-wrapper{
         position:relative;
         box-sizing:border-box;
-        padding:0 20px;
-        margin:30px 0 0
     }
      #footer-wrapper .container{
         box-sizing:border-box;
@@ -4192,6 +4190,7 @@ label .paypal{
   .block_product {
       position: relative;
       width: 100%;
+      padding : 15px;
   }
  .block_product__advantagesProduct {
 	 width: 271px;
@@ -4553,7 +4552,7 @@ video {
   .block_product{
    top : 3rem;
   }
-}  
+}   
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
