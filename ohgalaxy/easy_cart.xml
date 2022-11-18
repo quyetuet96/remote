@@ -1099,7 +1099,7 @@ abbr{
  .index-post .post-image-wrap{
     float:left;
     width:100%;
-    height:230px;
+    height:141px;
     overflow:hidden;
     margin:0 0 10px
 }
@@ -3996,7 +3996,7 @@ label .paypal{
  .productCard_leftSide {
 	 position: relative;
 	 width: 100%;
-	 min-height: 445px;
+	 min-height: 86px;
 }
  .productCard_brendBlock {
 	 width: 100%;
@@ -4545,7 +4545,7 @@ video {
 }
 @media (max-width: 900px){
   .sliderBlock_controls{
-   top: -29rem;
+   top: -27.7rem;
    position : relative;
   }
   .block_product{
@@ -4555,7 +4555,7 @@ video {
 @media (min-width: 1058px){
  .item_add{
   position: absolute;
-  top: -20.5rem;
+  top: 1.7rem;
   left: 32rem;
   width: 147px;
   border-radius: 8px;
@@ -4564,7 +4564,7 @@ video {
 @media (max-width : 900px){
   .item_add{
     position: absolute;
-    top: -18rem;
+    top: 4rem;
     left: 0.7rem;
     width: 147px;
     border-radius: 8px;
