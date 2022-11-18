@@ -4555,7 +4555,7 @@ video {
 @media (min-width: 1058px){
  .item_add{
   position: absolute;
-  top: -58rem;
+  top: -20.5rem;
   left: 32rem;
   width: 147px;
   border-radius: 8px;
@@ -5266,8 +5266,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                         <div class='block_product'>
                                        
                                         <h2 class='block_name block_name__addName'>Đèn chiếu nhà du hành vũ trụ</h2>
-
-                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                      
 										<p class='block_product__advantagesProduct'>
                                             Chiếu lên trần nhà, phòng khách, bổ sung thêm màu sắc cho phòng khách của bạn
                                         </p>
@@ -5276,18 +5275,19 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 
 
                                             <div class='block_descriptionInformation'>
-                                                <i class="fa fa-check" aria-hidden="true"></i>
-                                                  Chế Độ điều khiển: Điều khiển từ xa <br>
-                                                <i class="fa fa-check" aria-hidden="true"></i>  Chất liệu vỏ: NHỰA ABS + PC + PVC<br>
-                                                <i class="fa fa-check" aria-hidden="true"></i>
-                                                  Công suất đầu ra: 5V/1A<br>
-                                                <i class="fa fa-check" aria-hidden="true"></i>  
-                                                  Đơn Tổng trọng lượng: 300g<br>
-                                                <i class="fa fa-check" aria-hidden="true"></i>  
-                                                  Chiều cao: 125mm, Chiều rộng: 85mm<br>
-                                                  <i class="fa fa-check" aria-hidden="true"></i>
-                                                  Bộ sản phẩm: Cáp nguồn, sách hướng dẫn sử dụng, điều khiển
+                                                <i aria-hidden='true' class='fa fa-check'/>
+                                              Chế Độ điều khiển: Điều khiển từ xa <br/>
+                                                <i aria-hidden='true' class='fa fa-check'/>  Chất liệu vỏ: NHỰA ABS + PC + PVC<br/>
+                                                <i aria-hidden='true' class='fa fa-check'/>
+                                                  Công suất đầu ra: 5V/1A<br/>
+                                                <i aria-hidden='true' class='fa fa-check'/>  
+                                                  Đơn Tổng trọng lượng: 300g<br/>
+                                                <i aria-hidden='true' class='fa fa-check'/>  
+                                                  Chiều cao: 125mm, Chiều rộng: 85mm<br/>
+                                                  <i aria-hidden='true' class='fa fa-check'/>
+                                                  Bộ sản phẩm: Cáp nguồn, sách hướng dẫn sử dụng, điều khiển <br/>
                                             </div>
+                                          
 
                                             <div class='block_rating clearfix'>
                                                 <fieldset class='block_rating__stars'>
@@ -5360,18 +5360,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                     
                                 </div>
                             </div>
-                            <div class='small-12 large-6 columns'>
-                              
-                                <div class='productCard_rightSide'>
-                                                                         
-                                    <p class='block_model'>
-                                        <span class='block_model__text'>Model: </span>
-                                        <span class='block_model__number'>Nhà du hành vũ trụ</span>
-
-                                    </p>
-  
-                                </div>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
