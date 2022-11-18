@@ -4193,7 +4193,7 @@ label .paypal{
       padding : 15px;
   }
  .block_product__advantagesProduct {
-	 width: 271px;
+	 width: 95%;
 	 height: 41px;
 	 margin-top: 14px;
 	 color: #646b6f;
@@ -4258,7 +4258,7 @@ label .paypal{
 }
  .block_rating {
 	 width: 100%;
-	 margin-top: 33px;
+	 margin-top: 60px;
 }
  fieldset, label {
 	 margin: 0;
@@ -4317,7 +4317,6 @@ label .paypal{
 	 font-size: 13px;
 }
  .block_price {
-	 margin-top: 29px;
 	 width: 100%;
 }
  .block_price__currency {
@@ -5266,9 +5265,10 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
               
                         <div class='block_product'>
                                        
-                                        <h2 class='block_name block_name__addName'>Đèn chiếu du hành vũ trụ</h2>
+                                        <h2 class='block_name block_name__addName'>Đèn chiếu nhà du hành vũ trụ</h2>
 
-                                        <p class='block_product__advantagesProduct'>
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+										<p class='block_product__advantagesProduct'>
                                             Chiếu lên trần nhà, phòng khách, bổ sung thêm màu sắc cho phòng khách của bạn
                                         </p>
 
@@ -5276,9 +5276,17 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 
 
                                             <div class='block_descriptionInformation'>
-                                                <span>Peak performance with active noise cancelation. Sennheiser&#39;s new MOMENTUM Wireless
-                                                - Closed circumauralheadphone featuring <a class='block_product__link' href='#'>Bluetooth<sup/></a>  wireless technology and NoiseGard Hybrid active noise cancelation
-                                                </span>
+                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                  Chế Độ điều khiển: Điều khiển từ xa <br>
+                                                <i class="fa fa-check" aria-hidden="true"></i>  Chất liệu vỏ: NHỰA ABS + PC + PVC<br>
+                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                  Công suất đầu ra: 5V/1A<br>
+                                                <i class="fa fa-check" aria-hidden="true"></i>  
+                                                  Đơn Tổng trọng lượng: 300g<br>
+                                                <i class="fa fa-check" aria-hidden="true"></i>  
+                                                  Chiều cao: 125mm, Chiều rộng: 85mm<br>
+                                                  <i class="fa fa-check" aria-hidden="true"></i>
+                                                  Bộ sản phẩm: Cáp nguồn, sách hướng dẫn sử dụng, điều khiển
                                             </div>
 
                                             <div class='block_rating clearfix'>
