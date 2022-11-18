@@ -4520,7 +4520,7 @@ label .paypal{
       height: 279px;
     }
     .sliderBlock_controls__navigatin{
-      margin-top: 70px;
+      margin-top: 25px;
       width: 100%;
 	}
 	.sliderBlock_positionControls__paginatorItem{
@@ -4560,6 +4560,16 @@ video {
   width: 147px;
   border-radius: 8px;
  }
+}  
+@media (max-width : 900px){
+  .item_add{
+    position: absolute;
+    top: -18rem;
+    left: 0.7rem;
+    width: 147px;
+    border-radius: 8px;
+    padding : 0;
+  }
 }  
 </style>
 <b:if cond='data:view.isLayoutMode'>
@@ -5730,14 +5740,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
               <b:if cond='data:view.isPost'>
                 <div class='product-header'>
                   <div class='col-left'>
-                    <div class='post-image-wrap item_image'>
-                      <b:if cond='data:post.featuredImage'> 
-                        <img class='post-thumb item_thumb' expr:alt='data:post.title' expr:src='data:post.featuredImage.isYouTube ? resizeImage(data:post.featuredImage.youtubeMaxResDefaultUrl.jsonEscaped, 72, &quot;1:1&quot;) : resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)'/>
-                        <b:else/>
-                        <img class='post-thumb item_thumb' expr:alt='data:post.title' src='https://4.bp.blogspot.com/-O3EpVMWcoKw/WxY6-6I4--I/AAAAAAAAB2s/KzC0FqUQtkMdw7VzT6oOR_8vbZO6EJc-ACK4BGAYYCw/w680/nth.png'/>
-                      </b:if>
-                      <span class='product_off'/>
-                    </div>
+                    
                   </div>
                   <div class='col-right'>
                     <h1 class='post-title item_name'>
