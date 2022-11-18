@@ -5237,7 +5237,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         
         <main class='main'>
     <div class='mainWrapper'>
-        <div class='mainBackground clearfix'>
+        <div>
             <div class='row'>
                 <div class='column small-centered'>
                     <div class='productCard_block'>
