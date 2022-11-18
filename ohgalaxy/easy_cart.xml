@@ -4544,6 +4544,15 @@ video {
 }
 .slider-flex{
    display :flex; 
+}
+@media (max-width: 900px){
+  .sliderBlock_controls{
+   top: -29rem;
+   position : relative;
+  }
+  .block_product{
+   top : 3rem;
+  }
 }  
 </style>
 <b:if cond='data:view.isLayoutMode'>
