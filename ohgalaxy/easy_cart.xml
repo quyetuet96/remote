@@ -4552,7 +4552,16 @@ video {
   .block_product{
    top : 3rem;
   }
-}   
+}  
+@media (min-width: 1058px){
+ .item_add{
+  position: absolute;
+  top: -58rem;
+  left: 32rem;
+  width: 147px;
+  border-radius: 8px;
+ }
+}  
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
