@@ -3522,9 +3522,6 @@ background:#EA4335;
      .item #sidebar-wrapper{
         margin-top:20px
     }
-     .home-icon {
-    	display: none;
- 	 }
 }
  @media screen and (max-width: 880px) {
      #hot-section .hot-loader,#hot-section .show-hot .widget-content,ul.hot-posts,.hot-posts .hot-item{
@@ -4595,6 +4592,7 @@ video {
    z-index: 100;
    margin: 0;
    border-radius: 8px;
+  
   }
 }  
 @media (max-width : 900px){
@@ -4612,7 +4610,15 @@ video {
  position: relative;
  top: 2rem;
 }  
- 
+.oh-home {
+  font-size : 36px;
+}
+div.oh-home i{
+  color : white;
+}
+.show-search{
+  display: none;
+}  
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -5210,8 +5216,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     <div class='header-menu'>
       <div class='mobile-menu'/>
       <div class='container row'>
-        <a class='home-icon' href='https://www.ohgalaxy.com'><i aria-hidden='true' class='fa fa-home' style='font-size: 2rem;color: white;left: 4px;position: relative;top: 5px;'/></a>
-        <span class='slide-menu-toggle'/>
+        <div class='oh-home'><a href='https://www.ohgalaxy.com'> <i aria-hidden='true' class='fa fa-home'/> </a>
+        </div>
         <b:section class='main-menu' id='main-menu' maxwidgets='1' name='Main Menu' showaddelement='yes'>
           <b:widget id='LinkList74' locked='true' title='Link List' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
