@@ -1356,7 +1356,7 @@ abbr{
     padding:0
 }
  .item-post .post-body img{
-    max-width:100%
+    width:100%
 }
  .main .widget{
     margin:0
@@ -4569,6 +4569,11 @@ video {
   .block_product{
    top : 3rem;
   }
+  .post-body{
+     z-index: 100;
+     position: relative;
+     top: 2.5rem!important;
+   } 
 }  
 @media (min-width: 1058px){
  .item_add{
@@ -4605,6 +4610,7 @@ video {
  position: relative;
  top: 2rem;
 }  
+ 
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -7375,6 +7381,10 @@ $(".sub").click(function() {
 $(document).ready(function(){
   $('.simpleCart_empty').on('click', function(){
       $('.item_add').removeClass('productad');
+  });
+  $('.item_add').on('click', function(){
+  	$(location).attr('href','http://www.ohgalaxy.com/p/checkout.html');
+    $(document).scrollTop($(document).height());
   });
 });
 $(document).ready(function() {
