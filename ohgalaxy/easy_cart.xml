@@ -4586,8 +4586,6 @@ video {
    height: 30.7px;
    z-index: 100;
    margin: 0;
-   top: 58rem;
-   left: -22rem;
    border-radius: 8px;
   
   }
@@ -4601,6 +4599,11 @@ video {
     border-radius: 8px;
     padding : 0;
   }
+}  
+.post-body{
+ z-index: 100;
+ position: relative;
+ top: 2rem;
 }  
 </style>
 <b:if cond='data:view.isLayoutMode'>
