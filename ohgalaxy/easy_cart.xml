@@ -3097,7 +3097,7 @@ font-size: 13px;
     margin: 0 0 10px;
 }
 .sora-checkout-wrap .cart-bot-element .item-size:before {
-content: "Size:";
+content: "";
     color: #161616;
 margin-right:3px;
 }
@@ -3887,7 +3887,7 @@ label .paypal{
 }
 
 .itemRow .item-size:before{
-   content : &quot;Size: &quot;;
+   content : &quot;&quot;;
 }
 #contact2{
   display : grid; 
@@ -5214,29 +5214,29 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
             <b:widget-settings>
               <b:widget-setting name='text-10'/>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-1'>#</b:widget-setting>
-              <b:widget-setting name='link-2'>https://www.giay9x.com/search/label/Gi%C3%A0y%20%C4%91%C3%A1%20b%C3%B3ng</b:widget-setting>
-              <b:widget-setting name='link-12'>#</b:widget-setting>
+              <b:widget-setting name='link-1'/>
+              <b:widget-setting name='link-2'/>
+              <b:widget-setting name='link-12'/>
               <b:widget-setting name='link-0'>/</b:widget-setting>
-              <b:widget-setting name='link-11'>#</b:widget-setting>
-              <b:widget-setting name='link-10'>#</b:widget-setting>
+              <b:widget-setting name='link-11'/>
+              <b:widget-setting name='link-10'/>
               <b:widget-setting name='text-9'/>
-              <b:widget-setting name='link-9'>#</b:widget-setting>
+              <b:widget-setting name='link-9'/>
               <b:widget-setting name='text-8'/>
-              <b:widget-setting name='link-7'>#</b:widget-setting>
-              <b:widget-setting name='link-8'>#</b:widget-setting>
-              <b:widget-setting name='link-5'>https://www.giay9x.com/search?q=wika</b:widget-setting>
-              <b:widget-setting name='link-6'>https://www.giay9x.com/search?q=mitre</b:widget-setting>
-              <b:widget-setting name='link-3'>https://www.giay9x.com/search?q=CT3</b:widget-setting>
-              <b:widget-setting name='link-4'>https://www.giay9x.com/search?q=kamito</b:widget-setting>
-              <b:widget-setting name='text-1'>Giày</b:widget-setting>
-              <b:widget-setting name='text-0'>Home</b:widget-setting>
-              <b:widget-setting name='text-3'>__3 Sọc</b:widget-setting>
-              <b:widget-setting name='text-2'>_Giày đá bóng</b:widget-setting>
-              <b:widget-setting name='text-5'>__Wika</b:widget-setting>
-              <b:widget-setting name='text-4'>__Kamito</b:widget-setting>
+              <b:widget-setting name='link-7'/>
+              <b:widget-setting name='link-8'/>
+              <b:widget-setting name='link-5'/>
+              <b:widget-setting name='link-6'/>
+              <b:widget-setting name='link-3'/>
+              <b:widget-setting name='link-4'/>
+              <b:widget-setting name='text-1'/>
+              <b:widget-setting name='text-0'/>
+              <b:widget-setting name='text-3'/>
+              <b:widget-setting name='text-2'/>
+              <b:widget-setting name='text-5'/>
+              <b:widget-setting name='text-4'/>
               <b:widget-setting name='text-7'/>
-              <b:widget-setting name='text-6'>__Mitre</b:widget-setting>
+              <b:widget-setting name='text-6'/>
               <b:widget-setting name='text-11'/>
               <b:widget-setting name='text-12'/>
             </b:widget-settings>
