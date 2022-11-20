@@ -4619,6 +4619,20 @@ div.oh-home i{
 .show-search{
   display: none;
 }  
+.item-post .new-post-body{
+  width: 800px!important;
+  margin: 0 auto 30px!important;
+  float:none!important;
+}
+.new-main{
+  height: 1160px!important;
+} 
+.new-main-wrapper{
+  height: 1370px!important;
+}    
+.new-sora-cart-checkout{
+  border-radius: 0px!important;
+}
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -5286,7 +5300,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         
         <main class='main'>
     <div class='mainWrapper'>
-        <div>
+        <div class='child-mainWrapper'>
             <div class='row'>
                 <div class='column small-centered'>
                     <div class='productCard_block'>
@@ -7399,7 +7413,12 @@ $(document).ready(function(){
       top: 1426,
       behavior: 'smooth'
 	});
+    $('.sora-cart-checkout').parent().addClass('new-post-body');
+    $('.mainWrapper').parent().addClass('new-main');
+    $('.child-mainWrapper').parent().addClass('new-main-wrapper');
+    $('.sora-billing-form').parent().addClass('new-sora-cart-checkout');
  }
+ 
 });
 $(document).ready(function() {
 	simpleCart({
