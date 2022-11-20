@@ -7393,8 +7393,10 @@ $(document).ready(function(){
   });
   $('.item_add').on('click', function(){
   	$(location).attr('href','http://www.ohgalaxy.com/p/checkout.html');
-    $(document).scrollTop($(document).height());
   });
+  if (window.location.pathname == "/p/checkout.html") {
+    window.scrollTo(0, document.body.scrollHeight);
+ }
 });
 $(document).ready(function() {
 	simpleCart({
