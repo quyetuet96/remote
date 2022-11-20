@@ -7395,7 +7395,10 @@ $(document).ready(function(){
   	$(location).attr('href','http://www.ohgalaxy.com/p/checkout.html');
   });
   if (window.location.pathname == "/p/checkout.html") {
-    window.scrollTo(0, document.body.scrollHeight);
+    window.scrollTo({
+      top: 1426,
+      behavior: 'smooth'
+	});
  }
 });
 $(document).ready(function() {
