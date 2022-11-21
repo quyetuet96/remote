@@ -4615,6 +4615,9 @@ video {
     border-radius: 8px;
     padding : 0;
   }
+  .new_block_price{
+  	display:none;
+  }
 }  
 .post-body{
  z-index: 100;
@@ -7433,6 +7436,8 @@ $(document).ready(function(){
     $('.mainWrapper').parent().addClass('new-main');
     $('.child-mainWrapper').parent().addClass('new-main-wrapper');
     $('.sora-billing-form').parent().addClass('new-sora-cart-checkout');
+ 	$('.block_price__currency').parent().addClass('new_block_price');
+
  }
  
 });
