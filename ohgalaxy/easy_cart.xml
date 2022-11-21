@@ -3200,7 +3200,6 @@ border-bottom: none;
     margin:0 10px 0 0
 }
  .sora-checkout-wrap .simpleCart_total, .sora-checkout-wrap .simpleCart_shipping, .sora-checkout-wrap .simpleCart_grandTotal{
-float:right;
     font-size:14px;
     color:#f50000;
     font-weight:700
@@ -4522,7 +4521,7 @@ label .paypal{
       position: relative;
       display: block;
       width: 100%;
-      height: 279px;
+      height: 394px;
     }
     .sliderBlock_controls__navigatin{
       margin-top: 25px;
@@ -4547,6 +4546,18 @@ label .paypal{
     margin: 0;
     transition: background .17s ease;
    }
+  .sora-cart-checkout {
+    position: relative;
+    width: 52%;
+    background-color: #fbfbfb;
+    border: 1px solid #f7eeee;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0 auto;
+    top: 6px;
+    left: -195px;
+  }
 }
 video {
   	position: relative;
