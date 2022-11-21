@@ -5355,15 +5355,18 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                     </div>                         
               
                         <div class='block_product'>
+                          <div id='dialog' title='Thông báo'>
+      <p>Vui lòng nhập đầy đủ thông tin trước khi xác nhận đơn hàng</p>
+    </div>
                                        
                                         <h2 class='block_name block_name__addName'>Đèn chiếu nhà du hành vũ trụ</h2>
                                       
 										<p class='block_product__advantagesProduct'>
                                             Chiếu lên trần nhà phòng khách, phòng ngủ. Bổ sung thêm màu sắc cho phòng của bạn
                                         </p>
-
+										
                                         <div class='block_informationAboutDevice'>
-
+												
 
                                             <div class='block_descriptionInformation'>
                                                 <i aria-hidden='true' class='fa fa-check'/>
@@ -5378,7 +5381,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                                   <i aria-hidden='true' class='fa fa-check'/>
                                                   Bộ sản phẩm: Cáp nguồn, sách hướng dẫn sử dụng, điều khiển <br/>
                                             </div>
-                                          
+                                          	
 
                                             <div class='block_rating clearfix'>
                                                 <fieldset class='block_rating__stars'>
@@ -7314,6 +7317,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   </div>
 <!-- Main Scripts -->
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' type='text/javascript'/>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js'/>
+  <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/redmond/jquery-ui.css' rel='stylesheet' type='text/css'/>
 <script type='text/javascript'>
 //<![CDATA[
 /*! jquery-simplecart | License MIT */
@@ -7402,7 +7407,7 @@ $(".sub").click(function() {
     $(".soracustomform-item-total-price").val($(".cart-bot-element .simpleCart_total").text());
 
 	if($(".contact-form-name").val().length==0||$(".soracustomform-phone").val().length==0||$(".soracustomform-address").val().length==0){
-		alert('Vui lòng nhập đầy đủ thông tin trước khi xác nhận đơn hàng');
+        $("#dialog").dialog({ modal: true, height: 150, width: 300 });
 		return false;
     }
 
