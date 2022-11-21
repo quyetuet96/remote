@@ -4639,12 +4639,12 @@ div.oh-home i{
   height: 1160px!important;
 } 
 .new-main-wrapper{
-  height: 1370px!important;
+  height: 1411px!important;
 }    
 .new-sora-cart-checkout{
   border-radius: 0px!important;
 }
-input::placeholder {
+input::placeholder, textarea::placeholder {
     font-weight: bold;
     color: red;
 }
@@ -7152,7 +7152,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <input class='soracustomform-item-size contact-style' name='entry.478964681' placeholder='Country *' type='text' value=''/>
 <input class='soracustomform-item-name contact-style' name='entry.658104484' placeholder='City *' type='text' value=''/>
 <input class='soracustomform-item-quantity contact-style' name='entry.1116447201' placeholder='State *' type='text' value=''/>
-<input class='soracustomform-address contact-style' name='entry.106388282' placeholder='Địa chỉ *' required='true' type='text' value=''/>
+<textarea class='soracustomform-address contact-style' cols='50' name='entry.106388282' placeholder='Địa chỉ *' required='true' rows='4' style='width: 382px; height: 80px;' type='text' value=''/>
 <input class='soracustomform-item-total-price contact-style' name='entry.96044152' placeholder='Country *' type='text' value=''/>
 <div style='clear: both;'/>
  <div class='sora-checkout-wrap'> 
