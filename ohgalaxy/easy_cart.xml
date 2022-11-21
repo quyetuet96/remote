@@ -7413,12 +7413,19 @@ $(document).ready(function(){
       top: 1426,
       behavior: 'smooth'
 	});
+  
     $('.sora-cart-checkout').parent().addClass('new-post-body');
     $('.mainWrapper').parent().addClass('new-main');
     $('.child-mainWrapper').parent().addClass('new-main-wrapper');
     $('.sora-billing-form').parent().addClass('new-sora-cart-checkout');
  }
  
+});
+$(document).ready(function() {
+  window.scrollTo({
+        top: 2000,
+        behavior: 'smooth'
+      });
 });
 $(document).ready(function() {
 	simpleCart({
