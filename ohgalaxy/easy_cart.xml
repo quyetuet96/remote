@@ -7574,15 +7574,15 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
   
 
-<div class='widget-actions'>
+<!-- <div class='widget-actions'>
   <div class='widget-btn-list'>
   <div class='widget-btn widget-btn-zalo'>
   <a href='https://zalo.me/0969257414' target='_blank' title='Chat với chúng tôi qua Zalo'> <img alt='btn-zalo' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/zalo.svg'/></a> </div>
   <div class='widget-btn widget-btn-callow'>
   <a href='tel:0969257414' title='Gọi ngay'> <img alt='btn-callnow' src='https://cdn.jsdelivr.net/gh/doannguyennet/images/call.svg'/></a> </div>
-  </div>
+  </div> 
 </div>
-  
+  -->
 </body>
   
 </html>
