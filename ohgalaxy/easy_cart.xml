@@ -5355,7 +5355,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                     </div>                         
               
                         <div class='block_product'>
-                          <div id='dialog' title='Thông báo'>
+                          <div id='dialog' style='display:none' title='Thông báo'>
       <p>Vui lòng nhập đầy đủ thông tin trước khi xác nhận đơn hàng</p>
     </div>
                                        
@@ -7413,7 +7413,7 @@ $(".sub").click(function() {
 
     var data = $(this).closest("form").serializeArray()
     $.post( $("#contact2").attr("action"),data, function(info) {
-        $(".alert-success").html(info); 
+        $("#dialog").dialog({ modal: true, height: 150, width: 300 });
     });
 
 	alert('Đặt hàng thành công');
