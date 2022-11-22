@@ -4651,6 +4651,102 @@ input::placeholder, textarea::placeholder {
     font-weight: bold;
     color: red;
 }
+  
+body {
+  margin: 0;
+  height: 80vh;
+  background-color: #ececec;
+  font-family: &quot;Roboto&quot;, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 14px;
+}
+p a {
+  text-decoration: none;
+  color: #1e90ff;
+}
+.img-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.col {
+  border-radius: 5px;
+  padding: 0;
+  border: none;
+  transition: 0.3s;
+}
+.col:hover span {
+  display: block;
+}
+.col img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 6px 30px -9px rgba(0, 0, 0, 0.28);
+}
+.col img:hover {
+  filter: contrast(60%);
+  transform: scale(1.2);
+}
+.loading {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid transparent;
+  animation: rotate 1.5s ease-in infinite;
+  border-top-color: #ff7f50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+.loading .child-1 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid transparent;
+  animation: rotate 1.5s ease-in infinite;
+  border-bottom-color: #ff7f50;
+  transition: 2s all;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 850px) {
+  .img-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .img-container .col {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+  
+.new-mainWrapper {
+  display: none!important;
+}
+
+.new-post-content { 
+  position: relative!important;
+  top: 9rem!important;  
+}
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -4887,6 +4983,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 </head>
 <body expr:class='data:blog.pageType'>
 
+   
   <!-- Messenger Plugin chat Code -->
     <div id='fb-root'/>
 
@@ -5012,6 +5109,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         fjs.parentNode.insertBefore(js, fjs);
       }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
     </script>
+  
+
   
   <b:class cond='data:view.isHomepage' name='home'/>
   <b:class cond='data:view.isPage' name='item'/>
@@ -7442,9 +7541,40 @@ $(document).ready(function(){
     $('.child-mainWrapper').parent().addClass('new-main-wrapper');
     $('.sora-billing-form').parent().addClass('new-sora-cart-checkout');
  	$('.block_price__currency').parent().addClass('new_block_price');
-
+	
  }
- 
+ if (window.location.pathname == "/p/images.html") {
+	  $('.child-mainWrapper').parent().addClass('new-mainWrapper');
+	  $('.img-container').parent().addClass('new-post-content');
+      const container = document.querySelector('.img-container');
+      const url = "https://raw.githubusercontent.com/quyetuet96/remote/main/ohgalaxy/src/product_img/";
+      var images = [];
+      var page = 1;
+
+      window.addEventListener("scroll", () => {
+        const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+
+        if (clientHeight + scrollTop >= scrollHeight - 5) {
+          loadImages(341);
+        }
+      });
+
+      function loadImages(range) {
+        for (let i = 1; i < range; i++) {
+          let image = document.createElement("div");
+
+          image.classList.add("col");
+
+          image.innerHTML = `
+             <img src="${url}${i}.png" alt="" />
+          `;
+
+          container.appendChild(image);
+        }
+      }
+
+      loadImages(341);
+ 	}
 });
 $(document).ready(function() {
   window.scrollTo({
@@ -7504,7 +7634,8 @@ $(document).ready(function() {
 			});});
 //]]>
 </script>
-
+  
+  
 <!-- Theme Functions JS -->
 <script type='text/javascript'>
 //<![CDATA[
@@ -7574,6 +7705,7 @@ var pageOf=["Page", "of"];
 eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('5 K;5 m;5 l;5 w;5 s=1p.9;5 y="/";1d();G 1b(a){5 b=\'\';J=M(W/2);4(J==W-J){W=J*2+1}D=l-J;4(D<1)D=1;j=M(a/n)+1;4(j-1==a/n)j=j-1;E=D+W-1;4(E>j)E=j;b+=\'<C 6="3-1u">\'+17[0]+\' \'+l+\' \'+17[1]+\' \'+j+\'</C>\';5 c=M(l)-1;4(l>1){4(l==2){4(m==\'3\'){b+=\'<a 6="3-7 3-U" 9="\'+y+\'"></a>\'}h{b+=\'<a 6="3-7 3-U" 9="/v/u/\'+w+\'?&i-o=\'+n+\'"></a>\'}}h{4(m==\'3\'){b+=\'<a 6="3-7 3-U" 9="#" z="L(\'+c+\');B x"></a>\'}h{b+=\'<a 6="3-7 3-U" 9="#" z="I(\'+c+\');B x"></a>\'}}}4(D>1){4(m=="3"){b+=\'<a 6="3-7" 9="\'+y+\'">1</a>\'}h{b+=\'<a 6="3-7" 9="/v/u/\'+w+\'?&i-o=\'+n+\'">1</a>\'}}4(D>2){b+=\'<C 6="3-7 3-16">...</C>\'}1a(5 d=D;d<=E;d++){4(l==d){b+=\'<C 6="3-7 3-1v">\'+d+\'</C>\'}h 4(d==1){4(m==\'3\'){b+=\'<a 6="3-7" 9="\'+y+\'">1</a>\'}h{b+=\'<a 6="3-7" 9="/v/u/\'+w+\'?&i-o=\'+n+\'">1</a>\'}}h{4(m==\'3\'){b+=\'<a 6="3-7" 9="#" z="L(\'+d+\');B x">\'+d+\'</a>\'}h{b+=\'<a 6="3-7" 9="#" z="I(\'+d+\');B x">\'+d+\'</a>\'}}}4(E<j-1){b+=\'<C 6="3-7 3-16">...</C>\'}4(E<j){4(m=="3"){b+=\'<a 6="3-7" 9="#" z="L(\'+j+\');B x">\'+j+\'</a>\'}h{b+=\'<a 6="3-7" 9="#" z="I(\'+j+\');B x">\'+j+\'</a>\'}}5 e=M(l)+1;4(l<j){4(m==\'3\'){b+=\'<a 6="3-7 3-15" 9="#" z="L(\'+e+\');B x"></a>\'}h{b+=\'<a 6="3-7 3-15" 9="#" z="I(\'+e+\');B x"></a>\'}}b+=\'\';5 f=A.1s(\'1t\');5 g=A.1r(\'1A-1D\');1a(5 p=0;p<f.O;p++){f[p].1c=b}4(f&&f.O>0){b=\'\'}4(g){g.1c=b}}G 12(a){5 b=a.1f;5 c=M(b.1E$1B.$t,10);1b(c)}G 1d(){5 a=s;4(a.k(\'/v/u/\')!=-1){4(a.k(\'?T-i\')!=-1){w=a.H(a.k(\'/v/u/\')+14,a.k(\'?T-i\'))}h{w=a.H(a.k(\'/v/u/\')+14,a.k(\'?&i\'))}}4(a.k(\'?q=\')==-1&&a.k(\'.1C\')==-1){4(a.k(\'/v/u/\')==-1){m=\'3\';4(s.k(\'#F=\')!=-1){l=s.H(s.k(\'#F=\')+8,s.O)}h{l=1}A.18(\'<r Q=\\\'\'+y+\'P/R/N?i-o=1&X=Y-S-r&V=12\\\'><\\/r>\')}h{m=\'u\';4(a.k(\'&i-o=\')==-1){n=1F}4(s.k(\'#F=\')!=-1){l=s.H(s.k(\'#F=\')+8,s.O)}h{l=1}A.18(\'<r Q="\'+y+\'P/R/N/-/\'+w+\'?X=Y-S-r&V=12&i-o=1" ><\\/r>\')}}}G L(a){Z=(a-1)*n;K=a;5 b=A.1h(\'1q\')[0];5 c=A.1o(\'r\');c.1e=\'1m/1n\';c.1i(\'Q\',y+\'P/R/N?1j-1k=\'+Z+\'&i-o=1&X=Y-S-r&V=13\');b.1l(c)}G I(a){Z=(a-1)*n;K=a;5 b=A.1h(\'1q\')[0];5 c=A.1o(\'r\');c.1e=\'1m/1n\';c.1i(\'Q\',y+\'P/R/N/-/\'+w+\'?1j-1k=\'+Z+\'&i-o=1&X=Y-S-r&V=13\');b.1l(c)}G 13(a){11=a.1f.1x[0];5 b=11.1g.$t.H(0,19)+11.1g.$t.H(1z,1w);5 c=1y(b);4(m==\'3\'){5 d=\'/v?T-i=\'+c+\'&i-o=\'+n+\'#F=\'+K}h{5 d=\'/v/u/\'+w+\'?T-i=\'+c+\'&i-o=\'+n+\'#F=\'+K}1p.9=d}',62,104,'|||page|if|var|class|num||href||||||||else|max|lastPageNo|indexOf|currentPageNo|currentPage|postResults|results|||script|locationUrl||label|search|postLabel|false|home_page|onclick|document|return|span|pageStart|pageEnd|PageNo|function|substring|getLabelPage|pageNumber|noPage|getPage|parseInt|summary|length|feeds|src|posts|in|updated|prev|callback|numOfPages|alt|json|jsonstart||post|dataFeed|findPostDate||next|dots|pageOf|write||for|startPagination|innerHTML|pageCurrentBlogger|type|feed|published|getElementsByTagName|setAttribute|start|index|appendChild|text|javascript|createElement|location|head|getElementById|getElementsByName|pageArea|of|active|29|entry|encodeURIComponent|23|blog|totalResults|html|pager|openSearch|20'.split('|'),0,{}))
 //]]>
 </script>
+  
 </b:if>
 
 
