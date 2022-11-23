@@ -4658,14 +4658,7 @@ body {
   background-color: #ececec;
   font-family: &quot;Roboto&quot;, sans-serif;
 }
-h1 {
-  text-align: center;
-}
-p {
-  text-align: center;
-  margin-bottom: 3rem;
-  font-size: 14px;
-}
+  
 p a {
   text-decoration: none;
   color: #1e90ff;
@@ -4746,6 +4739,13 @@ p a {
 .new-post-content { 
   position: relative!important;
   top: 9rem!important;  
+}
+  
+.product-img{
+   padding :20px;
+}
+.product-img a{
+  color : blue;
 }
 </style>
 <b:if cond='data:view.isLayoutMode'>
@@ -4983,18 +4983,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 </head>
 <body expr:class='data:blog.pageType'>
 
-   
-  <!-- Messenger Plugin chat Code -->
-    <div id='fb-root'/>
-
-    <!-- Your Plugin chat code -->
-    <div class='fb-customerchat' id='fb-customer-chat'>
-    </div>
 
     <script>
-      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
-      chatbox.setAttribute(&quot;page_id&quot;, &quot;360487520790301&quot;);
-      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
       
       window.onload = function () {
 
@@ -5092,12 +5082,25 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 };
     </script>
 
+    <!-- Messenger Plugin chat Code -->
+    <div id='fb-root'/>
+
+    <!-- Your Plugin chat code -->
+    <div class='fb-customerchat' id='fb-customer-chat'>
+    </div>
+
+    <script>
+      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
+      chatbox.setAttribute(&quot;page_id&quot;, &quot;104598419151657&quot;);
+      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
+    </script>
+
     <!-- Your SDK code -->
     <script>
       window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,
-          version          : &#39;v14.0&#39;
+          version          : &#39;v15.0&#39;
         });
       };
 
@@ -5498,7 +5501,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 
                                                 <span class='block_rating__avarage'>4.5</span>
                                                 <span class='block_rating__reviews'>(153 reviews)</span>
-
+                                                <br/>
+												<div class='product-img'><a href='https://www.ohgalaxy.com/p/images.html'>Xem ảnh thực tế từ khách hàng</a></div>
                                             </div>
                                             <div class='row '>
                                                 <div class='large-6 small-12 column left-align'>
@@ -7560,7 +7564,7 @@ $(document).ready(function(){
       });
 
       function loadImages(range) {
-        for (let i = 1; i < range; i++) {
+        for (let i = range; i > 1 ; i--) {
           let image = document.createElement("div");
 
           image.classList.add("col");
