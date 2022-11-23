@@ -4688,7 +4688,7 @@ p a {
 }
 .col img:hover {
   filter: contrast(60%);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .loading {
   border-radius: 50%;
@@ -5507,7 +5507,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                             <div class='row '>
                                                 <div class='large-6 small-12 column left-align'>
                                                     <div class='block_price'>
-                                                        <p class='block_price__currency'>689.000đ</p>
+                                                        <p class='block_price__currency'>690.000đ</p>
                                                         <p class='block_price__shipping'>Free shipping toàn quốc</p>
                                                     </div>
                                                    
