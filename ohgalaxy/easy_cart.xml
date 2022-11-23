@@ -4574,7 +4574,7 @@ video {
 }
 @media (max-width: 900px){
   .sliderBlock_controls{
-   top: -27.7rem;
+   top: -30.7rem;
    position : relative;
   }
   .block_product{
