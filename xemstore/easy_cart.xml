@@ -5903,7 +5903,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <div class='product-info'>
                   <b:include data='post' name='postHeader'/>
                   <div class='sora_product_item_price item_price'><span class='sora_product_price meta-price' style='color:blue !important;'/></div>  
-                  <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Mua Ngay</span><span class='product_added'><i class='fa fa-check'/>Thành công</span></a>
+                  <a class='item_add' href='javascript:;'><span class='add_product'><i class='fa fa-cart-plus'/>Mua Ngay</span><span class='product_added'><i class='fa fa-check'/>Mua Ngay</span></a>
                 </div>
               </div>
             </b:includable>
