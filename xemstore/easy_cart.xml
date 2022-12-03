@@ -5086,16 +5086,16 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     </script>
 
     <!-- Messenger Plugin chat Code -->
-    <div id='fb-root'/>
+    <div id="fb-root"></div>
 
     <!-- Your Plugin chat code -->
-    <div class='fb-customerchat' id='fb-customer-chat'>
+    <div id="fb-customer-chat" class="fb-customerchat">
     </div>
 
     <script>
-      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
-      chatbox.setAttribute(&quot;page_id&quot;, &quot;104598419151657&quot;);
-      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "106321255654137");
+      chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
     <!-- Your SDK code -->
@@ -5103,7 +5103,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
       window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,
-          version          : &#39;v15.0&#39;
+          version          : 'v15.0'
         });
       };
 
@@ -5111,9 +5111,9 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = &#39;https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js&#39;;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
-      }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
+      }(document, 'script', 'facebook-jssdk'));
     </script>
   
 
