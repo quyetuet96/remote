@@ -5000,8 +5000,39 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     <!--end Tiktok pixel-->
 </head>
 <body expr:class='data:blog.pageType'>
+  
+  	<!-- Messenger Plugin chat Code -->
+    <div id='fb-root'/>
 
+    <!-- Your Plugin chat code -->
+    <div class='fb-customerchat' id='fb-customer-chat'>
+    </div>
 
+    <script>
+      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
+      chatbox.setAttribute(&quot;page_id&quot;, &quot;106321255654137&quot;);
+      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : &#39;v15.0&#39;
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = &#39;https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js&#39;;
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
+    </script>
+ 
+  
     <script>
       
       window.onload = function () {
@@ -5099,38 +5130,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
   
 };
     </script>
-
-    <!-- Messenger Plugin chat Code -->
-    <div id='fb-root'/>
-
-    <!-- Your Plugin chat code -->
-    <div class='fb-customerchat' id='fb-customer-chat'>
-    </div>
-
-    <script>
-      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
-      chatbox.setAttribute(&quot;page_id&quot;, &quot;106321255654137&quot;);
-      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : &#39;v15.0&#39;
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = &#39;https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js&#39;;
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
-    </script>
   
+    
 
   
   <b:class cond='data:view.isHomepage' name='home'/>
@@ -7713,7 +7714,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </script>
   
 </b:if>
-
+  
 </body>
   
 </html>
