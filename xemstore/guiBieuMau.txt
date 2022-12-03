@@ -1,0 +1,19 @@
+function guiBieuMau(e){
+	var email = "nhatkyquyet@gmail.com";
+	var s = SpreadsheetApp.getActiveSheet();
+	var columns = s.getRange(1, 1, 1, s.getLastColumn()).getValues()[0];
+	var message= "";
+  var subject = ""
+	for (var keys in columns){
+		var key = columns[keys];
+		if(e.namedValues[key]&&(e.namedValues[key]!="")){
+			message +=key + ' : ' + e.namedValues[key] + "\n\n";
+      if(keys==1){
+        subject = e.namedValues[key] +' - ';
+      } else if(keys==2){
+        subject += e.namedValues[key];
+      }
+		}
+	}
+	MailApp.sendEmail(email, subject, message);
+}
