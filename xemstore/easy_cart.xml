@@ -4124,7 +4124,7 @@ label .paypal{
 	 cursor: pointer;
 }
  .sliderBlock_positionControls__paginatorItem:first-child {
-	 margin-left: 31%;
+	 margin-left: 35%;
 }
  .sliderBlock_positionControls__active {
 	 background-color: #536dfe;
@@ -5529,9 +5529,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>                     
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>                   
                                             </ul>
                                         </div>
                         <div class='sliderBlock_controls2'/>
