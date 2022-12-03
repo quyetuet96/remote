@@ -4548,7 +4548,7 @@ label .paypal{
    }
   .sora-cart-checkout {
     position: relative;
-    width: 52%;
+    width: 47%;
     background-color: #fbfbfb;
     border: 1px solid #f7eeee;
     border-radius: 4px;
@@ -4556,7 +4556,10 @@ label .paypal{
     padding: 15px;
     margin: 0 auto;
     top: 6px;
-    left: -195px;
+    left: -213px;
+  }
+  .soracustomform-address {
+  	width: 344px!important;
   }
 }
 video {
@@ -6323,7 +6326,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     &quot;height&quot;: 630,
     &quot;width&quot;: 1200
     <b:else/>
-    &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBoEMH-DNVgfB2urHwQmAkBJU5n5HY0B0NfC6y7OY22cH4OruIRKDRJCrZHyozypGpkNs9i_5_9ImDGeB5ZiPq18SFY56C0fWS4R6zaUYiZcA545eVyjv9mZlW4aaKLknGdq-4Gt6POmkEkbv7HV6LRfwqz76JNDNFpPd06yiV_K8rtctdce2zYvTt/s256/astronaut.ico&quot;,
+    &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ls8oKA7l2WrR1wVcEoHGXlPBcY_zGfGPaWzoRNk7W25zWed4qYu_nWwp-HPGerDkp2DrpCCukX2LLKVNCmdDhhw5X9ivnyMDqLLsMoxCvfltm6LJgVWm2fLtS6uCrYNVMd5xAFMhDR9SR-lSVv9IcQNPLc48wf0gEZoGOSdIRSgjeWdcxl8UBt3cuQ/s256/icon.ico&quot;,
     &quot;height&quot;: 348,
     &quot;width&quot;: 1200
     </b:if>
@@ -6335,7 +6338,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     &quot;name&quot;: &quot;Blogger&quot;,
     &quot;logo&quot;: {
       &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUK2eh8fR6T1Ke3QYcZHtz-TjJ735e-ByAL3TYxZbhuomi2zB9NMs31yTSLlEdHBifTDlb14IrnOGCO7HBfOfFBNyH2YC9XL_N6Im6d_C4693mZkVHO-XMbLex46kqarjyhp2lXM-O2kLPTsbbZu0KIqXbVeLv1I5ZdD5kCu5YBFGeefiKivSIY0JXQ/s1600/shoe-icon.ico&quot;,
+      &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ls8oKA7l2WrR1wVcEoHGXlPBcY_zGfGPaWzoRNk7W25zWed4qYu_nWwp-HPGerDkp2DrpCCukX2LLKVNCmdDhhw5X9ivnyMDqLLsMoxCvfltm6LJgVWm2fLtS6uCrYNVMd5xAFMhDR9SR-lSVv9IcQNPLc48wf0gEZoGOSdIRSgjeWdcxl8UBt3cuQ/s256/icon.ico&quot;,
       &quot;width&quot;: 206,
       &quot;height&quot;: 60
     }
@@ -7569,7 +7572,7 @@ $(document).ready(function(){
 });
 $(document).ready(function() {
   window.scrollTo({
-        top: 2000,
+        top: 700,
         behavior: 'smooth'
       });
 });
