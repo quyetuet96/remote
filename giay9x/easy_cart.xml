@@ -1200,12 +1200,12 @@ abbr{
  #breadcrumb{
     font-size:12px;
     font-weight:400;
-    color:#aaa;
+    color:black;
     text-transform:capitalize;
     margin:0 0 15px
 }
  #breadcrumb a{
-    color:#aaa;
+    color:black;
     transition:color .17s
 }
  #breadcrumb a:hover{
@@ -2648,7 +2648,9 @@ abbr{
     float:right;
     height:34px;
     z-index:100;
-    margin:0
+    margin:0;
+    background-color: #536dfe;
+    border-radius: 6px;
 }
  .sora-cart-details{
     height:34px;
@@ -2669,16 +2671,16 @@ abbr{
     margin:0
 }
  .sora-cart .simpleCart_quantity{
-    float:right;
-    width:34px;
-    height:34px;
-    background-color:$(menu.bg);
-    font-size:14px;
-    color:$(menu.color);
-    font-weight:700;
-    line-height:34px;
-    text-align:center;
-    margin:0
+    float: right;
+    width: 6px;
+    height: 34px;
+    font-size: 11.5px;
+    font-weight: 636;
+    line-height: 14px;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    color: #ffffff;
 }
  .sora-cart-description{
     position:absolute;
