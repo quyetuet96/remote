@@ -3909,6 +3909,10 @@ label .paypal{
 .post-body div.separator + br{
   display : none; 
 }
+input::placeholder, textarea::placeholder {
+    font-weight: bold;
+    color: red;
+}  
 </style>
 <b:if cond='data:view.isLayoutMode'>
 <b:template-skin>
@@ -5659,7 +5663,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <input class='soracustomform-item-size contact-style' name='entry.478964681' placeholder='Country *' type='text' value=''/>
 <input class='soracustomform-item-name contact-style' name='entry.658104484' placeholder='City *' type='text' value=''/>
 <input class='soracustomform-item-quantity contact-style' name='entry.846336646' placeholder='State *' type='text' value=''/>
-<input class='soracustomform-address contact-style' name='entry.1044321312' placeholder='Địa chỉ *' required='true' type='text' value=''/>
+<textarea class='soracustomform-address contact-style' name='entry.1044321312' placeholder='Địa chỉ *' required='true' style='height: 80px;' type='text' value=''/>
 <input class='soracustomform-item-total-price contact-style' name='entry.2004401167' placeholder='Country *' type='text' value=''/>
 <div style='clear: both;'/>
  <div class='sora-checkout-wrap'> 
