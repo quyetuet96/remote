@@ -3992,7 +3992,7 @@ label .paypal{
 	 position: relative;
 	 margin: 190px auto 0;
 	 max-width: 800px;
-	 min-height: 600px;
+	 min-height: 1000px;
 	 box-shadow: 0 5px 21px rgba(0, 0, 0, 0.08);
 	 background-color: #fff;
 }
