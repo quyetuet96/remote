@@ -4751,6 +4751,9 @@ p a {
 }
 .ui-widget-overlay{
   display :none;
+}
+.sliderBlock_positionControls .sliderBlock_positionControls__paginatorItem{
+	display :none;
 }  
 </style>
 <b:if cond='data:view.isLayoutMode'>
@@ -5448,122 +5451,122 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                           <div class='sliderBlock'>
                                         <ul class='sliderBlock_items'>
                                             <li class='sliderBlock_items__itemPhoto sliderBlock_items__showing'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/1.jpg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/1.jpg?raw=true'/>
                                             </li>
                                             <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/2.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/2.jpeg?raw=true'/>
                                             </li>
                                             <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/3.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/3.jpeg?raw=true'/>
                                             </li>
                                         
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/4.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/4.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/5.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/5.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/6.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/6.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/7.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/7.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/8.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/8.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/9.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/9.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/10.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/10.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/11.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/11.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/12.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/12.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/13.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/13.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/14.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/14.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/15.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/15.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/16.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/16.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/17.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/17.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/18.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/18.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/19.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/19.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/20.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/20.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/21.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/21.jpeg?raw=true'/>
                                             </li>
                                           
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/22.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/22.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/23.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/23.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/24.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/24.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/25.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/25.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/26.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/26.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/27.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/27.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/28.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/28.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/29.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/29.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/30.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/30.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/31.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/31.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/32.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/32.jpeg?raw=true'/>
                                             </li>
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/33.jpeg?raw=true'/>
+                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/33.jpeg?raw=true'/>
                                             </li>
                                         </ul>   
                                     </div>                         
@@ -5573,19 +5576,16 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
       <p>Vui lòng nhập đầy đủ thông tin trước khi xác nhận đơn hàng</p>
     </div>
                                        
-                                        <h2 class='block_name block_name__addName'>Bật lửa sạc điện tia Plasma</h2>
+                                        <h2 class='block_name block_name__addName'>Bật lửa Zippo LMHT</h2>
                                       																
                                         <div class='block_informationAboutDevice'>												
                                             <div class='block_descriptionInformation'>
                                                 <i aria-hidden='true' class='fa fa-check'/>
-                                              Model: DQ-203<br/>
-                                                <i aria-hidden='true' class='fa fa-check'/>  Chất liệu : NHỰA ABS<br/>                                              
-                                                <i aria-hidden='true' class='fa fa-check'/>  
-                                                  Trọng lượng: 28g<br/>
-                                                <i aria-hidden='true' class='fa fa-check'/>  
-                                                  Chiều cao: 78.5mm, chiều rộng: 28.5mm<br/>
-                                                  <i aria-hidden='true' class='fa fa-check'/>
-                                                  Mô tả: nhiệt độ lên tới 2000 độ C, đánh lửa chống gió, sạc pin qua cổng micro-B. Khi pin yếu đèn báo màu xanh nhấp nháy, khi sạc đèn xanh sáng, khi sạc đầy đèn xanh tắt, pin sạc đầy có thể đánh lửa khoảng 100 lần <br/>
+                                              Model: Zippo<br/>
+                                                <i aria-hidden='true' class='fa fa-check'/>  Chất liệu : kim loại<br/>                                              
+                                                <i aria-hidden='true' class='fa fa-check'/>  Loại bật lửa : dầu hỏa<br/>
+                                                <i aria-hidden='true' class='fa fa-check'/>  Nguồn gốc : Trung Quốc<br/>
+                                               	<i aria-hidden='true' class='fa fa-check'/>  Vị tướng : Yasuo, Ahri, Ashe, Brand, Caitlyn, Diana, Draven, Ekko, Elise, Ezreal, Fiora, Gangplank, Gragas, Graves, Jax, Jayce, Jinx, Kalista, Katarina, Kayle, Leesin, Lucian, Moderkaiser, Riven, Ryze, Shyvana, Sona, Teemo, Twisted fate, Tristana,  Master Yi, Zed<br/>
                                             </div>
                                           	
 
@@ -5611,7 +5611,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                                 <div class='large-6 small-12 column left-align'>
                                                     <div class='block_price'>
                                                         <p class='block_price__currency'>140.000đ</p>
-                                                        <p class='block_price__shipping'>Free shipping toàn quốc</p>
+                                                        <p class='block_price__shipping'>ship COD toàn quốc</p>
                                                     </div>
                                                    
                                                 </div>
@@ -5643,7 +5643,35 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>                   
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
+                                              <li class='sliderBlock_positionControls__paginatorItem'/>
                                             </ul>
                                         </div>
                         <div class='sliderBlock_controls2'/>
