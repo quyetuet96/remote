@@ -5443,29 +5443,128 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <div class='column small-centered'>
                     <div class='productCard_block'>
                       	<div class='video-center'>                                                            
-                          <video autoplay='true' controlslist='nodownload' loop='true' muted='' playsinline='true' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/video/batlua.mp4'>
-									</video>
-                          
+                
                           <div class='slider-flex'>
                           <div class='sliderBlock'>
                                         <ul class='sliderBlock_items'>
                                             <li class='sliderBlock_items__itemPhoto sliderBlock_items__showing'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/1.jpg?raw=true'/>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/1.jpg?raw=true'/>
                                             </li>
                                             <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/2.jpg?raw=true'/>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/2.jpeg?raw=true'/>
                                             </li>
                                             <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/5.jpg?raw=true'/>
-                                            </li>
-                                    
-                                          <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/6.jpg?raw=true'/>
-                                            </li>
-                                          <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/4.jpg?raw=true'/>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/3.jpeg?raw=true'/>
                                             </li>
                                         
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/4.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/5.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/6.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/7.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/8.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/9.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/10.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/11.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/12.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/13.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/14.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/15.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/16.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/17.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/18.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/19.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/20.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/21.jpeg?raw=true'/>
+                                            </li>
+                                          
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/22.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/23.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/24.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/25.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/26.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/27.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/28.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/29.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/30.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/31.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/32.jpeg?raw=true'/>
+                                            </li>
+                                          <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/lol/33.jpeg?raw=true'/>
+                                            </li>
                                         </ul>   
                                     </div>                         
               
@@ -5511,7 +5610,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                             <div class='row '>
                                                 <div class='large-6 small-12 column left-align'>
                                                     <div class='block_price'>
-                                                        <p class='block_price__currency'>150.000đ</p>
+                                                        <p class='block_price__currency'>140.000đ</p>
                                                         <p class='block_price__shipping'>Free shipping toàn quốc</p>
                                                     </div>
                                                    
