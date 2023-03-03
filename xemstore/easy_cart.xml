@@ -4579,12 +4579,15 @@ video {
    display :flex; 
 }
 @media (max-width: 900px){
+  .productCard_block{
+ 	min-height: 860px;
+  }
   .sliderBlock_controls{
-   top: -30.7rem;
+   top: -29.7rem;
    position : relative;
   }
   .block_product{
-   top : 0rem;
+   top:1.5rem;
   }
   .post-body{
      z-index: 100;
@@ -4595,7 +4598,7 @@ video {
 @media (min-width: 1058px){
  .item_add{
   position: absolute;
-  top: 1.7rem;
+  top: -26.3rem;
   left: 32rem;
   width: 40px;
   border-radius: 8px;  
@@ -4645,7 +4648,7 @@ div.oh-home i{
   float:none!important;
 }
 .new-main{
-  height: 1160px!important;
+  height: 924px!important;
 } 
 .new-main-wrapper{
   height: 1411px!important;
