@@ -7400,7 +7400,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <input class='soracustomform-item-size contact-style' name='entry.478964681' placeholder='Country *' type='text' value=''/>
 <input class='soracustomform-item-name contact-style' name='entry.658104484' placeholder='City *' type='text' value=''/>
 <input class='soracustomform-item-quantity contact-style' name='entry.181189754' placeholder='State *' type='text' value=''/>
-<textarea class='soracustomform-address contact-style' cols='50' name='entry.1882819739' placeholder='Địa chỉ *' required='true' rows='4' style='width: 382px; height: 80px;' type='text' value=''/>
+<textarea class='soracustomform-address contact-style' cols='50' name='entry.1882819739' placeholder='Địa chỉ và tên tướng muốn mua *' required='true' rows='4' style='width: 382px; height: 80px;' type='text' value=''/>
 <input class='soracustomform-item-total-price contact-style' name='entry.1508924075' placeholder='Country *' type='text' value=''/>
 <div style='clear: both;'/>
  <div class='sora-checkout-wrap'> 
