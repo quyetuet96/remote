@@ -4516,6 +4516,9 @@ label .paypal{
   }
 }
 @media only screen and (max-width: 960px) {
+    .sliderBlock_controls__wrapper{
+  		margin: 28% auto !important;
+  	}
    .sliderBlock_items{
       position: relative;
       display: block;
@@ -4543,6 +4546,7 @@ label .paypal{
     text-align: center;
     width: 34%;
     margin: 0;
+    margin-top: -116px;
     transition: background .17s ease;
    }
   .sora-cart-checkout {
@@ -4754,6 +4758,9 @@ p a {
 }
 .sliderBlock_positionControls .sliderBlock_positionControls__paginatorItem{
 	display :none;
+}
+i.fa-check{
+ color: green;
 }  
 </style>
 <b:if cond='data:view.isLayoutMode'>
