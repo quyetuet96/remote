@@ -3992,7 +3992,7 @@ label .paypal{
 	 position: relative;
 	 margin: 190px auto 0;
 	 max-width: 800px;
-	 min-height: 1000px;
+	 min-height: 600px;
 	 box-shadow: 0 5px 21px rgba(0, 0, 0, 0.08);
 	 background-color: #fff;
 }
@@ -4516,9 +4516,6 @@ label .paypal{
   }
 }
 @media only screen and (max-width: 960px) {
-    .sliderBlock_controls__wrapper{
-  		margin: 28% auto !important;
-  	}
    .sliderBlock_items{
       position: relative;
       display: block;
@@ -4546,7 +4543,6 @@ label .paypal{
     text-align: center;
     width: 34%;
     margin: 0;
-    margin-top: -116px;
     transition: background .17s ease;
    }
   .sora-cart-checkout {
@@ -4579,15 +4575,12 @@ video {
    display :flex; 
 }
 @media (max-width: 900px){
-  .productCard_block{
- 	min-height: 860px;
-  }
   .sliderBlock_controls{
-   top: -29.7rem;
+   top: -30.7rem;
    position : relative;
   }
   .block_product{
-   top:1.5rem;
+   top : 0rem;
   }
   .post-body{
      z-index: 100;
@@ -4598,7 +4591,7 @@ video {
 @media (min-width: 1058px){
  .item_add{
   position: absolute;
-  top: -26.3rem;
+  top: 1.7rem;
   left: 32rem;
   width: 40px;
   border-radius: 8px;  
@@ -4648,7 +4641,7 @@ div.oh-home i{
   float:none!important;
 }
 .new-main{
-  height: 825px!important;
+  height: 1160px!important;
 } 
 .new-main-wrapper{
   height: 1411px!important;
@@ -4758,12 +4751,6 @@ p a {
 }
 .ui-widget-overlay{
   display :none;
-}
-.sliderBlock_positionControls .sliderBlock_positionControls__paginatorItem{
-	display :none;
-}
-i.fa-check{
- color: green;
 }  
 </style>
 <b:if cond='data:view.isLayoutMode'>
@@ -5012,37 +4999,6 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
     
 </head>
 <body expr:class='data:blog.pageType'>
-  
-  	<!-- Messenger Plugin chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "109076115454211");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v16.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
   
     <script>
       
@@ -5455,20 +5411,27 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                 <div class='column small-centered'>
                     <div class='productCard_block'>
                       	<div class='video-center'>                                                            
-                
+                          <video autoplay='true' controlslist='nodownload' loop='true' muted='' playsinline='true' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/video/batlua.mp4'>
+									</video>
+                          
                           <div class='slider-flex'>
                           <div class='sliderBlock'>
                                         <ul class='sliderBlock_items'>
                                             <li class='sliderBlock_items__itemPhoto sliderBlock_items__showing'>
-                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/den1.jpg?raw=true'/>
+                                         <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/2.jpg?raw=true'/>
                                             </li>
                                             <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/den2.jpg?raw=true'/>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/4.jpg?raw=true'/>
                                             </li>
+                                            <li class='sliderBlock_items__itemPhoto'>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/5.jpg?raw=true'/>
+                                            </li>
+                                    
                                           <li class='sliderBlock_items__itemPhoto'>
-                                                <img alt='batlua' loading='lazy' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/den3.jpg?raw=true'/>
+                                                <img alt='batlua' src='https://raw.githubusercontent.com/quyetuet96/remote/main/xemstore/src/img/6.jpg?raw=true'/>
                                             </li>
- 
+                                      
+                                        
                                         </ul>   
                                     </div>                         
               
@@ -5477,18 +5440,19 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
       <p>Vui lòng nhập đầy đủ thông tin trước khi xác nhận đơn hàng</p>
     </div>
                                        
-                                        <h2 class='block_name block_name__addName'>Đèn tỏ tình I Love You</h2>
+                                        <h2 class='block_name block_name__addName'>Bật lửa sạc điện tia Plasma</h2>
                                       																
                                         <div class='block_informationAboutDevice'>												
                                             <div class='block_descriptionInformation'>
                                                 <i aria-hidden='true' class='fa fa-check'/>
-                                              Model: Đèn tỏ tình I Love You<br/>
-                                                <i aria-hidden='true' class='fa fa-check'/>  Chất liệu acrylic, đế bằng nhựa ABS.<br/>             
-                                                <i aria-hidden='true' class='fa fa-check'/>  Điện áp 5V - Công suất 0.3W - Cân nặng 0.3KG<br/>
-                                                <i aria-hidden='true' class='fa fa-check'/>  Kích thước : 219x176x87 (mm) <br/>
-                                                <i aria-hidden='true' class='fa fa-check'/>  Màu sắc : 16 màu đèn, có điều khiển từ xa<br/>
-                                                <i aria-hidden='true' class='fa fa-check'/>  Kiểm tra hàng trước thanh toán<br/>
-                                               	<br/>
+                                              Model: DQ-203<br/>
+                                                <i aria-hidden='true' class='fa fa-check'/>  Chất liệu : NHỰA ABS<br/>                                              
+                                                <i aria-hidden='true' class='fa fa-check'/>  
+                                                  Trọng lượng: 28g<br/>
+                                                <i aria-hidden='true' class='fa fa-check'/>  
+                                                  Chiều cao: 78.5mm, chiều rộng: 28.5mm<br/>
+                                                  <i aria-hidden='true' class='fa fa-check'/>
+                                                  Mô tả: nhiệt độ lên tới 2000 độ C, đánh lửa chống gió, sạc pin qua cổng micro-B. Khi pin yếu đèn báo màu xanh nhấp nháy, khi sạc đèn xanh sáng, khi sạc đầy đèn xanh tắt, pin sạc đầy có thể đánh lửa khoảng 100 lần <br/>
                                             </div>
                                           	
 
@@ -5507,14 +5471,13 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                                 </fieldset>
 
                                                 <span class='block_rating__avarage'>4.5</span>
-                                                <span class='block_rating__reviews'>(353 reviews)</span>
+                                                <span class='block_rating__reviews'>(253 reviews)</span>
                                           
                                             </div>
                                             <div class='row '>
                                                 <div class='large-6 small-12 column left-align'>
                                                     <div class='block_price'>
-                                                       
-                                                      <p class='block_price__currency'>249.000đ</p>
+                                                        <p class='block_price__currency'>119.000đ</p>
                                                         <p class='block_price__shipping'>ship toàn quốc</p>
                                                     </div>
                                                    
@@ -5544,8 +5507,10 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 
                                             <ul class='sliderBlock_positionControls'>
                                                 <li class='sliderBlock_positionControls__paginatorItem sliderBlock_positionControls__active'/>
-                                                <li class='sliderBlock_positionControls__paginatorItem'/>                                        
                                                 <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                <li class='sliderBlock_positionControls__paginatorItem'/>
+                                                 
                                             </ul>
                                         </div>
                         <div class='sliderBlock_controls2'/>
@@ -5576,13 +5541,13 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
             <b:widget-settings>
               <b:widget-setting name='showDateHeader'>false</b:widget-setting>
               <b:widget-setting name='commentLabel'>Reviews</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#111111</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showShareButtons'>true</b:widget-setting>
               <b:widget-setting name='authorLabel'>by</b:widget-setting>
               <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-              <b:widget-setting name='style.urlcolor'>#34bd5c</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showAuthor'>false</b:widget-setting>
-              <b:widget-setting name='style.linkcolor'>#000000</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='timestampLabel'>Giá:</b:widget-setting>
@@ -7264,7 +7229,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <input class='soracustomform-item-size contact-style' name='entry.478964681' placeholder='Country *' type='text' value=''/>
 <input class='soracustomform-item-name contact-style' name='entry.658104484' placeholder='City *' type='text' value=''/>
 <input class='soracustomform-item-quantity contact-style' name='entry.181189754' placeholder='State *' type='text' value=''/>
-<textarea class='soracustomform-address contact-style' cols='50' name='entry.1882819739' placeholder='Địa chỉ và lưu ý kèm theo *' required='true' rows='4' style='width: 382px; height: 80px;' type='text' value=''/>
+<textarea class='soracustomform-address contact-style' cols='50' name='entry.1882819739' placeholder='Địa chỉ *' required='true' rows='4' style='width: 382px; height: 80px;' type='text' value=''/>
 <input class='soracustomform-item-total-price contact-style' name='entry.1508924075' placeholder='Country *' type='text' value=''/>
 <div style='clear: both;'/>
  <div class='sora-checkout-wrap'> 
