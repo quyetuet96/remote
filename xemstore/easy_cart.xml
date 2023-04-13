@@ -5000,6 +5000,38 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 </head>
 <body expr:class='data:blog.pageType'>
   
+  <!-- Messenger Plugin chat Code -->
+    <div id='fb-root'/>
+
+    <!-- Your Plugin chat code -->
+    <div class='fb-customerchat' id='fb-customer-chat'>
+    </div>
+
+    <script>
+      var chatbox = document.getElementById(&#39;fb-customer-chat&#39;);
+      chatbox.setAttribute(&quot;page_id&quot;, &quot;109076115454211&quot;);
+      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : &#39;v16.0&#39;
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = &#39;https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js&#39;;
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));
+    </script>
+  
+  
     <script>
       
       window.onload = function () {
@@ -5477,8 +5509,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
                                             <div class='row '>
                                                 <div class='large-6 small-12 column left-align'>
                                                     <div class='block_price'>
-                                                        <p class='block_price__currency'>119.000đ</p>
-                                                        <p class='block_price__shipping'>ship toàn quốc</p>
+                                                        <p class='block_price__currency'>120.000đ</p>
+                                                        <p class='block_price__shipping'>free shipping toàn quốc</p>
                                                     </div>
                                                    
                                                 </div>
