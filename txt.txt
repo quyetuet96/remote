@@ -1,0 +1,102 @@
+{
+    "org_company_code": "congtydemoketnoiact",
+    "app_id": "0e0a14cf-9e4b-4af9-875b-c490f34a581b",
+    "voucher": [
+        {
+            "voucher_type": 5,
+            "org_refid": "4FD6C806-B3DD-4308-BEAF-54AA1C8F1DDD",
+            "org_refno": "PT00001",
+            "org_reftype": 1010,
+            "org_reftype_name": "Loại CAReceipt",
+            "refdate": "2022-10-24",
+            "reftype": 1010,
+            "employee_id": "507abe24-520e-47ad-9c39-feed3cc8ba02",
+            "employee_code": "NV00001",
+            "employee_name": "Nguyễn Kiệt",
+            "account_object_id": "104c49f2-6828-4dea-88e9-08f1fb027701",
+            "account_object_name": "KHOP0002 Nga",
+            "account_object_address": "Hà Nội",
+            "account_object_contact_name": "Nguyễn Ngà",
+            "account_object_code": "KHOP0002",
+            "currency_id": "VND",
+            "exchange_rate": 1.0,
+            "posted_date": "2022-10-20",
+            "reason_type_id": 13,
+            "journal_memo": "Thu tiền của KHOP0002 Nga",
+            "state": 0,
+            "created_date": "2021-04-23T08:12:18.4114112+07:00",
+            "created_by": "Admin",
+            "modified_date": "2021-04-23T08:12:18.4114112+07:00",
+            "modified_by": "Admin",
+            "detail": [
+                {
+                    "sort_order": 1,
+                    "amount_oc": 15.0,
+                    "amount": 15.0,
+                    "description": "Thu tiền của KHOP0002 Nga",
+                    "debit_account": "1111",
+                    "credit_account": "1112",
+                    "account_object_code": "KH00001"
+                },
+                {
+                    "sort_order": 2,
+                    "amount_oc": 12.0,
+                    "amount": 12.0,
+                    "description": "Thu tiền của KHOP0002 Nga",
+                    "debit_account": "1111",
+                    "credit_account": "1112",
+                    "account_object_code": "KH00001"
+                }
+            ]
+        }
+    ],
+    "dictionary": [
+        {
+            "dictionary_type": 1,
+            "account_object_id": "104c49f2-6828-4dea-88e9-08f1fb027701",
+            "account_object_code": "KHOP0002",
+            "account_object_name": "KHOP0002 Nga",
+            "account_object_type": 0,
+            "is_vendor": false,
+            "is_customer": true,
+            "is_employee": false,
+            "inactive": false,
+            "state": 0,
+            "created_date": "2021-04-23T08:12:18.4114112+07:00",
+            "created_by": "Admin",
+            "modified_date": "2021-04-23T08:12:18.4114112+07:00",
+            "modified_by": "Admin"
+        },
+        {
+            "dictionary_type": 1,
+            "account_object_id": "507abe24-520e-47ad-9c39-feed3cc8ba02",
+            "account_object_code": "NV00001",
+            "account_object_name": "Nguyễn Kiệt",
+            "is_vendor": false,
+            "is_customer": false,
+            "is_employee": true,
+            "inactive": false,
+            "state": 0,
+            "created_date": "2021-04-23T08:12:18.4114112+07:00",
+            "created_by": "Admin",
+            "modified_date": "2021-04-23T08:12:18.4114112+07:00",
+            "modified_by": "Admin"
+        },
+        {
+            "dictionary_type": 1,
+            "account_object_id": "8c9b3be3-618b-4cf4-b640-fd1fd1e67594",
+            "account_object_code": "KH00001",
+            "account_object_name": "Nguyễn Chính",
+            "account_object_type": 0,
+            "is_vendor": false,
+            "is_customer": true,
+            "is_employee": false,
+            "inactive": false,
+            "state": 0,
+            "created_date": "2021-04-23T08:12:18.4114112+07:00",
+            "created_by": "Admin",
+            "modified_date": "2021-04-23T08:12:18.4114112+07:00",
+            "modified_by": "Admin"
+        }
+    ]
+}
